@@ -1,0 +1,1001 @@
+transaction_id,account_id,customer_id,transaction_date,posted_date,description,merchant_name,transaction_type,amount,status,reference_number,synthetic_notice
+TXN-0000001,ACCT-000008,CUST-00008,2026-04-05,2026-04-05,Transfer In - StreamBox Media,StreamBox Media,Transfer In,500.83,Posted,REF0000000193,Synthetic transaction
+TXN-0000002,ACCT-000015,CUST-00015,2026-06-07,2026-06-07,Fee - Wire Fee,Wire Fee,Fee,-27.11,Posted,REF0000000386,Synthetic transaction
+TXN-0000003,ACCT-000022,CUST-00022,2026-05-13,2026-05-13,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-134.46,Posted,REF0000000579,Synthetic transaction
+TXN-0000004,ACCT-000029,CUST-00029,2026-06-13,2026-06-13,Transfer In - FastShip,FastShip,Transfer In,850.48,Posted,REF0000000772,Synthetic transaction
+TXN-0000005,ACCT-000036,CUST-00036,2026-06-03,2026-06-03,ATM - TuitionPay,TuitionPay,ATM,-316.7,Pending,REF0000000965,Synthetic transaction
+TXN-0000006,ACCT-000043,CUST-00043,2026-02-10,2026-02-12,Refund - City Fitness,City Fitness,Refund,2869.21,Posted,REF0000001158,Synthetic transaction
+TXN-0000007,ACCT-000050,CUST-00050,2026-05-13,2026-05-13,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-195.87,Posted,REF0000001351,Synthetic transaction
+TXN-0000008,ACCT-000057,CUST-00057,2026-03-19,2026-03-19,Card Purchase - Atlas Wireless,Atlas Wireless,Card Purchase,-404.21,Posted,REF0000001544,Synthetic transaction
+TXN-0000009,ACCT-000064,CUST-00064,2026-04-30,2026-04-30,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-615.56,Posted,REF0000001737,Synthetic transaction
+TXN-0000010,ACCT-000071,CUST-00071,2026-05-16,2026-05-16,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-516.71,Posted,REF0000001930,Synthetic transaction
+TXN-0000011,ACCT-000078,CUST-00078,2026-04-17,2026-04-17,POS - FastShip,FastShip,POS,-501.53,Posted,REF0000002123,Synthetic transaction
+TXN-0000012,ACCT-000085,CUST-00085,2026-03-07,2026-03-07,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-193.27,Posted,REF0000002316,Synthetic transaction
+TXN-0000013,ACCT-000092,CUST-00092,2026-06-20,2026-06-20,ACH Debit - City Fitness,City Fitness,ACH Debit,-196.98,Posted,REF0000002509,Synthetic transaction
+TXN-0000014,ACCT-000099,CUST-00099,2026-06-12,2026-06-12,ATM - FastShip,FastShip,ATM,-663.83,Posted,REF0000002702,Synthetic transaction
+TXN-0000015,ACCT-000106,CUST-00106,2026-05-29,2026-05-31,Transfer In - GreenLeaf Market,GreenLeaf Market,Transfer In,1385.75,Posted,REF0000002895,Synthetic transaction
+TXN-0000016,ACCT-000113,CUST-00113,2026-03-18,2026-03-18,ATM - Atlas Wireless,Atlas Wireless,ATM,-195.72,Posted,REF0000003088,Synthetic transaction
+TXN-0000017,ACCT-000120,CUST-00120,2026-05-06,2026-05-06,Bill Pay - RideNow Transit,RideNow Transit,Bill Pay,-450.05,Posted,REF0000003281,Synthetic transaction
+TXN-0000018,ACCT-000127,CUST-00127,2026-02-04,2026-02-04,Bill Pay - City Fitness,City Fitness,Bill Pay,-320.21,Posted,REF0000003474,Synthetic transaction
+TXN-0000019,ACCT-000134,CUST-00134,2026-05-18,2026-05-18,ATM - TuitionPay,TuitionPay,ATM,-407.7,Posted,REF0000003667,Synthetic transaction
+TXN-0000020,ACCT-000141,CUST-00141,2026-03-26,2026-03-28,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-80.97,Posted,REF0000003860,Synthetic transaction
+TXN-0000021,ACCT-000148,CUST-00148,2026-02-17,2026-02-19,Card Purchase - Oak & Main,Oak & Main,Card Purchase,-57.26,Posted,REF0000004053,Synthetic transaction
+TXN-0000022,ACCT-000155,CUST-00155,2026-01-31,2026-01-31,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-175.14,Posted,REF0000004246,Synthetic transaction
+TXN-0000023,ACCT-000162,CUST-00162,2026-05-30,2026-05-30,Card Purchase - City Fitness,City Fitness,Card Purchase,-519.73,Posted,REF0000004439,Synthetic transaction
+TXN-0000024,ACCT-000169,CUST-00169,2026-05-15,2026-05-15,POS - Harbor Insurance,Harbor Insurance,POS,-313.34,Posted,REF0000004632,Synthetic transaction
+TXN-0000025,ACCT-000176,CUST-00176,2026-04-25,2026-04-25,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-71.6,Posted,REF0000004825,Synthetic transaction
+TXN-0000026,ACCT-000183,CUST-00183,2026-02-08,2026-02-08,ACH Credit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Credit,117.42,Posted,REF0000005018,Synthetic transaction
+TXN-0000027,ACCT-000190,CUST-00190,2026-04-25,2026-04-25,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-398.16,Pending,REF0000005211,Synthetic transaction
+TXN-0000028,ACCT-000197,CUST-00197,2026-04-23,2026-04-23,Transfer In - Bluebird Pharmacy,Bluebird Pharmacy,Transfer In,1699.75,Posted,REF0000005404,Synthetic transaction
+TXN-0000029,ACCT-000204,CUST-00004,2026-03-08,2026-03-08,ACH Debit - Metro Grocery,Metro Grocery,ACH Debit,-97.7,Posted,REF0000005597,Synthetic transaction
+TXN-0000030,ACCT-000211,CUST-00011,2026-03-27,2026-03-27,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-29.14,Pending,REF0000005790,Synthetic transaction
+TXN-0000031,ACCT-000218,CUST-00018,2026-03-25,2026-03-25,Transfer In - FastShip,FastShip,Transfer In,2804.44,Posted,REF0000005983,Synthetic transaction
+TXN-0000032,ACCT-000225,CUST-00025,2026-02-05,2026-02-05,ATM - StreamBox Media,StreamBox Media,ATM,-50.9,Posted,REF0000006176,Synthetic transaction
+TXN-0000033,ACCT-000232,CUST-00032,2026-05-24,2026-05-24,POS - StreamBox Media,StreamBox Media,POS,-260.38,Posted,REF0000006369,Synthetic transaction
+TXN-0000034,ACCT-000239,CUST-00039,2026-06-06,2026-06-08,Card Purchase - MedPlus Clinic,MedPlus Clinic,Card Purchase,-470.84,Posted,REF0000006562,Synthetic transaction
+TXN-0000035,ACCT-000246,CUST-00046,2026-05-21,2026-05-21,POS - GreenLeaf Market,GreenLeaf Market,POS,-15.41,Posted,REF0000006755,Synthetic transaction
+TXN-0000036,ACCT-000253,CUST-00053,2026-04-30,2026-04-30,ACH Debit - Northline Utilities,Northline Utilities,ACH Debit,-403,Posted,REF0000006948,Synthetic transaction
+TXN-0000037,ACCT-000260,CUST-00060,2026-01-24,2026-01-24,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-558.05,Posted,REF0000007141,Synthetic transaction
+TXN-0000038,ACCT-000267,CUST-00067,2026-04-22,2026-04-22,ACH Debit - Oak & Main,Oak & Main,ACH Debit,-326.46,Posted,REF0000007334,Synthetic transaction
+TXN-0000039,ACCT-000274,CUST-00074,2026-02-06,2026-02-08,ATM - Metro Grocery,Metro Grocery,ATM,-737.06,Posted,REF0000007527,Synthetic transaction
+TXN-0000040,ACCT-000281,CUST-00081,2026-05-10,2026-05-10,ACH Credit - BrightFuel,BrightFuel,ACH Credit,2900.2,Posted,REF0000007720,Synthetic transaction
+TXN-0000041,ACCT-000288,CUST-00088,2026-05-13,2026-05-13,Card Purchase - City Fitness,City Fitness,Card Purchase,-256.17,Pending,REF0000007913,Synthetic transaction
+TXN-0000042,ACCT-000295,CUST-00095,2026-06-20,2026-06-20,Card Purchase - Oak & Main,Oak & Main,Card Purchase,-240.32,Posted,REF0000008106,Synthetic transaction
+TXN-0000043,ACCT-000302,CUST-00102,2026-03-24,2026-03-26,Card Purchase - FastShip,FastShip,Card Purchase,-604.63,Posted,REF0000008299,Synthetic transaction
+TXN-0000044,ACCT-000309,CUST-00109,2026-02-18,2026-02-18,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-314.38,Posted,REF0000008492,Synthetic transaction
+TXN-0000045,ACCT-000316,CUST-00116,2026-04-19,2026-04-19,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-170.31,Posted,REF0000008685,Synthetic transaction
+TXN-0000046,ACCT-000323,CUST-00123,2026-06-01,2026-06-03,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-20.59,Posted,REF0000008878,Synthetic transaction
+TXN-0000047,ACCT-000330,CUST-00130,2026-05-07,2026-05-09,Card Purchase - Atlas Wireless,Atlas Wireless,Card Purchase,-339.12,Posted,REF0000009071,Synthetic transaction
+TXN-0000048,ACCT-000337,CUST-00137,2026-05-27,2026-05-27,ATM - Atlas Wireless,Atlas Wireless,ATM,-174.17,Posted,REF0000009264,Synthetic transaction
+TXN-0000049,ACCT-000344,CUST-00144,2026-03-26,2026-03-28,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-18.14,Posted,REF0000009457,Synthetic transaction
+TXN-0000050,ACCT-000351,CUST-00151,2026-04-13,2026-04-13,Fee - Returned Item Fee,Returned Item Fee,Fee,-3.62,Posted,REF0000009650,Synthetic transaction
+TXN-0000051,ACCT-000358,CUST-00158,2026-02-12,2026-02-14,Deposit - Atlas Wireless,Atlas Wireless,Deposit,963.66,Posted,REF0000009843,Synthetic transaction
+TXN-0000052,ACCT-000365,CUST-00165,2026-06-09,2026-06-09,Transfer In - Harbor Insurance,Harbor Insurance,Transfer In,465.25,Pending,REF0000010036,Synthetic transaction
+TXN-0000053,ACCT-000372,CUST-00172,2026-03-22,2026-03-22,ACH Debit - Metro Grocery,Metro Grocery,ACH Debit,-285.67,Posted,REF0000010229,Synthetic transaction
+TXN-0000054,ACCT-000379,CUST-00179,2026-05-25,2026-05-25,ATM - Atlas Wireless,Atlas Wireless,ATM,-216.5,Posted,REF0000010422,Synthetic transaction
+TXN-0000055,ACCT-000386,CUST-00186,2026-05-11,2026-05-11,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-286.07,Posted,REF0000010615,Synthetic transaction
+TXN-0000056,ACCT-000393,CUST-00193,2026-04-01,2026-04-01,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-8.39,Posted,REF0000010808,Synthetic transaction
+TXN-0000057,ACCT-000400,CUST-00200,2026-04-12,2026-04-12,Card Purchase - FastShip,FastShip,Card Purchase,-399.17,Posted,REF0000011001,Synthetic transaction
+TXN-0000058,ACCT-000007,CUST-00007,2026-05-20,2026-05-20,Refund - MedPlus Clinic,MedPlus Clinic,Refund,1850.38,Posted,REF0000011194,Synthetic transaction
+TXN-0000059,ACCT-000014,CUST-00014,2026-04-26,2026-04-28,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-763.19,Posted,REF0000011387,Synthetic transaction
+TXN-0000060,ACCT-000021,CUST-00021,2026-06-06,2026-06-06,Card Purchase - Bluebird Pharmacy,Bluebird Pharmacy,Card Purchase,-181.39,Posted,REF0000011580,Synthetic transaction
+TXN-0000061,ACCT-000028,CUST-00028,2026-02-22,2026-02-22,Bill Pay - Corner Cafe,Corner Cafe,Bill Pay,-708.13,Posted,REF0000011773,Synthetic transaction
+TXN-0000062,ACCT-000035,CUST-00035,2026-03-13,2026-03-13,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-615.49,Posted,REF0000011966,Synthetic transaction
+TXN-0000063,ACCT-000042,CUST-00042,2026-02-12,2026-02-12,Transfer In - Northline Utilities,Northline Utilities,Transfer In,51.12,Posted,REF0000012159,Synthetic transaction
+TXN-0000064,ACCT-000049,CUST-00049,2026-03-21,2026-03-21,ATM - Bluebird Pharmacy,Bluebird Pharmacy,ATM,-421.81,Posted,REF0000012352,Synthetic transaction
+TXN-0000065,ACCT-000056,CUST-00056,2026-02-23,2026-02-23,Fee - Wire Fee,Wire Fee,Fee,-22.33,Posted,REF0000012545,Synthetic transaction
+TXN-0000066,ACCT-000063,CUST-00063,2026-02-03,2026-02-03,Fee - Wire Fee,Wire Fee,Fee,-11.23,Posted,REF0000012738,Synthetic transaction
+TXN-0000067,ACCT-000070,CUST-00070,2026-06-16,2026-06-16,Deposit - City Fitness,City Fitness,Deposit,1476.66,Posted,REF0000012931,Synthetic transaction
+TXN-0000068,ACCT-000077,CUST-00077,2026-04-23,2026-04-23,ATM - BrightFuel,BrightFuel,ATM,-479.76,Posted,REF0000013124,Synthetic transaction
+TXN-0000069,ACCT-000084,CUST-00084,2026-01-25,2026-01-27,Refund - StreamBox Media,StreamBox Media,Refund,1917.05,Posted,REF0000013317,Synthetic transaction
+TXN-0000070,ACCT-000091,CUST-00091,2026-01-28,2026-01-28,Transfer In - BrightFuel,BrightFuel,Transfer In,3183.6,Posted,REF0000013510,Synthetic transaction
+TXN-0000071,ACCT-000098,CUST-00098,2026-02-24,2026-02-24,Card Purchase - Harbor Insurance,Harbor Insurance,Card Purchase,-9.19,Posted,REF0000013703,Synthetic transaction
+TXN-0000072,ACCT-000105,CUST-00105,2026-01-27,2026-01-27,Transfer In - City Fitness,City Fitness,Transfer In,2748.84,Posted,REF0000013896,Synthetic transaction
+TXN-0000073,ACCT-000112,CUST-00112,2026-04-17,2026-04-17,Card Purchase - StreamBox Media,StreamBox Media,Card Purchase,-449.68,Posted,REF0000014089,Synthetic transaction
+TXN-0000074,ACCT-000119,CUST-00119,2026-03-02,2026-03-02,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-447.97,Posted,REF0000014282,Synthetic transaction
+TXN-0000075,ACCT-000126,CUST-00126,2026-04-01,2026-04-03,Deposit - FastShip,FastShip,Deposit,81.93,Posted,REF0000014475,Synthetic transaction
+TXN-0000076,ACCT-000133,CUST-00133,2026-01-29,2026-01-29,Bill Pay - RideNow Transit,RideNow Transit,Bill Pay,-352.69,Pending,REF0000014668,Synthetic transaction
+TXN-0000077,ACCT-000140,CUST-00140,2026-05-01,2026-05-01,Transfer In - MedPlus Clinic,MedPlus Clinic,Transfer In,638.54,Posted,REF0000014861,Synthetic transaction
+TXN-0000078,ACCT-000147,CUST-00147,2026-02-19,2026-02-19,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-45.6,Posted,REF0000015054,Synthetic transaction
+TXN-0000079,ACCT-000154,CUST-00154,2026-04-25,2026-04-25,Fee - Returned Item Fee,Returned Item Fee,Fee,-16.2,Posted,REF0000015247,Synthetic transaction
+TXN-0000080,ACCT-000161,CUST-00161,2026-02-25,2026-02-25,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-21.74,Posted,REF0000015440,Synthetic transaction
+TXN-0000081,ACCT-000168,CUST-00168,2026-05-25,2026-05-25,ATM - Oak & Main,Oak & Main,ATM,-393.07,Posted,REF0000015633,Synthetic transaction
+TXN-0000082,ACCT-000175,CUST-00175,2026-04-11,2026-04-11,Deposit - Northline Utilities,Northline Utilities,Deposit,2470.6,Posted,REF0000015826,Synthetic transaction
+TXN-0000083,ACCT-000182,CUST-00182,2026-04-15,2026-04-17,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-616.3,Posted,REF0000016019,Synthetic transaction
+TXN-0000084,ACCT-000189,CUST-00189,2026-05-18,2026-05-18,POS - Harbor Insurance,Harbor Insurance,POS,-96.72,Posted,REF0000016212,Synthetic transaction
+TXN-0000085,ACCT-000196,CUST-00196,2026-02-05,2026-02-05,Bill Pay - TuitionPay,TuitionPay,Bill Pay,-376.25,Posted,REF0000016405,Synthetic transaction
+TXN-0000086,ACCT-000203,CUST-00003,2026-06-13,2026-06-15,ACH Debit - RideNow Transit,RideNow Transit,ACH Debit,-481.27,Posted,REF0000016598,Synthetic transaction
+TXN-0000087,ACCT-000210,CUST-00010,2026-05-02,2026-05-04,Fee - Wire Fee,Wire Fee,Fee,-18.08,Posted,REF0000016791,Synthetic transaction
+TXN-0000088,ACCT-000217,CUST-00017,2026-06-13,2026-06-13,Fee - Overdraft Fee,Overdraft Fee,Fee,-20.2,Posted,REF0000016984,Synthetic transaction
+TXN-0000089,ACCT-000224,CUST-00024,2026-02-26,2026-02-26,ACH Credit - Oak & Main,Oak & Main,ACH Credit,2001.79,Posted,REF0000017177,Synthetic transaction
+TXN-0000090,ACCT-000231,CUST-00031,2026-05-06,2026-05-06,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-95.85,Posted,REF0000017370,Synthetic transaction
+TXN-0000091,ACCT-000238,CUST-00038,2026-06-03,2026-06-03,Deposit - Oak & Main,Oak & Main,Deposit,2900.56,Posted,REF0000017563,Synthetic transaction
+TXN-0000092,ACCT-000245,CUST-00045,2026-05-29,2026-05-29,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-184.23,Posted,REF0000017756,Synthetic transaction
+TXN-0000093,ACCT-000252,CUST-00052,2026-03-13,2026-03-13,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-612.83,Posted,REF0000017949,Synthetic transaction
+TXN-0000094,ACCT-000259,CUST-00059,2026-02-16,2026-02-16,ATM - RideNow Transit,RideNow Transit,ATM,-337.09,Posted,REF0000018142,Synthetic transaction
+TXN-0000095,ACCT-000266,CUST-00066,2026-05-16,2026-05-16,POS - RideNow Transit,RideNow Transit,POS,-255.02,Posted,REF0000018335,Synthetic transaction
+TXN-0000096,ACCT-000273,CUST-00073,2026-01-25,2026-01-25,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-4.02,Posted,REF0000018528,Synthetic transaction
+TXN-0000097,ACCT-000280,CUST-00080,2026-04-24,2026-04-24,ATM - FastShip,FastShip,ATM,-734.09,Posted,REF0000018721,Synthetic transaction
+TXN-0000098,ACCT-000287,CUST-00087,2026-06-09,2026-06-09,POS - MedPlus Clinic,MedPlus Clinic,POS,-432.61,Posted,REF0000018914,Synthetic transaction
+TXN-0000099,ACCT-000294,CUST-00094,2026-04-25,2026-04-25,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-472.08,Posted,REF0000019107,Synthetic transaction
+TXN-0000100,ACCT-000301,CUST-00101,2026-05-09,2026-05-09,Fee - Returned Item Fee,Returned Item Fee,Fee,-26.07,Posted,REF0000019300,Synthetic transaction
+TXN-0000101,ACCT-000308,CUST-00108,2026-02-12,2026-02-12,POS - StreamBox Media,StreamBox Media,POS,-213.35,Posted,REF0000019493,Synthetic transaction
+TXN-0000102,ACCT-000315,CUST-00115,2026-04-20,2026-04-22,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-628.24,Posted,REF0000019686,Synthetic transaction
+TXN-0000103,ACCT-000322,CUST-00122,2026-01-28,2026-01-28,ATM - Harbor Insurance,Harbor Insurance,ATM,-377.66,Posted,REF0000019879,Synthetic transaction
+TXN-0000104,ACCT-000329,CUST-00129,2026-05-06,2026-05-06,Deposit - StreamBox Media,StreamBox Media,Deposit,368.34,Posted,REF0000020072,Synthetic transaction
+TXN-0000105,ACCT-000336,CUST-00136,2026-04-21,2026-04-21,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-658.33,Posted,REF0000020265,Synthetic transaction
+TXN-0000106,ACCT-000343,CUST-00143,2026-06-03,2026-06-03,ATM - FastShip,FastShip,ATM,-442.35,Posted,REF0000020458,Synthetic transaction
+TXN-0000107,ACCT-000350,CUST-00150,2026-06-12,2026-06-12,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-5.72,Posted,REF0000020651,Synthetic transaction
+TXN-0000108,ACCT-000357,CUST-00157,2026-01-29,2026-01-29,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,3059.84,Posted,REF0000020844,Synthetic transaction
+TXN-0000109,ACCT-000364,CUST-00164,2026-03-14,2026-03-14,Bill Pay - RideNow Transit,RideNow Transit,Bill Pay,-367.01,Posted,REF0000021037,Synthetic transaction
+TXN-0000110,ACCT-000371,CUST-00171,2026-03-28,2026-03-28,POS - Northline Utilities,Northline Utilities,POS,-91.6,Posted,REF0000021230,Synthetic transaction
+TXN-0000111,ACCT-000378,CUST-00178,2026-02-23,2026-02-23,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-19.66,Posted,REF0000021423,Synthetic transaction
+TXN-0000112,ACCT-000385,CUST-00185,2026-02-25,2026-02-25,Transfer In - Oak & Main,Oak & Main,Transfer In,930.96,Posted,REF0000021616,Synthetic transaction
+TXN-0000113,ACCT-000392,CUST-00192,2026-04-11,2026-04-11,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-35.2,Posted,REF0000021809,Synthetic transaction
+TXN-0000114,ACCT-000399,CUST-00199,2026-03-14,2026-03-14,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,2322.45,Pending,REF0000022002,Synthetic transaction
+TXN-0000115,ACCT-000006,CUST-00006,2026-04-30,2026-05-02,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-511.92,Posted,REF0000022195,Synthetic transaction
+TXN-0000116,ACCT-000013,CUST-00013,2026-04-08,2026-04-08,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-586.23,Posted,REF0000022388,Synthetic transaction
+TXN-0000117,ACCT-000020,CUST-00020,2026-05-27,2026-05-29,Fee - Returned Item Fee,Returned Item Fee,Fee,-5.75,Posted,REF0000022581,Synthetic transaction
+TXN-0000118,ACCT-000027,CUST-00027,2026-04-07,2026-04-07,Card Purchase - City Fitness,City Fitness,Card Purchase,-737.44,Pending,REF0000022774,Synthetic transaction
+TXN-0000119,ACCT-000034,CUST-00034,2026-04-12,2026-04-12,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-562.53,Posted,REF0000022967,Synthetic transaction
+TXN-0000120,ACCT-000041,CUST-00041,2026-03-14,2026-03-14,ACH Credit - BrightFuel,BrightFuel,ACH Credit,2003.04,Posted,REF0000023160,Synthetic transaction
+TXN-0000121,ACCT-000048,CUST-00048,2026-02-14,2026-02-14,Deposit - Metro Grocery,Metro Grocery,Deposit,848.69,Posted,REF0000023353,Synthetic transaction
+TXN-0000122,ACCT-000055,CUST-00055,2026-02-23,2026-02-23,POS - Northline Utilities,Northline Utilities,POS,-762.6,Posted,REF0000023546,Synthetic transaction
+TXN-0000123,ACCT-000062,CUST-00062,2026-02-07,2026-02-07,POS - TuitionPay,TuitionPay,POS,-680.05,Posted,REF0000023739,Synthetic transaction
+TXN-0000124,ACCT-000069,CUST-00069,2026-03-31,2026-03-31,Bill Pay - Corner Cafe,Corner Cafe,Bill Pay,-184.08,Posted,REF0000023932,Synthetic transaction
+TXN-0000125,ACCT-000076,CUST-00076,2026-03-15,2026-03-17,POS - TuitionPay,TuitionPay,POS,-100.03,Posted,REF0000024125,Synthetic transaction
+TXN-0000126,ACCT-000083,CUST-00083,2026-04-29,2026-04-29,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-645.71,Posted,REF0000024318,Synthetic transaction
+TXN-0000127,ACCT-000090,CUST-00090,2026-01-24,2026-01-24,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-34.29,Posted,REF0000024511,Synthetic transaction
+TXN-0000128,ACCT-000097,CUST-00097,2026-05-01,2026-05-01,Deposit - Atlas Wireless,Atlas Wireless,Deposit,2243.73,Posted,REF0000024704,Synthetic transaction
+TXN-0000129,ACCT-000104,CUST-00104,2026-05-31,2026-06-02,Transfer In - Corner Cafe,Corner Cafe,Transfer In,2669.13,Pending,REF0000024897,Synthetic transaction
+TXN-0000130,ACCT-000111,CUST-00111,2026-01-24,2026-01-24,Refund - Northline Utilities,Northline Utilities,Refund,1867.38,Posted,REF0000025090,Synthetic transaction
+TXN-0000131,ACCT-000118,CUST-00118,2026-02-19,2026-02-19,Deposit - Oak & Main,Oak & Main,Deposit,25.43,Posted,REF0000025283,Synthetic transaction
+TXN-0000132,ACCT-000125,CUST-00125,2026-04-21,2026-04-21,ATM - StreamBox Media,StreamBox Media,ATM,-355.57,Posted,REF0000025476,Synthetic transaction
+TXN-0000133,ACCT-000132,CUST-00132,2026-05-21,2026-05-21,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-14.33,Posted,REF0000025669,Synthetic transaction
+TXN-0000134,ACCT-000139,CUST-00139,2026-05-12,2026-05-12,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-390.73,Posted,REF0000025862,Synthetic transaction
+TXN-0000135,ACCT-000146,CUST-00146,2026-05-27,2026-05-27,Fee - Returned Item Fee,Returned Item Fee,Fee,-15.23,Posted,REF0000026055,Synthetic transaction
+TXN-0000136,ACCT-000153,CUST-00153,2026-02-01,2026-02-01,ATM - Metro Grocery,Metro Grocery,ATM,-587.29,Posted,REF0000026248,Synthetic transaction
+TXN-0000137,ACCT-000160,CUST-00160,2026-05-09,2026-05-09,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-210.98,Posted,REF0000026441,Synthetic transaction
+TXN-0000138,ACCT-000167,CUST-00167,2026-05-17,2026-05-17,ACH Credit - Atlas Wireless,Atlas Wireless,ACH Credit,111.51,Posted,REF0000026634,Synthetic transaction
+TXN-0000139,ACCT-000174,CUST-00174,2026-04-19,2026-04-19,POS - MedPlus Clinic,MedPlus Clinic,POS,-306.46,Posted,REF0000026827,Synthetic transaction
+TXN-0000140,ACCT-000181,CUST-00181,2026-04-13,2026-04-13,Transfer In - City Fitness,City Fitness,Transfer In,611.89,Posted,REF0000027020,Synthetic transaction
+TXN-0000141,ACCT-000188,CUST-00188,2026-03-19,2026-03-19,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-778.88,Posted,REF0000027213,Synthetic transaction
+TXN-0000142,ACCT-000195,CUST-00195,2026-06-22,2026-06-22,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-590.44,Posted,REF0000027406,Synthetic transaction
+TXN-0000143,ACCT-000202,CUST-00002,2026-05-31,2026-05-31,ACH Debit - FastShip,FastShip,ACH Debit,-368.22,Posted,REF0000027599,Synthetic transaction
+TXN-0000144,ACCT-000209,CUST-00009,2026-01-25,2026-01-25,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-27.92,Posted,REF0000027792,Synthetic transaction
+TXN-0000145,ACCT-000216,CUST-00016,2026-02-06,2026-02-06,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-563.64,Posted,REF0000027985,Synthetic transaction
+TXN-0000146,ACCT-000223,CUST-00023,2026-03-17,2026-03-19,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-183.05,Posted,REF0000028178,Synthetic transaction
+TXN-0000147,ACCT-000230,CUST-00030,2026-02-13,2026-02-13,ACH Credit - StreamBox Media,StreamBox Media,ACH Credit,2274.06,Posted,REF0000028371,Synthetic transaction
+TXN-0000148,ACCT-000237,CUST-00037,2026-03-16,2026-03-16,POS - TuitionPay,TuitionPay,POS,-165.01,Posted,REF0000028564,Synthetic transaction
+TXN-0000149,ACCT-000244,CUST-00044,2026-03-20,2026-03-20,Transfer In - MedPlus Clinic,MedPlus Clinic,Transfer In,3208.5,Posted,REF0000028757,Synthetic transaction
+TXN-0000150,ACCT-000251,CUST-00051,2026-06-08,2026-06-08,Deposit - GreenLeaf Market,GreenLeaf Market,Deposit,2999.18,Posted,REF0000028950,Synthetic transaction
+TXN-0000151,ACCT-000258,CUST-00058,2026-04-03,2026-04-03,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-686.75,Posted,REF0000029143,Synthetic transaction
+TXN-0000152,ACCT-000265,CUST-00065,2026-05-14,2026-05-14,ATM - Northline Utilities,Northline Utilities,ATM,-523.47,Posted,REF0000029336,Synthetic transaction
+TXN-0000153,ACCT-000272,CUST-00072,2026-02-12,2026-02-12,Deposit - Corner Cafe,Corner Cafe,Deposit,1112.52,Posted,REF0000029529,Synthetic transaction
+TXN-0000154,ACCT-000279,CUST-00079,2026-03-12,2026-03-12,POS - FastShip,FastShip,POS,-714.28,Posted,REF0000029722,Synthetic transaction
+TXN-0000155,ACCT-000286,CUST-00086,2026-04-18,2026-04-18,POS - Atlas Wireless,Atlas Wireless,POS,-491.62,Posted,REF0000029915,Synthetic transaction
+TXN-0000156,ACCT-000293,CUST-00093,2026-06-16,2026-06-16,ACH Credit - Corner Cafe,Corner Cafe,ACH Credit,3440.1,Posted,REF0000030108,Synthetic transaction
+TXN-0000157,ACCT-000300,CUST-00100,2026-04-23,2026-04-23,Fee - Wire Fee,Wire Fee,Fee,-31.86,Posted,REF0000030301,Synthetic transaction
+TXN-0000158,ACCT-000307,CUST-00107,2026-03-14,2026-03-14,Transfer In - City Fitness,City Fitness,Transfer In,1703.28,Posted,REF0000030494,Synthetic transaction
+TXN-0000159,ACCT-000314,CUST-00114,2026-03-30,2026-03-30,Deposit - RideNow Transit,RideNow Transit,Deposit,1886.4,Posted,REF0000030687,Synthetic transaction
+TXN-0000160,ACCT-000321,CUST-00121,2026-04-03,2026-04-03,ACH Credit - Oak & Main,Oak & Main,ACH Credit,814.32,Posted,REF0000030880,Synthetic transaction
+TXN-0000161,ACCT-000328,CUST-00128,2026-05-10,2026-05-10,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-578.07,Posted,REF0000031073,Synthetic transaction
+TXN-0000162,ACCT-000335,CUST-00135,2026-01-30,2026-01-30,Refund - Oak & Main,Oak & Main,Refund,1216.46,Posted,REF0000031266,Synthetic transaction
+TXN-0000163,ACCT-000342,CUST-00142,2026-02-11,2026-02-11,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-190.82,Posted,REF0000031459,Synthetic transaction
+TXN-0000164,ACCT-000349,CUST-00149,2026-04-25,2026-04-25,Deposit - GreenLeaf Market,GreenLeaf Market,Deposit,271.09,Posted,REF0000031652,Synthetic transaction
+TXN-0000165,ACCT-000356,CUST-00156,2026-04-15,2026-04-15,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-234.45,Posted,REF0000031845,Synthetic transaction
+TXN-0000166,ACCT-000363,CUST-00163,2026-03-11,2026-03-13,Fee - Overdraft Fee,Overdraft Fee,Fee,-12.16,Posted,REF0000032038,Synthetic transaction
+TXN-0000167,ACCT-000370,CUST-00170,2026-02-11,2026-02-11,ATM - Harbor Insurance,Harbor Insurance,ATM,-491.46,Posted,REF0000032231,Synthetic transaction
+TXN-0000168,ACCT-000377,CUST-00177,2026-04-07,2026-04-07,POS - Oak & Main,Oak & Main,POS,-770.22,Posted,REF0000032424,Synthetic transaction
+TXN-0000169,ACCT-000384,CUST-00184,2026-02-25,2026-02-25,Fee - Wire Fee,Wire Fee,Fee,-29.67,Posted,REF0000032617,Synthetic transaction
+TXN-0000170,ACCT-000391,CUST-00191,2026-04-02,2026-04-04,ACH Debit - Metro Grocery,Metro Grocery,ACH Debit,-263.84,Posted,REF0000032810,Synthetic transaction
+TXN-0000171,ACCT-000398,CUST-00198,2026-05-03,2026-05-05,Fee - Wire Fee,Wire Fee,Fee,-4.93,Posted,REF0000033003,Synthetic transaction
+TXN-0000172,ACCT-000005,CUST-00005,2026-02-14,2026-02-14,Fee - Wire Fee,Wire Fee,Fee,-31,Posted,REF0000033196,Synthetic transaction
+TXN-0000173,ACCT-000012,CUST-00012,2026-02-23,2026-02-23,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-203.81,Posted,REF0000033389,Synthetic transaction
+TXN-0000174,ACCT-000019,CUST-00019,2026-02-14,2026-02-14,Deposit - MedPlus Clinic,MedPlus Clinic,Deposit,3254.25,Posted,REF0000033582,Synthetic transaction
+TXN-0000175,ACCT-000026,CUST-00026,2026-05-16,2026-05-16,POS - TuitionPay,TuitionPay,POS,-297.2,Posted,REF0000033775,Synthetic transaction
+TXN-0000176,ACCT-000033,CUST-00033,2026-02-28,2026-02-28,POS - RideNow Transit,RideNow Transit,POS,-296.71,Posted,REF0000033968,Synthetic transaction
+TXN-0000177,ACCT-000040,CUST-00040,2026-06-22,2026-06-22,Refund - City Fitness,City Fitness,Refund,1224.88,Posted,REF0000034161,Synthetic transaction
+TXN-0000178,ACCT-000047,CUST-00047,2026-02-05,2026-02-05,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-696.91,Posted,REF0000034354,Synthetic transaction
+TXN-0000179,ACCT-000054,CUST-00054,2026-05-17,2026-05-17,Refund - MedPlus Clinic,MedPlus Clinic,Refund,2634.2,Posted,REF0000034547,Synthetic transaction
+TXN-0000180,ACCT-000061,CUST-00061,2026-03-07,2026-03-07,Fee - Returned Item Fee,Returned Item Fee,Fee,-9.44,Posted,REF0000034740,Synthetic transaction
+TXN-0000181,ACCT-000068,CUST-00068,2026-04-28,2026-04-28,Transfer In - GreenLeaf Market,GreenLeaf Market,Transfer In,2801.66,Posted,REF0000034933,Synthetic transaction
+TXN-0000182,ACCT-000075,CUST-00075,2026-06-14,2026-06-14,Refund - Harbor Insurance,Harbor Insurance,Refund,2907.55,Posted,REF0000035126,Synthetic transaction
+TXN-0000183,ACCT-000082,CUST-00082,2026-06-12,2026-06-12,Refund - Corner Cafe,Corner Cafe,Refund,2173.2,Posted,REF0000035319,Synthetic transaction
+TXN-0000184,ACCT-000089,CUST-00089,2026-03-01,2026-03-01,Deposit - Atlas Wireless,Atlas Wireless,Deposit,1587.39,Pending,REF0000035512,Synthetic transaction
+TXN-0000185,ACCT-000096,CUST-00096,2026-04-01,2026-04-01,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-332.98,Posted,REF0000035705,Synthetic transaction
+TXN-0000186,ACCT-000103,CUST-00103,2026-04-25,2026-04-25,Deposit - Corner Cafe,Corner Cafe,Deposit,1361.34,Pending,REF0000035898,Synthetic transaction
+TXN-0000187,ACCT-000110,CUST-00110,2026-02-06,2026-02-06,POS - GreenLeaf Market,GreenLeaf Market,POS,-253.14,Posted,REF0000036091,Synthetic transaction
+TXN-0000188,ACCT-000117,CUST-00117,2026-05-31,2026-05-31,Transfer In - BrightFuel,BrightFuel,Transfer In,910.26,Posted,REF0000036284,Synthetic transaction
+TXN-0000189,ACCT-000124,CUST-00124,2026-02-12,2026-02-12,Card Purchase - GreenLeaf Market,GreenLeaf Market,Card Purchase,-442.09,Posted,REF0000036477,Synthetic transaction
+TXN-0000190,ACCT-000131,CUST-00131,2026-05-05,2026-05-05,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-228.84,Posted,REF0000036670,Synthetic transaction
+TXN-0000191,ACCT-000138,CUST-00138,2026-03-22,2026-03-22,ATM - Corner Cafe,Corner Cafe,ATM,-153.27,Posted,REF0000036863,Synthetic transaction
+TXN-0000192,ACCT-000145,CUST-00145,2026-02-08,2026-02-08,Fee - Returned Item Fee,Returned Item Fee,Fee,-17.14,Posted,REF0000037056,Synthetic transaction
+TXN-0000193,ACCT-000152,CUST-00152,2026-06-01,2026-06-01,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-701.88,Posted,REF0000037249,Synthetic transaction
+TXN-0000194,ACCT-000159,CUST-00159,2026-05-30,2026-05-30,Refund - Atlas Wireless,Atlas Wireless,Refund,1036.38,Posted,REF0000037442,Synthetic transaction
+TXN-0000195,ACCT-000166,CUST-00166,2026-06-17,2026-06-17,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-128.45,Posted,REF0000037635,Synthetic transaction
+TXN-0000196,ACCT-000173,CUST-00173,2026-06-04,2026-06-06,Refund - FastShip,FastShip,Refund,943.36,Posted,REF0000037828,Synthetic transaction
+TXN-0000197,ACCT-000180,CUST-00180,2026-02-18,2026-02-18,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-578.41,Posted,REF0000038021,Synthetic transaction
+TXN-0000198,ACCT-000187,CUST-00187,2026-04-18,2026-04-18,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-252.4,Posted,REF0000038214,Synthetic transaction
+TXN-0000199,ACCT-000194,CUST-00194,2026-05-22,2026-05-22,Bill Pay - FastShip,FastShip,Bill Pay,-129.75,Posted,REF0000038407,Synthetic transaction
+TXN-0000200,ACCT-000201,CUST-00001,2026-03-11,2026-03-11,Card Purchase - Atlas Wireless,Atlas Wireless,Card Purchase,-249.72,Posted,REF0000038600,Synthetic transaction
+TXN-0000201,ACCT-000208,CUST-00008,2026-06-01,2026-06-01,Transfer In - BrightFuel,BrightFuel,Transfer In,924.4,Posted,REF0000038793,Synthetic transaction
+TXN-0000202,ACCT-000215,CUST-00015,2026-02-10,2026-02-10,ATM - Bluebird Pharmacy,Bluebird Pharmacy,ATM,-406.01,Posted,REF0000038986,Synthetic transaction
+TXN-0000203,ACCT-000222,CUST-00022,2026-01-31,2026-01-31,ATM - Metro Grocery,Metro Grocery,ATM,-712.24,Posted,REF0000039179,Synthetic transaction
+TXN-0000204,ACCT-000229,CUST-00029,2026-05-11,2026-05-13,Card Purchase - FastShip,FastShip,Card Purchase,-345.92,Posted,REF0000039372,Synthetic transaction
+TXN-0000205,ACCT-000236,CUST-00036,2026-06-15,2026-06-15,ACH Credit - BrightFuel,BrightFuel,ACH Credit,1106.97,Posted,REF0000039565,Synthetic transaction
+TXN-0000206,ACCT-000243,CUST-00043,2026-06-19,2026-06-19,Transfer In - Oak & Main,Oak & Main,Transfer In,3400.3,Posted,REF0000039758,Synthetic transaction
+TXN-0000207,ACCT-000250,CUST-00050,2026-06-04,2026-06-04,Card Purchase - Northline Utilities,Northline Utilities,Card Purchase,-647.3,Posted,REF0000039951,Synthetic transaction
+TXN-0000208,ACCT-000257,CUST-00057,2026-01-29,2026-01-31,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-441.96,Posted,REF0000040144,Synthetic transaction
+TXN-0000209,ACCT-000264,CUST-00064,2026-04-29,2026-04-29,Refund - City Fitness,City Fitness,Refund,2749.51,Posted,REF0000040337,Synthetic transaction
+TXN-0000210,ACCT-000271,CUST-00071,2026-02-14,2026-02-14,POS - TuitionPay,TuitionPay,POS,-212.48,Posted,REF0000040530,Synthetic transaction
+TXN-0000211,ACCT-000278,CUST-00078,2026-03-08,2026-03-08,ACH Credit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Credit,554.37,Posted,REF0000040723,Synthetic transaction
+TXN-0000212,ACCT-000285,CUST-00085,2026-01-31,2026-01-31,POS - Harbor Insurance,Harbor Insurance,POS,-727.63,Posted,REF0000040916,Synthetic transaction
+TXN-0000213,ACCT-000292,CUST-00092,2026-05-09,2026-05-09,POS - FastShip,FastShip,POS,-493.5,Posted,REF0000041109,Synthetic transaction
+TXN-0000214,ACCT-000299,CUST-00099,2026-05-18,2026-05-18,ACH Credit - GreenLeaf Market,GreenLeaf Market,ACH Credit,855.43,Posted,REF0000041302,Synthetic transaction
+TXN-0000215,ACCT-000306,CUST-00106,2026-05-05,2026-05-05,Transfer In - GreenLeaf Market,GreenLeaf Market,Transfer In,2002.25,Posted,REF0000041495,Synthetic transaction
+TXN-0000216,ACCT-000313,CUST-00113,2026-06-11,2026-06-11,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-627.3,Posted,REF0000041688,Synthetic transaction
+TXN-0000217,ACCT-000320,CUST-00120,2026-05-23,2026-05-23,POS - Northline Utilities,Northline Utilities,POS,-23.75,Posted,REF0000041881,Synthetic transaction
+TXN-0000218,ACCT-000327,CUST-00127,2026-03-08,2026-03-10,POS - Corner Cafe,Corner Cafe,POS,-375.67,Posted,REF0000042074,Synthetic transaction
+TXN-0000219,ACCT-000334,CUST-00134,2026-01-28,2026-01-28,ATM - MedPlus Clinic,MedPlus Clinic,ATM,-682.55,Posted,REF0000042267,Synthetic transaction
+TXN-0000220,ACCT-000341,CUST-00141,2026-05-29,2026-05-31,Card Purchase - Bluebird Pharmacy,Bluebird Pharmacy,Card Purchase,-651.21,Posted,REF0000042460,Synthetic transaction
+TXN-0000221,ACCT-000348,CUST-00148,2026-04-29,2026-04-29,Card Purchase - City Fitness,City Fitness,Card Purchase,-236.58,Posted,REF0000042653,Synthetic transaction
+TXN-0000222,ACCT-000355,CUST-00155,2026-06-17,2026-06-17,POS - MedPlus Clinic,MedPlus Clinic,POS,-415.57,Pending,REF0000042846,Synthetic transaction
+TXN-0000223,ACCT-000362,CUST-00162,2026-06-20,2026-06-20,Fee - Overdraft Fee,Overdraft Fee,Fee,-18.79,Posted,REF0000043039,Synthetic transaction
+TXN-0000224,ACCT-000369,CUST-00169,2026-05-09,2026-05-09,Transfer In - RideNow Transit,RideNow Transit,Transfer In,2249.95,Posted,REF0000043232,Synthetic transaction
+TXN-0000225,ACCT-000376,CUST-00176,2026-06-10,2026-06-10,ATM - BrightFuel,BrightFuel,ATM,-461.47,Posted,REF0000043425,Synthetic transaction
+TXN-0000226,ACCT-000383,CUST-00183,2026-03-11,2026-03-11,Transfer In - Corner Cafe,Corner Cafe,Transfer In,2860.59,Posted,REF0000043618,Synthetic transaction
+TXN-0000227,ACCT-000390,CUST-00190,2026-03-02,2026-03-02,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-622.84,Posted,REF0000043811,Synthetic transaction
+TXN-0000228,ACCT-000397,CUST-00197,2026-02-24,2026-02-24,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-11.61,Posted,REF0000044004,Synthetic transaction
+TXN-0000229,ACCT-000004,CUST-00004,2026-04-22,2026-04-22,Card Purchase - StreamBox Media,StreamBox Media,Card Purchase,-284.13,Posted,REF0000044197,Synthetic transaction
+TXN-0000230,ACCT-000011,CUST-00011,2026-01-30,2026-01-30,Bill Pay - StreamBox Media,StreamBox Media,Bill Pay,-542.37,Posted,REF0000044390,Synthetic transaction
+TXN-0000231,ACCT-000018,CUST-00018,2026-06-17,2026-06-17,ATM - StreamBox Media,StreamBox Media,ATM,-650.3,Posted,REF0000044583,Synthetic transaction
+TXN-0000232,ACCT-000025,CUST-00025,2026-05-28,2026-05-28,POS - City Fitness,City Fitness,POS,-404.14,Posted,REF0000044776,Synthetic transaction
+TXN-0000233,ACCT-000032,CUST-00032,2026-05-20,2026-05-20,ATM - Northline Utilities,Northline Utilities,ATM,-188.91,Pending,REF0000044969,Synthetic transaction
+TXN-0000234,ACCT-000039,CUST-00039,2026-04-07,2026-04-07,POS - Northline Utilities,Northline Utilities,POS,-189.03,Posted,REF0000045162,Synthetic transaction
+TXN-0000235,ACCT-000046,CUST-00046,2026-02-09,2026-02-09,Card Purchase - StreamBox Media,StreamBox Media,Card Purchase,-375.46,Posted,REF0000045355,Synthetic transaction
+TXN-0000236,ACCT-000053,CUST-00053,2026-03-13,2026-03-13,ACH Debit - Atlas Wireless,Atlas Wireless,ACH Debit,-383.32,Posted,REF0000045548,Synthetic transaction
+TXN-0000237,ACCT-000060,CUST-00060,2026-03-23,2026-03-25,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-628.74,Posted,REF0000045741,Synthetic transaction
+TXN-0000238,ACCT-000067,CUST-00067,2026-04-05,2026-04-05,POS - Atlas Wireless,Atlas Wireless,POS,-477.53,Posted,REF0000045934,Synthetic transaction
+TXN-0000239,ACCT-000074,CUST-00074,2026-01-26,2026-01-26,POS - BrightFuel,BrightFuel,POS,-282.84,Posted,REF0000046127,Synthetic transaction
+TXN-0000240,ACCT-000081,CUST-00081,2026-01-30,2026-01-30,Card Purchase - City Fitness,City Fitness,Card Purchase,-487.05,Posted,REF0000046320,Synthetic transaction
+TXN-0000241,ACCT-000088,CUST-00088,2026-03-15,2026-03-15,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-237.93,Posted,REF0000046513,Synthetic transaction
+TXN-0000242,ACCT-000095,CUST-00095,2026-03-02,2026-03-04,ATM - Oak & Main,Oak & Main,ATM,-96.78,Posted,REF0000046706,Synthetic transaction
+TXN-0000243,ACCT-000102,CUST-00102,2026-04-21,2026-04-21,ACH Credit - RideNow Transit,RideNow Transit,ACH Credit,864.86,Posted,REF0000046899,Synthetic transaction
+TXN-0000244,ACCT-000109,CUST-00109,2026-02-04,2026-02-06,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-124.42,Posted,REF0000047092,Synthetic transaction
+TXN-0000245,ACCT-000116,CUST-00116,2026-05-30,2026-05-30,Fee - Returned Item Fee,Returned Item Fee,Fee,-15.82,Pending,REF0000047285,Synthetic transaction
+TXN-0000246,ACCT-000123,CUST-00123,2026-06-01,2026-06-01,ACH Debit - City Fitness,City Fitness,ACH Debit,-273.9,Posted,REF0000047478,Synthetic transaction
+TXN-0000247,ACCT-000130,CUST-00130,2026-05-14,2026-05-16,ACH Credit - GreenLeaf Market,GreenLeaf Market,ACH Credit,1135.35,Posted,REF0000047671,Synthetic transaction
+TXN-0000248,ACCT-000137,CUST-00137,2026-05-29,2026-05-29,Fee - Overdraft Fee,Overdraft Fee,Fee,-32.35,Posted,REF0000047864,Synthetic transaction
+TXN-0000249,ACCT-000144,CUST-00144,2026-03-07,2026-03-07,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-315.21,Posted,REF0000048057,Synthetic transaction
+TXN-0000250,ACCT-000151,CUST-00151,2026-02-18,2026-02-18,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-33.78,Posted,REF0000048250,Synthetic transaction
+TXN-0000251,ACCT-000158,CUST-00158,2026-03-08,2026-03-08,Bill Pay - City Fitness,City Fitness,Bill Pay,-715.42,Posted,REF0000048443,Synthetic transaction
+TXN-0000252,ACCT-000165,CUST-00165,2026-06-02,2026-06-02,ACH Debit - City Fitness,City Fitness,ACH Debit,-409.27,Posted,REF0000048636,Synthetic transaction
+TXN-0000253,ACCT-000172,CUST-00172,2026-04-04,2026-04-04,Fee - Returned Item Fee,Returned Item Fee,Fee,-28.21,Posted,REF0000048829,Synthetic transaction
+TXN-0000254,ACCT-000179,CUST-00179,2026-03-17,2026-03-17,Transfer In - Metro Grocery,Metro Grocery,Transfer In,3077.96,Posted,REF0000049022,Synthetic transaction
+TXN-0000255,ACCT-000186,CUST-00186,2026-02-16,2026-02-16,ACH Credit - City Fitness,City Fitness,ACH Credit,1438.21,Posted,REF0000049215,Synthetic transaction
+TXN-0000256,ACCT-000193,CUST-00193,2026-06-03,2026-06-03,ATM - RideNow Transit,RideNow Transit,ATM,-23.44,Posted,REF0000049408,Synthetic transaction
+TXN-0000257,ACCT-000200,CUST-00200,2026-03-25,2026-03-25,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-383.05,Posted,REF0000049601,Synthetic transaction
+TXN-0000258,ACCT-000207,CUST-00007,2026-04-05,2026-04-07,ACH Debit - Atlas Wireless,Atlas Wireless,ACH Debit,-391.72,Posted,REF0000049794,Synthetic transaction
+TXN-0000259,ACCT-000214,CUST-00014,2026-04-23,2026-04-23,ACH Credit - Atlas Wireless,Atlas Wireless,ACH Credit,1392.79,Posted,REF0000049987,Synthetic transaction
+TXN-0000260,ACCT-000221,CUST-00021,2026-02-21,2026-02-21,Card Purchase - City Fitness,City Fitness,Card Purchase,-627.59,Posted,REF0000050180,Synthetic transaction
+TXN-0000261,ACCT-000228,CUST-00028,2026-06-09,2026-06-09,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-722.03,Posted,REF0000050373,Synthetic transaction
+TXN-0000262,ACCT-000235,CUST-00035,2026-05-06,2026-05-06,Bill Pay - Atlas Wireless,Atlas Wireless,Bill Pay,-281.48,Posted,REF0000050566,Synthetic transaction
+TXN-0000263,ACCT-000242,CUST-00042,2026-02-06,2026-02-06,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-356.66,Posted,REF0000050759,Synthetic transaction
+TXN-0000264,ACCT-000249,CUST-00049,2026-03-18,2026-03-18,ATM - Oak & Main,Oak & Main,ATM,-489.99,Posted,REF0000050952,Synthetic transaction
+TXN-0000265,ACCT-000256,CUST-00056,2026-04-17,2026-04-17,ATM - BrightFuel,BrightFuel,ATM,-154.68,Posted,REF0000051145,Synthetic transaction
+TXN-0000266,ACCT-000263,CUST-00063,2026-06-14,2026-06-14,ACH Debit - Metro Grocery,Metro Grocery,ACH Debit,-625.27,Posted,REF0000051338,Synthetic transaction
+TXN-0000267,ACCT-000270,CUST-00070,2026-05-22,2026-05-22,Refund - Northline Utilities,Northline Utilities,Refund,3453.02,Posted,REF0000051531,Synthetic transaction
+TXN-0000268,ACCT-000277,CUST-00077,2026-03-06,2026-03-06,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-21.24,Posted,REF0000051724,Synthetic transaction
+TXN-0000269,ACCT-000284,CUST-00084,2026-06-19,2026-06-21,POS - Metro Grocery,Metro Grocery,POS,-750.24,Posted,REF0000051917,Synthetic transaction
+TXN-0000270,ACCT-000291,CUST-00091,2026-04-04,2026-04-04,POS - Oak & Main,Oak & Main,POS,-752.84,Posted,REF0000052110,Synthetic transaction
+TXN-0000271,ACCT-000298,CUST-00098,2026-05-15,2026-05-15,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-747.76,Posted,REF0000052303,Synthetic transaction
+TXN-0000272,ACCT-000305,CUST-00105,2026-03-19,2026-03-19,ACH Debit - Northline Utilities,Northline Utilities,ACH Debit,-273.52,Posted,REF0000052496,Synthetic transaction
+TXN-0000273,ACCT-000312,CUST-00112,2026-03-14,2026-03-14,Card Purchase - Northline Utilities,Northline Utilities,Card Purchase,-384.02,Posted,REF0000052689,Synthetic transaction
+TXN-0000274,ACCT-000319,CUST-00119,2026-02-27,2026-02-27,ATM - Atlas Wireless,Atlas Wireless,ATM,-273.91,Posted,REF0000052882,Synthetic transaction
+TXN-0000275,ACCT-000326,CUST-00126,2026-04-08,2026-04-10,POS - FastShip,FastShip,POS,-478.94,Posted,REF0000053075,Synthetic transaction
+TXN-0000276,ACCT-000333,CUST-00133,2026-04-16,2026-04-16,ATM - RideNow Transit,RideNow Transit,ATM,-92.38,Posted,REF0000053268,Synthetic transaction
+TXN-0000277,ACCT-000340,CUST-00140,2026-04-07,2026-04-09,Card Purchase - FastShip,FastShip,Card Purchase,-102.32,Posted,REF0000053461,Synthetic transaction
+TXN-0000278,ACCT-000347,CUST-00147,2026-02-05,2026-02-05,ACH Credit - TuitionPay,TuitionPay,ACH Credit,1102.97,Posted,REF0000053654,Synthetic transaction
+TXN-0000279,ACCT-000354,CUST-00154,2026-04-02,2026-04-02,Fee - Overdraft Fee,Overdraft Fee,Fee,-16.54,Posted,REF0000053847,Synthetic transaction
+TXN-0000280,ACCT-000361,CUST-00161,2026-01-26,2026-01-28,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-7.38,Posted,REF0000054040,Synthetic transaction
+TXN-0000281,ACCT-000368,CUST-00168,2026-03-31,2026-04-02,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-518.03,Posted,REF0000054233,Synthetic transaction
+TXN-0000282,ACCT-000375,CUST-00175,2026-05-03,2026-05-03,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-97.75,Posted,REF0000054426,Synthetic transaction
+TXN-0000283,ACCT-000382,CUST-00182,2026-03-16,2026-03-16,Card Purchase - Bluebird Pharmacy,Bluebird Pharmacy,Card Purchase,-608.91,Posted,REF0000054619,Synthetic transaction
+TXN-0000284,ACCT-000389,CUST-00189,2026-02-09,2026-02-09,ATM - Northline Utilities,Northline Utilities,ATM,-110.06,Posted,REF0000054812,Synthetic transaction
+TXN-0000285,ACCT-000396,CUST-00196,2026-05-07,2026-05-07,ACH Debit - Oak & Main,Oak & Main,ACH Debit,-174.26,Pending,REF0000055005,Synthetic transaction
+TXN-0000286,ACCT-000003,CUST-00003,2026-05-30,2026-05-30,Refund - RideNow Transit,RideNow Transit,Refund,1410.19,Posted,REF0000055198,Synthetic transaction
+TXN-0000287,ACCT-000010,CUST-00010,2026-04-28,2026-04-30,Deposit - Oak & Main,Oak & Main,Deposit,1566.32,Posted,REF0000055391,Synthetic transaction
+TXN-0000288,ACCT-000017,CUST-00017,2026-05-09,2026-05-09,ATM - BrightFuel,BrightFuel,ATM,-400.95,Posted,REF0000055584,Synthetic transaction
+TXN-0000289,ACCT-000024,CUST-00024,2026-05-22,2026-05-24,Bill Pay - TuitionPay,TuitionPay,Bill Pay,-471.44,Posted,REF0000055777,Synthetic transaction
+TXN-0000290,ACCT-000031,CUST-00031,2026-04-05,2026-04-05,ACH Debit - City Fitness,City Fitness,ACH Debit,-54.05,Posted,REF0000055970,Synthetic transaction
+TXN-0000291,ACCT-000038,CUST-00038,2026-05-03,2026-05-03,Refund - City Fitness,City Fitness,Refund,1392.38,Posted,REF0000056163,Synthetic transaction
+TXN-0000292,ACCT-000045,CUST-00045,2026-02-10,2026-02-10,Fee - Returned Item Fee,Returned Item Fee,Fee,-7.99,Posted,REF0000056356,Synthetic transaction
+TXN-0000293,ACCT-000052,CUST-00052,2026-03-23,2026-03-23,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-219.15,Posted,REF0000056549,Synthetic transaction
+TXN-0000294,ACCT-000059,CUST-00059,2026-05-19,2026-05-19,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-128.94,Posted,REF0000056742,Synthetic transaction
+TXN-0000295,ACCT-000066,CUST-00066,2026-06-08,2026-06-10,Deposit - Atlas Wireless,Atlas Wireless,Deposit,2783.5,Posted,REF0000056935,Synthetic transaction
+TXN-0000296,ACCT-000073,CUST-00073,2026-02-19,2026-02-19,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-745.87,Posted,REF0000057128,Synthetic transaction
+TXN-0000297,ACCT-000080,CUST-00080,2026-02-19,2026-02-19,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-316.13,Posted,REF0000057321,Synthetic transaction
+TXN-0000298,ACCT-000087,CUST-00087,2026-04-02,2026-04-02,Bill Pay - StreamBox Media,StreamBox Media,Bill Pay,-120.18,Posted,REF0000057514,Synthetic transaction
+TXN-0000299,ACCT-000094,CUST-00094,2026-04-16,2026-04-16,ACH Debit - City Fitness,City Fitness,ACH Debit,-290.4,Posted,REF0000057707,Synthetic transaction
+TXN-0000300,ACCT-000101,CUST-00101,2026-02-13,2026-02-13,Transfer In - StreamBox Media,StreamBox Media,Transfer In,744.74,Posted,REF0000057900,Synthetic transaction
+TXN-0000301,ACCT-000108,CUST-00108,2026-05-30,2026-05-30,Fee - Wire Fee,Wire Fee,Fee,-22.21,Posted,REF0000058093,Synthetic transaction
+TXN-0000302,ACCT-000115,CUST-00115,2026-05-02,2026-05-02,ACH Debit - City Fitness,City Fitness,ACH Debit,-427.18,Posted,REF0000058286,Synthetic transaction
+TXN-0000303,ACCT-000122,CUST-00122,2026-03-31,2026-03-31,Bill Pay - Atlas Wireless,Atlas Wireless,Bill Pay,-57.65,Posted,REF0000058479,Synthetic transaction
+TXN-0000304,ACCT-000129,CUST-00129,2026-04-21,2026-04-21,Card Purchase - MedPlus Clinic,MedPlus Clinic,Card Purchase,-237.01,Posted,REF0000058672,Synthetic transaction
+TXN-0000305,ACCT-000136,CUST-00136,2026-05-21,2026-05-21,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-212.83,Posted,REF0000058865,Synthetic transaction
+TXN-0000306,ACCT-000143,CUST-00143,2026-01-27,2026-01-27,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-35.88,Posted,REF0000059058,Synthetic transaction
+TXN-0000307,ACCT-000150,CUST-00150,2026-06-19,2026-06-19,Transfer In - Atlas Wireless,Atlas Wireless,Transfer In,232.32,Posted,REF0000059251,Synthetic transaction
+TXN-0000308,ACCT-000157,CUST-00157,2026-03-24,2026-03-24,Fee - Returned Item Fee,Returned Item Fee,Fee,-21.98,Posted,REF0000059444,Synthetic transaction
+TXN-0000309,ACCT-000164,CUST-00164,2026-03-03,2026-03-03,Refund - RideNow Transit,RideNow Transit,Refund,3427.26,Posted,REF0000059637,Synthetic transaction
+TXN-0000310,ACCT-000171,CUST-00171,2026-05-03,2026-05-05,Card Purchase - Harbor Insurance,Harbor Insurance,Card Purchase,-136.66,Posted,REF0000059830,Synthetic transaction
+TXN-0000311,ACCT-000178,CUST-00178,2026-04-04,2026-04-04,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-263.58,Posted,REF0000060023,Synthetic transaction
+TXN-0000312,ACCT-000185,CUST-00185,2026-04-09,2026-04-11,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,801.11,Posted,REF0000060216,Synthetic transaction
+TXN-0000313,ACCT-000192,CUST-00192,2026-02-27,2026-02-27,ATM - City Fitness,City Fitness,ATM,-585.51,Posted,REF0000060409,Synthetic transaction
+TXN-0000314,ACCT-000199,CUST-00199,2026-05-24,2026-05-26,POS - Metro Grocery,Metro Grocery,POS,-49.52,Posted,REF0000060602,Synthetic transaction
+TXN-0000315,ACCT-000206,CUST-00006,2026-02-18,2026-02-20,Refund - TuitionPay,TuitionPay,Refund,1752.84,Posted,REF0000060795,Synthetic transaction
+TXN-0000316,ACCT-000213,CUST-00013,2026-06-21,2026-06-21,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-399.89,Posted,REF0000060988,Synthetic transaction
+TXN-0000317,ACCT-000220,CUST-00020,2026-06-21,2026-06-21,Refund - City Fitness,City Fitness,Refund,1784.08,Posted,REF0000061181,Synthetic transaction
+TXN-0000318,ACCT-000227,CUST-00027,2026-03-12,2026-03-12,POS - RideNow Transit,RideNow Transit,POS,-427.32,Posted,REF0000061374,Synthetic transaction
+TXN-0000319,ACCT-000234,CUST-00034,2026-06-13,2026-06-13,ACH Credit - Metro Grocery,Metro Grocery,ACH Credit,1791.19,Posted,REF0000061567,Synthetic transaction
+TXN-0000320,ACCT-000241,CUST-00041,2026-05-23,2026-05-23,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-620.11,Posted,REF0000061760,Synthetic transaction
+TXN-0000321,ACCT-000248,CUST-00048,2026-03-29,2026-03-29,POS - City Fitness,City Fitness,POS,-210.11,Posted,REF0000061953,Synthetic transaction
+TXN-0000322,ACCT-000255,CUST-00055,2026-04-17,2026-04-17,Fee - Overdraft Fee,Overdraft Fee,Fee,-15.33,Pending,REF0000062146,Synthetic transaction
+TXN-0000323,ACCT-000262,CUST-00062,2026-02-14,2026-02-14,POS - Northline Utilities,Northline Utilities,POS,-349.28,Posted,REF0000062339,Synthetic transaction
+TXN-0000324,ACCT-000269,CUST-00069,2026-01-26,2026-01-26,Refund - MedPlus Clinic,MedPlus Clinic,Refund,295.46,Posted,REF0000062532,Synthetic transaction
+TXN-0000325,ACCT-000276,CUST-00076,2026-04-05,2026-04-05,Deposit - Metro Grocery,Metro Grocery,Deposit,1203.4,Posted,REF0000062725,Synthetic transaction
+TXN-0000326,ACCT-000283,CUST-00083,2026-06-16,2026-06-16,ACH Debit - FastShip,FastShip,ACH Debit,-659.09,Posted,REF0000062918,Synthetic transaction
+TXN-0000327,ACCT-000290,CUST-00090,2026-03-31,2026-04-02,Transfer In - BrightFuel,BrightFuel,Transfer In,2009.29,Posted,REF0000063111,Synthetic transaction
+TXN-0000328,ACCT-000297,CUST-00097,2026-04-16,2026-04-16,Refund - Metro Grocery,Metro Grocery,Refund,296.02,Pending,REF0000063304,Synthetic transaction
+TXN-0000329,ACCT-000304,CUST-00104,2026-02-03,2026-02-03,Card Purchase - Northline Utilities,Northline Utilities,Card Purchase,-753.87,Posted,REF0000063497,Synthetic transaction
+TXN-0000330,ACCT-000311,CUST-00111,2026-04-24,2026-04-24,ATM - TuitionPay,TuitionPay,ATM,-680.35,Posted,REF0000063690,Synthetic transaction
+TXN-0000331,ACCT-000318,CUST-00118,2026-03-29,2026-03-29,Transfer In - Atlas Wireless,Atlas Wireless,Transfer In,937.34,Posted,REF0000063883,Synthetic transaction
+TXN-0000332,ACCT-000325,CUST-00125,2026-05-05,2026-05-05,Refund - FastShip,FastShip,Refund,174.4,Posted,REF0000064076,Synthetic transaction
+TXN-0000333,ACCT-000332,CUST-00132,2026-05-21,2026-05-21,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-39.77,Posted,REF0000064269,Synthetic transaction
+TXN-0000334,ACCT-000339,CUST-00139,2026-04-19,2026-04-21,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-199.13,Posted,REF0000064462,Synthetic transaction
+TXN-0000335,ACCT-000346,CUST-00146,2026-03-07,2026-03-09,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-459.7,Posted,REF0000064655,Synthetic transaction
+TXN-0000336,ACCT-000353,CUST-00153,2026-05-22,2026-05-24,Bill Pay - Atlas Wireless,Atlas Wireless,Bill Pay,-631.3,Posted,REF0000064848,Synthetic transaction
+TXN-0000337,ACCT-000360,CUST-00160,2026-05-21,2026-05-21,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-693.13,Posted,REF0000065041,Synthetic transaction
+TXN-0000338,ACCT-000367,CUST-00167,2026-05-07,2026-05-07,Card Purchase - FastShip,FastShip,Card Purchase,-196.83,Posted,REF0000065234,Synthetic transaction
+TXN-0000339,ACCT-000374,CUST-00174,2026-06-22,2026-06-22,POS - RideNow Transit,RideNow Transit,POS,-457.14,Posted,REF0000065427,Synthetic transaction
+TXN-0000340,ACCT-000381,CUST-00181,2026-03-04,2026-03-04,Refund - Bluebird Pharmacy,Bluebird Pharmacy,Refund,2877.92,Posted,REF0000065620,Synthetic transaction
+TXN-0000341,ACCT-000388,CUST-00188,2026-06-10,2026-06-10,ATM - Northline Utilities,Northline Utilities,ATM,-125.63,Posted,REF0000065813,Synthetic transaction
+TXN-0000342,ACCT-000395,CUST-00195,2026-02-18,2026-02-18,Bill Pay - FastShip,FastShip,Bill Pay,-675.62,Posted,REF0000066006,Synthetic transaction
+TXN-0000343,ACCT-000002,CUST-00002,2026-05-10,2026-05-10,ATM - City Fitness,City Fitness,ATM,-422.38,Posted,REF0000066199,Synthetic transaction
+TXN-0000344,ACCT-000009,CUST-00009,2026-03-09,2026-03-09,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-95.17,Posted,REF0000066392,Synthetic transaction
+TXN-0000345,ACCT-000016,CUST-00016,2026-01-27,2026-01-27,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-17.19,Posted,REF0000066585,Synthetic transaction
+TXN-0000346,ACCT-000023,CUST-00023,2026-02-27,2026-02-27,Bill Pay - TuitionPay,TuitionPay,Bill Pay,-316.28,Posted,REF0000066778,Synthetic transaction
+TXN-0000347,ACCT-000030,CUST-00030,2026-03-15,2026-03-17,Deposit - GreenLeaf Market,GreenLeaf Market,Deposit,2831.19,Posted,REF0000066971,Synthetic transaction
+TXN-0000348,ACCT-000037,CUST-00037,2026-02-16,2026-02-16,Deposit - Atlas Wireless,Atlas Wireless,Deposit,1732.1,Posted,REF0000067164,Synthetic transaction
+TXN-0000349,ACCT-000044,CUST-00044,2026-05-19,2026-05-19,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,173.5,Posted,REF0000067357,Synthetic transaction
+TXN-0000350,ACCT-000051,CUST-00051,2026-04-09,2026-04-09,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-131.92,Posted,REF0000067550,Synthetic transaction
+TXN-0000351,ACCT-000058,CUST-00058,2026-03-24,2026-03-26,POS - GreenLeaf Market,GreenLeaf Market,POS,-759.24,Posted,REF0000067743,Synthetic transaction
+TXN-0000352,ACCT-000065,CUST-00065,2026-02-26,2026-02-26,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-261.74,Posted,REF0000067936,Synthetic transaction
+TXN-0000353,ACCT-000072,CUST-00072,2026-04-29,2026-04-29,Transfer In - FastShip,FastShip,Transfer In,513.7,Posted,REF0000068129,Synthetic transaction
+TXN-0000354,ACCT-000079,CUST-00079,2026-02-01,2026-02-01,Deposit - Oak & Main,Oak & Main,Deposit,1523.16,Posted,REF0000068322,Synthetic transaction
+TXN-0000355,ACCT-000086,CUST-00086,2026-05-23,2026-05-23,ATM - Oak & Main,Oak & Main,ATM,-313.57,Posted,REF0000068515,Synthetic transaction
+TXN-0000356,ACCT-000093,CUST-00093,2026-05-04,2026-05-04,Bill Pay - City Fitness,City Fitness,Bill Pay,-681.87,Posted,REF0000068708,Synthetic transaction
+TXN-0000357,ACCT-000100,CUST-00100,2026-05-21,2026-05-21,Bill Pay - StreamBox Media,StreamBox Media,Bill Pay,-90.3,Posted,REF0000068901,Synthetic transaction
+TXN-0000358,ACCT-000107,CUST-00107,2026-03-01,2026-03-01,ACH Debit - Oak & Main,Oak & Main,ACH Debit,-33.36,Posted,REF0000069094,Synthetic transaction
+TXN-0000359,ACCT-000114,CUST-00114,2026-01-30,2026-01-30,ATM - TuitionPay,TuitionPay,ATM,-360.41,Posted,REF0000069287,Synthetic transaction
+TXN-0000360,ACCT-000121,CUST-00121,2026-05-13,2026-05-13,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,2912.56,Posted,REF0000069480,Synthetic transaction
+TXN-0000361,ACCT-000128,CUST-00128,2026-02-03,2026-02-03,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-639.15,Posted,REF0000069673,Synthetic transaction
+TXN-0000362,ACCT-000135,CUST-00135,2026-04-21,2026-04-21,Refund - Bluebird Pharmacy,Bluebird Pharmacy,Refund,694.5,Posted,REF0000069866,Synthetic transaction
+TXN-0000363,ACCT-000142,CUST-00142,2026-01-24,2026-01-24,Transfer In - TuitionPay,TuitionPay,Transfer In,46.35,Posted,REF0000070059,Synthetic transaction
+TXN-0000364,ACCT-000149,CUST-00149,2026-06-09,2026-06-09,POS - Metro Grocery,Metro Grocery,POS,-521.26,Posted,REF0000070252,Synthetic transaction
+TXN-0000365,ACCT-000156,CUST-00156,2026-03-04,2026-03-04,ACH Credit - City Fitness,City Fitness,ACH Credit,1104.45,Posted,REF0000070445,Synthetic transaction
+TXN-0000366,ACCT-000163,CUST-00163,2026-04-29,2026-04-29,Card Purchase - Atlas Wireless,Atlas Wireless,Card Purchase,-294.44,Posted,REF0000070638,Synthetic transaction
+TXN-0000367,ACCT-000170,CUST-00170,2026-02-27,2026-03-01,ATM - Bluebird Pharmacy,Bluebird Pharmacy,ATM,-672.73,Posted,REF0000070831,Synthetic transaction
+TXN-0000368,ACCT-000177,CUST-00177,2026-04-14,2026-04-14,ACH Credit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Credit,3375.82,Posted,REF0000071024,Synthetic transaction
+TXN-0000369,ACCT-000184,CUST-00184,2026-03-15,2026-03-17,Fee - Wire Fee,Wire Fee,Fee,-33.46,Posted,REF0000071217,Synthetic transaction
+TXN-0000370,ACCT-000191,CUST-00191,2026-03-20,2026-03-20,Fee - Overdraft Fee,Overdraft Fee,Fee,-17.14,Posted,REF0000071410,Synthetic transaction
+TXN-0000371,ACCT-000198,CUST-00198,2026-04-19,2026-04-19,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-304.61,Posted,REF0000071603,Synthetic transaction
+TXN-0000372,ACCT-000205,CUST-00005,2026-04-15,2026-04-15,ACH Credit - Metro Grocery,Metro Grocery,ACH Credit,2280.94,Posted,REF0000071796,Synthetic transaction
+TXN-0000373,ACCT-000212,CUST-00012,2026-03-27,2026-03-27,Bill Pay - FastShip,FastShip,Bill Pay,-740.54,Posted,REF0000071989,Synthetic transaction
+TXN-0000374,ACCT-000219,CUST-00019,2026-04-16,2026-04-16,ATM - TuitionPay,TuitionPay,ATM,-174.6,Posted,REF0000072182,Synthetic transaction
+TXN-0000375,ACCT-000226,CUST-00026,2026-03-27,2026-03-29,Transfer In - RideNow Transit,RideNow Transit,Transfer In,1498,Posted,REF0000072375,Synthetic transaction
+TXN-0000376,ACCT-000233,CUST-00033,2026-03-24,2026-03-26,Transfer In - Metro Grocery,Metro Grocery,Transfer In,152.19,Posted,REF0000072568,Synthetic transaction
+TXN-0000377,ACCT-000240,CUST-00040,2026-04-28,2026-04-28,Fee - Returned Item Fee,Returned Item Fee,Fee,-12.9,Posted,REF0000072761,Synthetic transaction
+TXN-0000378,ACCT-000247,CUST-00047,2026-02-20,2026-02-20,Refund - Harbor Insurance,Harbor Insurance,Refund,1584.71,Posted,REF0000072954,Synthetic transaction
+TXN-0000379,ACCT-000254,CUST-00054,2026-06-13,2026-06-13,Bill Pay - FastShip,FastShip,Bill Pay,-121.38,Posted,REF0000073147,Synthetic transaction
+TXN-0000380,ACCT-000261,CUST-00061,2026-04-08,2026-04-08,Bill Pay - FastShip,FastShip,Bill Pay,-736.59,Posted,REF0000073340,Synthetic transaction
+TXN-0000381,ACCT-000268,CUST-00068,2026-02-05,2026-02-05,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-644.53,Posted,REF0000073533,Synthetic transaction
+TXN-0000382,ACCT-000275,CUST-00075,2026-06-20,2026-06-20,Fee - Returned Item Fee,Returned Item Fee,Fee,-19.26,Posted,REF0000073726,Synthetic transaction
+TXN-0000383,ACCT-000282,CUST-00082,2026-02-10,2026-02-10,Transfer In - Harbor Insurance,Harbor Insurance,Transfer In,2332.68,Posted,REF0000073919,Synthetic transaction
+TXN-0000384,ACCT-000289,CUST-00089,2026-04-12,2026-04-12,POS - StreamBox Media,StreamBox Media,POS,-276.82,Posted,REF0000074112,Synthetic transaction
+TXN-0000385,ACCT-000296,CUST-00096,2026-04-26,2026-04-26,Refund - MedPlus Clinic,MedPlus Clinic,Refund,782.75,Posted,REF0000074305,Synthetic transaction
+TXN-0000386,ACCT-000303,CUST-00103,2026-04-02,2026-04-02,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-299.73,Posted,REF0000074498,Synthetic transaction
+TXN-0000387,ACCT-000310,CUST-00110,2026-03-25,2026-03-27,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-244.18,Posted,REF0000074691,Synthetic transaction
+TXN-0000388,ACCT-000317,CUST-00117,2026-04-20,2026-04-20,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-270.82,Posted,REF0000074884,Synthetic transaction
+TXN-0000389,ACCT-000324,CUST-00124,2026-02-08,2026-02-08,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-525.52,Pending,REF0000075077,Synthetic transaction
+TXN-0000390,ACCT-000331,CUST-00131,2026-01-24,2026-01-24,ATM - Northline Utilities,Northline Utilities,ATM,-208.34,Posted,REF0000075270,Synthetic transaction
+TXN-0000391,ACCT-000338,CUST-00138,2026-03-13,2026-03-13,Deposit - Harbor Insurance,Harbor Insurance,Deposit,320.26,Posted,REF0000075463,Synthetic transaction
+TXN-0000392,ACCT-000345,CUST-00145,2026-06-16,2026-06-16,Fee - Overdraft Fee,Overdraft Fee,Fee,-13.54,Posted,REF0000075656,Synthetic transaction
+TXN-0000393,ACCT-000352,CUST-00152,2026-03-30,2026-04-01,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-561.83,Pending,REF0000075849,Synthetic transaction
+TXN-0000394,ACCT-000359,CUST-00159,2026-02-23,2026-02-23,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-764.49,Posted,REF0000076042,Synthetic transaction
+TXN-0000395,ACCT-000366,CUST-00166,2026-03-21,2026-03-21,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-502.37,Posted,REF0000076235,Synthetic transaction
+TXN-0000396,ACCT-000373,CUST-00173,2026-02-07,2026-02-07,Refund - Atlas Wireless,Atlas Wireless,Refund,2456.83,Posted,REF0000076428,Synthetic transaction
+TXN-0000397,ACCT-000380,CUST-00180,2026-03-28,2026-03-28,Fee - Overdraft Fee,Overdraft Fee,Fee,-33.08,Posted,REF0000076621,Synthetic transaction
+TXN-0000398,ACCT-000387,CUST-00187,2026-02-10,2026-02-10,Transfer In - Bluebird Pharmacy,Bluebird Pharmacy,Transfer In,2093.74,Posted,REF0000076814,Synthetic transaction
+TXN-0000399,ACCT-000394,CUST-00194,2026-02-01,2026-02-01,ACH Credit - Corner Cafe,Corner Cafe,ACH Credit,2439.53,Posted,REF0000077007,Synthetic transaction
+TXN-0000400,ACCT-000001,CUST-00001,2026-06-03,2026-06-05,POS - Atlas Wireless,Atlas Wireless,POS,-489.96,Posted,REF0000077200,Synthetic transaction
+TXN-0000401,ACCT-000008,CUST-00008,2026-03-21,2026-03-21,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-220.37,Posted,REF0000077393,Synthetic transaction
+TXN-0000402,ACCT-000015,CUST-00015,2026-03-17,2026-03-17,Transfer In - Metro Grocery,Metro Grocery,Transfer In,28.25,Posted,REF0000077586,Synthetic transaction
+TXN-0000403,ACCT-000022,CUST-00022,2026-05-19,2026-05-19,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-683.51,Posted,REF0000077779,Synthetic transaction
+TXN-0000404,ACCT-000029,CUST-00029,2026-03-18,2026-03-18,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-15.31,Posted,REF0000077972,Synthetic transaction
+TXN-0000405,ACCT-000036,CUST-00036,2026-06-05,2026-06-05,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-565.7,Posted,REF0000078165,Synthetic transaction
+TXN-0000406,ACCT-000043,CUST-00043,2026-02-07,2026-02-07,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-741.75,Posted,REF0000078358,Synthetic transaction
+TXN-0000407,ACCT-000050,CUST-00050,2026-02-08,2026-02-08,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-269.1,Posted,REF0000078551,Synthetic transaction
+TXN-0000408,ACCT-000057,CUST-00057,2026-05-20,2026-05-20,ACH Debit - FastShip,FastShip,ACH Debit,-367.06,Posted,REF0000078744,Synthetic transaction
+TXN-0000409,ACCT-000064,CUST-00064,2026-03-05,2026-03-05,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-612.31,Posted,REF0000078937,Synthetic transaction
+TXN-0000410,ACCT-000071,CUST-00071,2026-04-13,2026-04-13,Transfer In - RideNow Transit,RideNow Transit,Transfer In,495.15,Posted,REF0000079130,Synthetic transaction
+TXN-0000411,ACCT-000078,CUST-00078,2026-04-24,2026-04-24,Deposit - Metro Grocery,Metro Grocery,Deposit,2361.34,Posted,REF0000079323,Synthetic transaction
+TXN-0000412,ACCT-000085,CUST-00085,2026-02-10,2026-02-10,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-27.7,Posted,REF0000079516,Synthetic transaction
+TXN-0000413,ACCT-000092,CUST-00092,2026-05-01,2026-05-01,Bill Pay - Atlas Wireless,Atlas Wireless,Bill Pay,-336.81,Posted,REF0000079709,Synthetic transaction
+TXN-0000414,ACCT-000099,CUST-00099,2026-02-25,2026-02-25,Transfer In - MedPlus Clinic,MedPlus Clinic,Transfer In,567.81,Posted,REF0000079902,Synthetic transaction
+TXN-0000415,ACCT-000106,CUST-00106,2026-01-27,2026-01-27,Deposit - MedPlus Clinic,MedPlus Clinic,Deposit,3011.57,Posted,REF0000080095,Synthetic transaction
+TXN-0000416,ACCT-000113,CUST-00113,2026-05-15,2026-05-15,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-658.41,Pending,REF0000080288,Synthetic transaction
+TXN-0000417,ACCT-000120,CUST-00120,2026-04-11,2026-04-11,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-637.69,Posted,REF0000080481,Synthetic transaction
+TXN-0000418,ACCT-000127,CUST-00127,2026-03-13,2026-03-13,POS - GreenLeaf Market,GreenLeaf Market,POS,-398.73,Posted,REF0000080674,Synthetic transaction
+TXN-0000419,ACCT-000134,CUST-00134,2026-05-26,2026-05-26,Refund - Bluebird Pharmacy,Bluebird Pharmacy,Refund,1532.77,Posted,REF0000080867,Synthetic transaction
+TXN-0000420,ACCT-000141,CUST-00141,2026-06-19,2026-06-19,POS - TuitionPay,TuitionPay,POS,-632.46,Posted,REF0000081060,Synthetic transaction
+TXN-0000421,ACCT-000148,CUST-00148,2026-03-23,2026-03-23,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-142.34,Posted,REF0000081253,Synthetic transaction
+TXN-0000422,ACCT-000155,CUST-00155,2026-06-17,2026-06-17,Transfer In - StreamBox Media,StreamBox Media,Transfer In,3265.9,Posted,REF0000081446,Synthetic transaction
+TXN-0000423,ACCT-000162,CUST-00162,2026-02-26,2026-02-26,Bill Pay - City Fitness,City Fitness,Bill Pay,-25.36,Posted,REF0000081639,Synthetic transaction
+TXN-0000424,ACCT-000169,CUST-00169,2026-04-02,2026-04-04,ACH Credit - Corner Cafe,Corner Cafe,ACH Credit,3197.41,Posted,REF0000081832,Synthetic transaction
+TXN-0000425,ACCT-000176,CUST-00176,2026-05-31,2026-05-31,ATM - Atlas Wireless,Atlas Wireless,ATM,-202.4,Posted,REF0000082025,Synthetic transaction
+TXN-0000426,ACCT-000183,CUST-00183,2026-06-02,2026-06-02,Card Purchase - StreamBox Media,StreamBox Media,Card Purchase,-579.27,Posted,REF0000082218,Synthetic transaction
+TXN-0000427,ACCT-000190,CUST-00190,2026-02-27,2026-02-27,Deposit - BrightFuel,BrightFuel,Deposit,3209.09,Posted,REF0000082411,Synthetic transaction
+TXN-0000428,ACCT-000197,CUST-00197,2026-05-11,2026-05-11,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-609.49,Posted,REF0000082604,Synthetic transaction
+TXN-0000429,ACCT-000204,CUST-00004,2026-02-06,2026-02-06,POS - BrightFuel,BrightFuel,POS,-750.49,Posted,REF0000082797,Synthetic transaction
+TXN-0000430,ACCT-000211,CUST-00011,2026-02-15,2026-02-15,Fee - Returned Item Fee,Returned Item Fee,Fee,-35.56,Posted,REF0000082990,Synthetic transaction
+TXN-0000431,ACCT-000218,CUST-00018,2026-03-12,2026-03-12,POS - Northline Utilities,Northline Utilities,POS,-269.15,Posted,REF0000083183,Synthetic transaction
+TXN-0000432,ACCT-000225,CUST-00025,2026-03-13,2026-03-13,Refund - Corner Cafe,Corner Cafe,Refund,1478.17,Posted,REF0000083376,Synthetic transaction
+TXN-0000433,ACCT-000232,CUST-00032,2026-05-16,2026-05-16,ATM - City Fitness,City Fitness,ATM,-149.98,Posted,REF0000083569,Synthetic transaction
+TXN-0000434,ACCT-000239,CUST-00039,2026-06-21,2026-06-21,Bill Pay - City Fitness,City Fitness,Bill Pay,-447.31,Posted,REF0000083762,Synthetic transaction
+TXN-0000435,ACCT-000246,CUST-00046,2026-05-10,2026-05-10,Card Purchase - MedPlus Clinic,MedPlus Clinic,Card Purchase,-514.21,Posted,REF0000083955,Synthetic transaction
+TXN-0000436,ACCT-000253,CUST-00053,2026-04-18,2026-04-18,Refund - Metro Grocery,Metro Grocery,Refund,2880.44,Posted,REF0000084148,Synthetic transaction
+TXN-0000437,ACCT-000260,CUST-00060,2026-04-26,2026-04-26,Card Purchase - Northline Utilities,Northline Utilities,Card Purchase,-722.97,Posted,REF0000084341,Synthetic transaction
+TXN-0000438,ACCT-000267,CUST-00067,2026-04-03,2026-04-03,Transfer In - Oak & Main,Oak & Main,Transfer In,2337.18,Posted,REF0000084534,Synthetic transaction
+TXN-0000439,ACCT-000274,CUST-00074,2026-04-25,2026-04-25,ATM - Bluebird Pharmacy,Bluebird Pharmacy,ATM,-468.35,Posted,REF0000084727,Synthetic transaction
+TXN-0000440,ACCT-000281,CUST-00081,2026-03-27,2026-03-27,Refund - FastShip,FastShip,Refund,595.17,Posted,REF0000084920,Synthetic transaction
+TXN-0000441,ACCT-000288,CUST-00088,2026-04-21,2026-04-21,Fee - Overdraft Fee,Overdraft Fee,Fee,-7.42,Posted,REF0000085113,Synthetic transaction
+TXN-0000442,ACCT-000295,CUST-00095,2026-05-14,2026-05-14,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-34.88,Posted,REF0000085306,Synthetic transaction
+TXN-0000443,ACCT-000302,CUST-00102,2026-04-14,2026-04-14,POS - RideNow Transit,RideNow Transit,POS,-172.99,Posted,REF0000085499,Synthetic transaction
+TXN-0000444,ACCT-000309,CUST-00109,2026-03-22,2026-03-24,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-624.44,Posted,REF0000085692,Synthetic transaction
+TXN-0000445,ACCT-000316,CUST-00116,2026-06-04,2026-06-04,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-3.19,Posted,REF0000085885,Synthetic transaction
+TXN-0000446,ACCT-000323,CUST-00123,2026-04-10,2026-04-10,ACH Debit - Atlas Wireless,Atlas Wireless,ACH Debit,-137.88,Pending,REF0000086078,Synthetic transaction
+TXN-0000447,ACCT-000330,CUST-00130,2026-05-27,2026-05-27,ACH Credit - Northline Utilities,Northline Utilities,ACH Credit,1036.74,Posted,REF0000086271,Synthetic transaction
+TXN-0000448,ACCT-000337,CUST-00137,2026-03-25,2026-03-25,Refund - MedPlus Clinic,MedPlus Clinic,Refund,1985.2,Posted,REF0000086464,Synthetic transaction
+TXN-0000449,ACCT-000344,CUST-00144,2026-03-25,2026-03-27,Card Purchase - City Fitness,City Fitness,Card Purchase,-456.51,Posted,REF0000086657,Synthetic transaction
+TXN-0000450,ACCT-000351,CUST-00151,2026-03-15,2026-03-15,Deposit - Corner Cafe,Corner Cafe,Deposit,857.29,Posted,REF0000086850,Synthetic transaction
+TXN-0000451,ACCT-000358,CUST-00158,2026-06-11,2026-06-11,ACH Debit - FastShip,FastShip,ACH Debit,-184.35,Posted,REF0000087043,Synthetic transaction
+TXN-0000452,ACCT-000365,CUST-00165,2026-05-31,2026-05-31,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-88.15,Posted,REF0000087236,Synthetic transaction
+TXN-0000453,ACCT-000372,CUST-00172,2026-05-19,2026-05-19,Card Purchase - FastShip,FastShip,Card Purchase,-674.92,Posted,REF0000087429,Synthetic transaction
+TXN-0000454,ACCT-000379,CUST-00179,2026-02-24,2026-02-24,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-274.35,Posted,REF0000087622,Synthetic transaction
+TXN-0000455,ACCT-000386,CUST-00186,2026-06-16,2026-06-16,Transfer In - City Fitness,City Fitness,Transfer In,2872.92,Posted,REF0000087815,Synthetic transaction
+TXN-0000456,ACCT-000393,CUST-00193,2026-03-30,2026-03-30,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-196.1,Posted,REF0000088008,Synthetic transaction
+TXN-0000457,ACCT-000400,CUST-00200,2026-03-28,2026-03-28,Deposit - Northline Utilities,Northline Utilities,Deposit,2962.44,Posted,REF0000088201,Synthetic transaction
+TXN-0000458,ACCT-000007,CUST-00007,2026-04-23,2026-04-23,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-23.62,Posted,REF0000088394,Synthetic transaction
+TXN-0000459,ACCT-000014,CUST-00014,2026-05-19,2026-05-19,Card Purchase - FastShip,FastShip,Card Purchase,-218.88,Posted,REF0000088587,Synthetic transaction
+TXN-0000460,ACCT-000021,CUST-00021,2026-04-07,2026-04-07,ATM - RideNow Transit,RideNow Transit,ATM,-439.46,Posted,REF0000088780,Synthetic transaction
+TXN-0000461,ACCT-000028,CUST-00028,2026-05-15,2026-05-15,ATM - Harbor Insurance,Harbor Insurance,ATM,-123.65,Posted,REF0000088973,Synthetic transaction
+TXN-0000462,ACCT-000035,CUST-00035,2026-05-10,2026-05-10,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-12.72,Posted,REF0000089166,Synthetic transaction
+TXN-0000463,ACCT-000042,CUST-00042,2026-03-21,2026-03-21,POS - MedPlus Clinic,MedPlus Clinic,POS,-400.32,Posted,REF0000089359,Synthetic transaction
+TXN-0000464,ACCT-000049,CUST-00049,2026-06-09,2026-06-09,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-570.19,Posted,REF0000089552,Synthetic transaction
+TXN-0000465,ACCT-000056,CUST-00056,2026-02-27,2026-02-27,Fee - Returned Item Fee,Returned Item Fee,Fee,-9.99,Posted,REF0000089745,Synthetic transaction
+TXN-0000466,ACCT-000063,CUST-00063,2026-05-21,2026-05-21,Refund - Northline Utilities,Northline Utilities,Refund,3101.88,Posted,REF0000089938,Synthetic transaction
+TXN-0000467,ACCT-000070,CUST-00070,2026-04-17,2026-04-19,Fee - Returned Item Fee,Returned Item Fee,Fee,-20.98,Posted,REF0000090131,Synthetic transaction
+TXN-0000468,ACCT-000077,CUST-00077,2026-05-15,2026-05-15,POS - FastShip,FastShip,POS,-267.53,Posted,REF0000090324,Synthetic transaction
+TXN-0000469,ACCT-000084,CUST-00084,2026-02-04,2026-02-04,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-66.81,Posted,REF0000090517,Synthetic transaction
+TXN-0000470,ACCT-000091,CUST-00091,2026-05-04,2026-05-06,Transfer In - MedPlus Clinic,MedPlus Clinic,Transfer In,3019.65,Posted,REF0000090710,Synthetic transaction
+TXN-0000471,ACCT-000098,CUST-00098,2026-01-31,2026-01-31,Fee - Returned Item Fee,Returned Item Fee,Fee,-17.96,Pending,REF0000090903,Synthetic transaction
+TXN-0000472,ACCT-000105,CUST-00105,2026-03-01,2026-03-01,Bill Pay - FastShip,FastShip,Bill Pay,-115.5,Posted,REF0000091096,Synthetic transaction
+TXN-0000473,ACCT-000112,CUST-00112,2026-04-29,2026-04-29,Refund - Oak & Main,Oak & Main,Refund,1521.19,Pending,REF0000091289,Synthetic transaction
+TXN-0000474,ACCT-000119,CUST-00119,2026-06-04,2026-06-04,Fee - Wire Fee,Wire Fee,Fee,-15.57,Posted,REF0000091482,Synthetic transaction
+TXN-0000475,ACCT-000126,CUST-00126,2026-04-04,2026-04-04,Refund - Metro Grocery,Metro Grocery,Refund,1198.74,Posted,REF0000091675,Synthetic transaction
+TXN-0000476,ACCT-000133,CUST-00133,2026-06-04,2026-06-04,ATM - Metro Grocery,Metro Grocery,ATM,-10.67,Posted,REF0000091868,Synthetic transaction
+TXN-0000477,ACCT-000140,CUST-00140,2026-05-29,2026-05-29,Deposit - Oak & Main,Oak & Main,Deposit,1022.47,Posted,REF0000092061,Synthetic transaction
+TXN-0000478,ACCT-000147,CUST-00147,2026-01-27,2026-01-29,Fee - Wire Fee,Wire Fee,Fee,-34.34,Posted,REF0000092254,Synthetic transaction
+TXN-0000479,ACCT-000154,CUST-00154,2026-01-28,2026-01-30,Bill Pay - TuitionPay,TuitionPay,Bill Pay,-115.85,Posted,REF0000092447,Synthetic transaction
+TXN-0000480,ACCT-000161,CUST-00161,2026-04-10,2026-04-12,Refund - BrightFuel,BrightFuel,Refund,150.93,Posted,REF0000092640,Synthetic transaction
+TXN-0000481,ACCT-000168,CUST-00168,2026-03-01,2026-03-01,Refund - BrightFuel,BrightFuel,Refund,1736.78,Posted,REF0000092833,Synthetic transaction
+TXN-0000482,ACCT-000175,CUST-00175,2026-03-07,2026-03-07,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-112.56,Posted,REF0000093026,Synthetic transaction
+TXN-0000483,ACCT-000182,CUST-00182,2026-05-02,2026-05-02,Bill Pay - RideNow Transit,RideNow Transit,Bill Pay,-289.96,Posted,REF0000093219,Synthetic transaction
+TXN-0000484,ACCT-000189,CUST-00189,2026-06-07,2026-06-07,ATM - Corner Cafe,Corner Cafe,ATM,-463.36,Posted,REF0000093412,Synthetic transaction
+TXN-0000485,ACCT-000196,CUST-00196,2026-04-17,2026-04-17,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-38.05,Posted,REF0000093605,Synthetic transaction
+TXN-0000486,ACCT-000203,CUST-00003,2026-02-21,2026-02-21,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-550.16,Posted,REF0000093798,Synthetic transaction
+TXN-0000487,ACCT-000210,CUST-00010,2026-01-31,2026-02-02,Fee - Returned Item Fee,Returned Item Fee,Fee,-34.24,Posted,REF0000093991,Synthetic transaction
+TXN-0000488,ACCT-000217,CUST-00017,2026-02-04,2026-02-04,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-178.13,Pending,REF0000094184,Synthetic transaction
+TXN-0000489,ACCT-000224,CUST-00024,2026-05-05,2026-05-05,Card Purchase - Oak & Main,Oak & Main,Card Purchase,-572.25,Posted,REF0000094377,Synthetic transaction
+TXN-0000490,ACCT-000231,CUST-00031,2026-01-28,2026-01-28,ATM - Oak & Main,Oak & Main,ATM,-329.7,Posted,REF0000094570,Synthetic transaction
+TXN-0000491,ACCT-000238,CUST-00038,2026-05-17,2026-05-17,Deposit - GreenLeaf Market,GreenLeaf Market,Deposit,3068.58,Posted,REF0000094763,Synthetic transaction
+TXN-0000492,ACCT-000245,CUST-00045,2026-03-21,2026-03-21,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-555.96,Posted,REF0000094956,Synthetic transaction
+TXN-0000493,ACCT-000252,CUST-00052,2026-04-14,2026-04-14,POS - City Fitness,City Fitness,POS,-592.15,Posted,REF0000095149,Synthetic transaction
+TXN-0000494,ACCT-000259,CUST-00059,2026-05-02,2026-05-02,ATM - City Fitness,City Fitness,ATM,-409.29,Posted,REF0000095342,Synthetic transaction
+TXN-0000495,ACCT-000266,CUST-00066,2026-03-23,2026-03-23,Fee - Overdraft Fee,Overdraft Fee,Fee,-14.99,Posted,REF0000095535,Synthetic transaction
+TXN-0000496,ACCT-000273,CUST-00073,2026-02-13,2026-02-13,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-559.4,Posted,REF0000095728,Synthetic transaction
+TXN-0000497,ACCT-000280,CUST-00080,2026-04-10,2026-04-10,Fee - Wire Fee,Wire Fee,Fee,-10.89,Posted,REF0000095921,Synthetic transaction
+TXN-0000498,ACCT-000287,CUST-00087,2026-03-14,2026-03-14,Deposit - Bluebird Pharmacy,Bluebird Pharmacy,Deposit,2909.33,Posted,REF0000096114,Synthetic transaction
+TXN-0000499,ACCT-000294,CUST-00094,2026-04-12,2026-04-12,ATM - Oak & Main,Oak & Main,ATM,-432.8,Posted,REF0000096307,Synthetic transaction
+TXN-0000500,ACCT-000301,CUST-00101,2026-02-28,2026-02-28,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-614.72,Posted,REF0000096500,Synthetic transaction
+TXN-0000501,ACCT-000308,CUST-00108,2026-06-07,2026-06-07,Transfer In - GreenLeaf Market,GreenLeaf Market,Transfer In,2767.06,Posted,REF0000096693,Synthetic transaction
+TXN-0000502,ACCT-000315,CUST-00115,2026-02-05,2026-02-05,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-724.47,Posted,REF0000096886,Synthetic transaction
+TXN-0000503,ACCT-000322,CUST-00122,2026-05-30,2026-05-30,POS - StreamBox Media,StreamBox Media,POS,-96.17,Posted,REF0000097079,Synthetic transaction
+TXN-0000504,ACCT-000329,CUST-00129,2026-02-24,2026-02-24,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-540,Posted,REF0000097272,Synthetic transaction
+TXN-0000505,ACCT-000336,CUST-00136,2026-06-11,2026-06-11,Deposit - StreamBox Media,StreamBox Media,Deposit,2048.52,Pending,REF0000097465,Synthetic transaction
+TXN-0000506,ACCT-000343,CUST-00143,2026-04-28,2026-04-28,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-18,Posted,REF0000097658,Synthetic transaction
+TXN-0000507,ACCT-000350,CUST-00150,2026-05-06,2026-05-06,Card Purchase - Oak & Main,Oak & Main,Card Purchase,-225.63,Posted,REF0000097851,Synthetic transaction
+TXN-0000508,ACCT-000357,CUST-00157,2026-03-27,2026-03-27,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-12.97,Posted,REF0000098044,Synthetic transaction
+TXN-0000509,ACCT-000364,CUST-00164,2026-03-05,2026-03-05,ATM - Metro Grocery,Metro Grocery,ATM,-455.27,Posted,REF0000098237,Synthetic transaction
+TXN-0000510,ACCT-000371,CUST-00171,2026-05-23,2026-05-23,Refund - Northline Utilities,Northline Utilities,Refund,1021.86,Posted,REF0000098430,Synthetic transaction
+TXN-0000511,ACCT-000378,CUST-00178,2026-06-13,2026-06-13,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-47.81,Posted,REF0000098623,Synthetic transaction
+TXN-0000512,ACCT-000385,CUST-00185,2026-04-17,2026-04-17,Card Purchase - Bluebird Pharmacy,Bluebird Pharmacy,Card Purchase,-429.04,Posted,REF0000098816,Synthetic transaction
+TXN-0000513,ACCT-000392,CUST-00192,2026-06-17,2026-06-17,Fee - Returned Item Fee,Returned Item Fee,Fee,-30.99,Posted,REF0000099009,Synthetic transaction
+TXN-0000514,ACCT-000399,CUST-00199,2026-02-03,2026-02-03,ATM - StreamBox Media,StreamBox Media,ATM,-715.39,Posted,REF0000099202,Synthetic transaction
+TXN-0000515,ACCT-000006,CUST-00006,2026-01-25,2026-01-25,Transfer In - MedPlus Clinic,MedPlus Clinic,Transfer In,2487.94,Posted,REF0000099395,Synthetic transaction
+TXN-0000516,ACCT-000013,CUST-00013,2026-04-17,2026-04-17,POS - Harbor Insurance,Harbor Insurance,POS,-103.7,Posted,REF0000099588,Synthetic transaction
+TXN-0000517,ACCT-000020,CUST-00020,2026-02-25,2026-02-25,Fee - Overdraft Fee,Overdraft Fee,Fee,-6.54,Posted,REF0000099781,Synthetic transaction
+TXN-0000518,ACCT-000027,CUST-00027,2026-05-09,2026-05-09,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-68.23,Posted,REF0000099974,Synthetic transaction
+TXN-0000519,ACCT-000034,CUST-00034,2026-03-12,2026-03-12,ACH Credit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Credit,2971.79,Posted,REF0000100167,Synthetic transaction
+TXN-0000520,ACCT-000041,CUST-00041,2026-04-17,2026-04-17,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-12.01,Posted,REF0000100360,Synthetic transaction
+TXN-0000521,ACCT-000048,CUST-00048,2026-04-18,2026-04-20,ATM - FastShip,FastShip,ATM,-771.64,Posted,REF0000100553,Synthetic transaction
+TXN-0000522,ACCT-000055,CUST-00055,2026-03-25,2026-03-27,ACH Debit - FastShip,FastShip,ACH Debit,-434.92,Posted,REF0000100746,Synthetic transaction
+TXN-0000523,ACCT-000062,CUST-00062,2026-04-09,2026-04-09,Fee - Wire Fee,Wire Fee,Fee,-21.74,Posted,REF0000100939,Synthetic transaction
+TXN-0000524,ACCT-000069,CUST-00069,2026-04-17,2026-04-17,ATM - Atlas Wireless,Atlas Wireless,ATM,-714.13,Posted,REF0000101132,Synthetic transaction
+TXN-0000525,ACCT-000076,CUST-00076,2026-03-11,2026-03-11,Card Purchase - Northline Utilities,Northline Utilities,Card Purchase,-486.05,Posted,REF0000101325,Synthetic transaction
+TXN-0000526,ACCT-000083,CUST-00083,2026-05-07,2026-05-07,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-596.75,Posted,REF0000101518,Synthetic transaction
+TXN-0000527,ACCT-000090,CUST-00090,2026-03-12,2026-03-12,Deposit - RideNow Transit,RideNow Transit,Deposit,1812.57,Posted,REF0000101711,Synthetic transaction
+TXN-0000528,ACCT-000097,CUST-00097,2026-06-18,2026-06-18,ATM - Corner Cafe,Corner Cafe,ATM,-234.67,Posted,REF0000101904,Synthetic transaction
+TXN-0000529,ACCT-000104,CUST-00104,2026-02-25,2026-02-25,ACH Credit - RideNow Transit,RideNow Transit,ACH Credit,1717.2,Posted,REF0000102097,Synthetic transaction
+TXN-0000530,ACCT-000111,CUST-00111,2026-03-15,2026-03-15,Bill Pay - Atlas Wireless,Atlas Wireless,Bill Pay,-339.43,Posted,REF0000102290,Synthetic transaction
+TXN-0000531,ACCT-000118,CUST-00118,2026-06-01,2026-06-01,ACH Credit - City Fitness,City Fitness,ACH Credit,3148.97,Posted,REF0000102483,Synthetic transaction
+TXN-0000532,ACCT-000125,CUST-00125,2026-02-06,2026-02-06,ACH Debit - Metro Grocery,Metro Grocery,ACH Debit,-422.89,Posted,REF0000102676,Synthetic transaction
+TXN-0000533,ACCT-000132,CUST-00132,2026-06-07,2026-06-07,ACH Debit - Atlas Wireless,Atlas Wireless,ACH Debit,-571.23,Posted,REF0000102869,Synthetic transaction
+TXN-0000534,ACCT-000139,CUST-00139,2026-04-01,2026-04-01,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-7.77,Posted,REF0000103062,Synthetic transaction
+TXN-0000535,ACCT-000146,CUST-00146,2026-05-09,2026-05-09,ACH Debit - Northline Utilities,Northline Utilities,ACH Debit,-593.82,Pending,REF0000103255,Synthetic transaction
+TXN-0000536,ACCT-000153,CUST-00153,2026-02-25,2026-02-25,Deposit - MedPlus Clinic,MedPlus Clinic,Deposit,1258.28,Posted,REF0000103448,Synthetic transaction
+TXN-0000537,ACCT-000160,CUST-00160,2026-03-17,2026-03-19,Transfer In - StreamBox Media,StreamBox Media,Transfer In,1157.47,Posted,REF0000103641,Synthetic transaction
+TXN-0000538,ACCT-000167,CUST-00167,2026-03-10,2026-03-10,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-353.93,Posted,REF0000103834,Synthetic transaction
+TXN-0000539,ACCT-000174,CUST-00174,2026-01-26,2026-01-28,POS - MedPlus Clinic,MedPlus Clinic,POS,-17.75,Posted,REF0000104027,Synthetic transaction
+TXN-0000540,ACCT-000181,CUST-00181,2026-02-02,2026-02-04,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-487.08,Posted,REF0000104220,Synthetic transaction
+TXN-0000541,ACCT-000188,CUST-00188,2026-04-23,2026-04-23,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-606.47,Posted,REF0000104413,Synthetic transaction
+TXN-0000542,ACCT-000195,CUST-00195,2026-05-09,2026-05-09,POS - City Fitness,City Fitness,POS,-293.38,Posted,REF0000104606,Synthetic transaction
+TXN-0000543,ACCT-000202,CUST-00002,2026-05-02,2026-05-02,Transfer In - TuitionPay,TuitionPay,Transfer In,439.55,Pending,REF0000104799,Synthetic transaction
+TXN-0000544,ACCT-000209,CUST-00009,2026-04-12,2026-04-12,Fee - Wire Fee,Wire Fee,Fee,-8.02,Posted,REF0000104992,Synthetic transaction
+TXN-0000545,ACCT-000216,CUST-00016,2026-03-21,2026-03-21,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-221.99,Posted,REF0000105185,Synthetic transaction
+TXN-0000546,ACCT-000223,CUST-00023,2026-05-10,2026-05-10,Card Purchase - City Fitness,City Fitness,Card Purchase,-328.04,Posted,REF0000105378,Synthetic transaction
+TXN-0000547,ACCT-000230,CUST-00030,2026-06-22,2026-06-22,ACH Debit - City Fitness,City Fitness,ACH Debit,-254.55,Posted,REF0000105571,Synthetic transaction
+TXN-0000548,ACCT-000237,CUST-00037,2026-01-26,2026-01-26,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-82.89,Posted,REF0000105764,Synthetic transaction
+TXN-0000549,ACCT-000244,CUST-00044,2026-03-24,2026-03-24,Bill Pay - Harbor Insurance,Harbor Insurance,Bill Pay,-410.2,Posted,REF0000105957,Synthetic transaction
+TXN-0000550,ACCT-000251,CUST-00051,2026-06-09,2026-06-11,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-360.78,Posted,REF0000106150,Synthetic transaction
+TXN-0000551,ACCT-000258,CUST-00058,2026-06-03,2026-06-03,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-714.22,Posted,REF0000106343,Synthetic transaction
+TXN-0000552,ACCT-000265,CUST-00065,2026-01-29,2026-01-29,Transfer In - Oak & Main,Oak & Main,Transfer In,156.42,Posted,REF0000106536,Synthetic transaction
+TXN-0000553,ACCT-000272,CUST-00072,2026-04-01,2026-04-01,Fee - Returned Item Fee,Returned Item Fee,Fee,-20.06,Posted,REF0000106729,Synthetic transaction
+TXN-0000554,ACCT-000279,CUST-00079,2026-04-19,2026-04-21,ATM - Corner Cafe,Corner Cafe,ATM,-83.06,Posted,REF0000106922,Synthetic transaction
+TXN-0000555,ACCT-000286,CUST-00086,2026-06-02,2026-06-02,ATM - RideNow Transit,RideNow Transit,ATM,-711.1,Posted,REF0000107115,Synthetic transaction
+TXN-0000556,ACCT-000293,CUST-00093,2026-04-02,2026-04-02,Refund - Bluebird Pharmacy,Bluebird Pharmacy,Refund,3057.7,Posted,REF0000107308,Synthetic transaction
+TXN-0000557,ACCT-000300,CUST-00100,2026-04-16,2026-04-18,Transfer In - Northline Utilities,Northline Utilities,Transfer In,616.33,Posted,REF0000107501,Synthetic transaction
+TXN-0000558,ACCT-000307,CUST-00107,2026-03-22,2026-03-22,Transfer In - RideNow Transit,RideNow Transit,Transfer In,1312.9,Posted,REF0000107694,Synthetic transaction
+TXN-0000559,ACCT-000314,CUST-00114,2026-06-07,2026-06-07,Bill Pay - StreamBox Media,StreamBox Media,Bill Pay,-28.39,Posted,REF0000107887,Synthetic transaction
+TXN-0000560,ACCT-000321,CUST-00121,2026-06-07,2026-06-09,Card Purchase - City Fitness,City Fitness,Card Purchase,-128.64,Posted,REF0000108080,Synthetic transaction
+TXN-0000561,ACCT-000328,CUST-00128,2026-06-04,2026-06-04,ACH Credit - Atlas Wireless,Atlas Wireless,ACH Credit,1765.18,Posted,REF0000108273,Synthetic transaction
+TXN-0000562,ACCT-000335,CUST-00135,2026-04-24,2026-04-24,ACH Credit - Metro Grocery,Metro Grocery,ACH Credit,3013.47,Posted,REF0000108466,Synthetic transaction
+TXN-0000563,ACCT-000342,CUST-00142,2026-06-02,2026-06-04,Transfer In - RideNow Transit,RideNow Transit,Transfer In,43.32,Posted,REF0000108659,Synthetic transaction
+TXN-0000564,ACCT-000349,CUST-00149,2026-02-08,2026-02-08,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-383.81,Posted,REF0000108852,Synthetic transaction
+TXN-0000565,ACCT-000356,CUST-00156,2026-02-01,2026-02-01,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-24.94,Posted,REF0000109045,Synthetic transaction
+TXN-0000566,ACCT-000363,CUST-00163,2026-06-01,2026-06-01,Deposit - Atlas Wireless,Atlas Wireless,Deposit,2387.82,Posted,REF0000109238,Synthetic transaction
+TXN-0000567,ACCT-000370,CUST-00170,2026-04-30,2026-04-30,Refund - Northline Utilities,Northline Utilities,Refund,1747.83,Posted,REF0000109431,Synthetic transaction
+TXN-0000568,ACCT-000377,CUST-00177,2026-02-19,2026-02-19,POS - StreamBox Media,StreamBox Media,POS,-742.37,Posted,REF0000109624,Synthetic transaction
+TXN-0000569,ACCT-000384,CUST-00184,2026-03-01,2026-03-01,Deposit - Bluebird Pharmacy,Bluebird Pharmacy,Deposit,810.78,Posted,REF0000109817,Synthetic transaction
+TXN-0000570,ACCT-000391,CUST-00191,2026-05-22,2026-05-24,POS - Corner Cafe,Corner Cafe,POS,-640.42,Posted,REF0000110010,Synthetic transaction
+TXN-0000571,ACCT-000398,CUST-00198,2026-05-29,2026-05-29,POS - TuitionPay,TuitionPay,POS,-154.27,Posted,REF0000110203,Synthetic transaction
+TXN-0000572,ACCT-000005,CUST-00005,2026-02-08,2026-02-08,Transfer In - MedPlus Clinic,MedPlus Clinic,Transfer In,3248.2,Posted,REF0000110396,Synthetic transaction
+TXN-0000573,ACCT-000012,CUST-00012,2026-06-07,2026-06-07,ACH Credit - GreenLeaf Market,GreenLeaf Market,ACH Credit,1195.33,Posted,REF0000110589,Synthetic transaction
+TXN-0000574,ACCT-000019,CUST-00019,2026-04-09,2026-04-09,POS - GreenLeaf Market,GreenLeaf Market,POS,-615.45,Posted,REF0000110782,Synthetic transaction
+TXN-0000575,ACCT-000026,CUST-00026,2026-02-05,2026-02-07,Bill Pay - TuitionPay,TuitionPay,Bill Pay,-684.53,Posted,REF0000110975,Synthetic transaction
+TXN-0000576,ACCT-000033,CUST-00033,2026-06-02,2026-06-02,Fee - Returned Item Fee,Returned Item Fee,Fee,-25.07,Posted,REF0000111168,Synthetic transaction
+TXN-0000577,ACCT-000040,CUST-00040,2026-03-01,2026-03-01,Deposit - Corner Cafe,Corner Cafe,Deposit,2632.42,Posted,REF0000111361,Synthetic transaction
+TXN-0000578,ACCT-000047,CUST-00047,2026-03-12,2026-03-12,Card Purchase - FastShip,FastShip,Card Purchase,-493.32,Posted,REF0000111554,Synthetic transaction
+TXN-0000579,ACCT-000054,CUST-00054,2026-05-10,2026-05-10,Fee - Overdraft Fee,Overdraft Fee,Fee,-18.96,Posted,REF0000111747,Synthetic transaction
+TXN-0000580,ACCT-000061,CUST-00061,2026-02-21,2026-02-21,Fee - Wire Fee,Wire Fee,Fee,-16.56,Posted,REF0000111940,Synthetic transaction
+TXN-0000581,ACCT-000068,CUST-00068,2026-06-10,2026-06-10,Card Purchase - GreenLeaf Market,GreenLeaf Market,Card Purchase,-655.92,Posted,REF0000112133,Synthetic transaction
+TXN-0000582,ACCT-000075,CUST-00075,2026-03-16,2026-03-16,ACH Credit - MedPlus Clinic,MedPlus Clinic,ACH Credit,2457.11,Posted,REF0000112326,Synthetic transaction
+TXN-0000583,ACCT-000082,CUST-00082,2026-02-11,2026-02-11,Refund - RideNow Transit,RideNow Transit,Refund,1740.14,Posted,REF0000112519,Synthetic transaction
+TXN-0000584,ACCT-000089,CUST-00089,2026-05-03,2026-05-03,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-3.17,Posted,REF0000112712,Synthetic transaction
+TXN-0000585,ACCT-000096,CUST-00096,2026-02-12,2026-02-12,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-38.28,Posted,REF0000112905,Synthetic transaction
+TXN-0000586,ACCT-000103,CUST-00103,2026-06-20,2026-06-20,Deposit - GreenLeaf Market,GreenLeaf Market,Deposit,2701.54,Pending,REF0000113098,Synthetic transaction
+TXN-0000587,ACCT-000110,CUST-00110,2026-02-27,2026-02-27,Deposit - GreenLeaf Market,GreenLeaf Market,Deposit,604.37,Posted,REF0000113291,Synthetic transaction
+TXN-0000588,ACCT-000117,CUST-00117,2026-05-14,2026-05-14,Fee - Wire Fee,Wire Fee,Fee,-12.89,Posted,REF0000113484,Synthetic transaction
+TXN-0000589,ACCT-000124,CUST-00124,2026-03-31,2026-03-31,Fee - Wire Fee,Wire Fee,Fee,-16.5,Posted,REF0000113677,Synthetic transaction
+TXN-0000590,ACCT-000131,CUST-00131,2026-02-16,2026-02-16,Fee - Returned Item Fee,Returned Item Fee,Fee,-15.14,Posted,REF0000113870,Synthetic transaction
+TXN-0000591,ACCT-000138,CUST-00138,2026-05-07,2026-05-07,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-341.85,Posted,REF0000114063,Synthetic transaction
+TXN-0000592,ACCT-000145,CUST-00145,2026-06-01,2026-06-01,POS - Metro Grocery,Metro Grocery,POS,-592.08,Posted,REF0000114256,Synthetic transaction
+TXN-0000593,ACCT-000152,CUST-00152,2026-06-15,2026-06-15,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-123.45,Posted,REF0000114449,Synthetic transaction
+TXN-0000594,ACCT-000159,CUST-00159,2026-02-03,2026-02-03,Refund - MedPlus Clinic,MedPlus Clinic,Refund,1490.36,Posted,REF0000114642,Synthetic transaction
+TXN-0000595,ACCT-000166,CUST-00166,2026-06-07,2026-06-09,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-388.77,Posted,REF0000114835,Synthetic transaction
+TXN-0000596,ACCT-000173,CUST-00173,2026-05-24,2026-05-24,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-37.41,Posted,REF0000115028,Synthetic transaction
+TXN-0000597,ACCT-000180,CUST-00180,2026-04-13,2026-04-15,POS - Northline Utilities,Northline Utilities,POS,-335.24,Posted,REF0000115221,Synthetic transaction
+TXN-0000598,ACCT-000187,CUST-00187,2026-05-18,2026-05-18,ACH Debit - City Fitness,City Fitness,ACH Debit,-465.72,Posted,REF0000115414,Synthetic transaction
+TXN-0000599,ACCT-000194,CUST-00194,2026-06-19,2026-06-19,Refund - TuitionPay,TuitionPay,Refund,1406.44,Posted,REF0000115607,Synthetic transaction
+TXN-0000600,ACCT-000201,CUST-00001,2026-06-18,2026-06-18,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-439.71,Posted,REF0000115800,Synthetic transaction
+TXN-0000601,ACCT-000208,CUST-00008,2026-03-19,2026-03-19,ATM - BrightFuel,BrightFuel,ATM,-528.54,Posted,REF0000115993,Synthetic transaction
+TXN-0000602,ACCT-000215,CUST-00015,2026-04-26,2026-04-26,ATM - TuitionPay,TuitionPay,ATM,-707.64,Posted,REF0000116186,Synthetic transaction
+TXN-0000603,ACCT-000222,CUST-00022,2026-02-04,2026-02-04,ACH Credit - Northline Utilities,Northline Utilities,ACH Credit,636.81,Pending,REF0000116379,Synthetic transaction
+TXN-0000604,ACCT-000229,CUST-00029,2026-02-02,2026-02-02,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-152.01,Posted,REF0000116572,Synthetic transaction
+TXN-0000605,ACCT-000236,CUST-00036,2026-06-12,2026-06-12,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-13.1,Posted,REF0000116765,Synthetic transaction
+TXN-0000606,ACCT-000243,CUST-00043,2026-05-22,2026-05-22,ACH Credit - TuitionPay,TuitionPay,ACH Credit,1771.41,Posted,REF0000116958,Synthetic transaction
+TXN-0000607,ACCT-000250,CUST-00050,2026-06-10,2026-06-10,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-13.79,Posted,REF0000117151,Synthetic transaction
+TXN-0000608,ACCT-000257,CUST-00057,2026-04-11,2026-04-11,Refund - Northline Utilities,Northline Utilities,Refund,2395.79,Posted,REF0000117344,Synthetic transaction
+TXN-0000609,ACCT-000264,CUST-00064,2026-02-26,2026-02-26,ATM - TuitionPay,TuitionPay,ATM,-426.03,Posted,REF0000117537,Synthetic transaction
+TXN-0000610,ACCT-000271,CUST-00071,2026-02-10,2026-02-10,POS - Oak & Main,Oak & Main,POS,-535.17,Posted,REF0000117730,Synthetic transaction
+TXN-0000611,ACCT-000278,CUST-00078,2026-03-03,2026-03-03,POS - Corner Cafe,Corner Cafe,POS,-521.7,Posted,REF0000117923,Synthetic transaction
+TXN-0000612,ACCT-000285,CUST-00085,2026-05-10,2026-05-10,Refund - Metro Grocery,Metro Grocery,Refund,1661.02,Posted,REF0000118116,Synthetic transaction
+TXN-0000613,ACCT-000292,CUST-00092,2026-05-18,2026-05-18,Bill Pay - Metro Grocery,Metro Grocery,Bill Pay,-533.57,Posted,REF0000118309,Synthetic transaction
+TXN-0000614,ACCT-000299,CUST-00099,2026-06-05,2026-06-07,ACH Debit - FastShip,FastShip,ACH Debit,-437.7,Posted,REF0000118502,Synthetic transaction
+TXN-0000615,ACCT-000306,CUST-00106,2026-05-21,2026-05-21,Refund - Corner Cafe,Corner Cafe,Refund,3087.18,Posted,REF0000118695,Synthetic transaction
+TXN-0000616,ACCT-000313,CUST-00113,2026-04-18,2026-04-18,Bill Pay - Oak & Main,Oak & Main,Bill Pay,-683.51,Posted,REF0000118888,Synthetic transaction
+TXN-0000617,ACCT-000320,CUST-00120,2026-05-27,2026-05-27,ATM - Corner Cafe,Corner Cafe,ATM,-103.39,Posted,REF0000119081,Synthetic transaction
+TXN-0000618,ACCT-000327,CUST-00127,2026-05-10,2026-05-10,ACH Credit - Metro Grocery,Metro Grocery,ACH Credit,3193.54,Posted,REF0000119274,Synthetic transaction
+TXN-0000619,ACCT-000334,CUST-00134,2026-04-16,2026-04-16,Refund - Atlas Wireless,Atlas Wireless,Refund,1063.09,Posted,REF0000119467,Synthetic transaction
+TXN-0000620,ACCT-000341,CUST-00141,2026-03-07,2026-03-07,POS - Metro Grocery,Metro Grocery,POS,-723.85,Posted,REF0000119660,Synthetic transaction
+TXN-0000621,ACCT-000348,CUST-00148,2026-05-28,2026-05-28,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-718.21,Posted,REF0000119853,Synthetic transaction
+TXN-0000622,ACCT-000355,CUST-00155,2026-03-09,2026-03-09,Transfer In - FastShip,FastShip,Transfer In,620.57,Posted,REF0000120046,Synthetic transaction
+TXN-0000623,ACCT-000362,CUST-00162,2026-01-28,2026-01-28,Refund - Bluebird Pharmacy,Bluebird Pharmacy,Refund,2458.32,Posted,REF0000120239,Synthetic transaction
+TXN-0000624,ACCT-000369,CUST-00169,2026-03-07,2026-03-07,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-13.12,Posted,REF0000120432,Synthetic transaction
+TXN-0000625,ACCT-000376,CUST-00176,2026-05-28,2026-05-28,Card Purchase - GreenLeaf Market,GreenLeaf Market,Card Purchase,-506.82,Posted,REF0000120625,Synthetic transaction
+TXN-0000626,ACCT-000383,CUST-00183,2026-05-18,2026-05-18,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-443.56,Posted,REF0000120818,Synthetic transaction
+TXN-0000627,ACCT-000390,CUST-00190,2026-03-18,2026-03-18,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-157.79,Posted,REF0000121011,Synthetic transaction
+TXN-0000628,ACCT-000397,CUST-00197,2026-04-02,2026-04-02,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-99.71,Posted,REF0000121204,Synthetic transaction
+TXN-0000629,ACCT-000004,CUST-00004,2026-04-29,2026-04-29,Refund - StreamBox Media,StreamBox Media,Refund,3262.24,Posted,REF0000121397,Synthetic transaction
+TXN-0000630,ACCT-000011,CUST-00011,2026-06-18,2026-06-20,Bill Pay - FastShip,FastShip,Bill Pay,-656.45,Pending,REF0000121590,Synthetic transaction
+TXN-0000631,ACCT-000018,CUST-00018,2026-03-11,2026-03-11,ACH Credit - City Fitness,City Fitness,ACH Credit,1728.23,Posted,REF0000121783,Synthetic transaction
+TXN-0000632,ACCT-000025,CUST-00025,2026-04-04,2026-04-04,Transfer In - RideNow Transit,RideNow Transit,Transfer In,1871.58,Posted,REF0000121976,Synthetic transaction
+TXN-0000633,ACCT-000032,CUST-00032,2026-06-05,2026-06-05,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-699.64,Pending,REF0000122169,Synthetic transaction
+TXN-0000634,ACCT-000039,CUST-00039,2026-06-06,2026-06-06,Deposit - Bluebird Pharmacy,Bluebird Pharmacy,Deposit,485.64,Posted,REF0000122362,Synthetic transaction
+TXN-0000635,ACCT-000046,CUST-00046,2026-02-24,2026-02-24,POS - FastShip,FastShip,POS,-27.86,Posted,REF0000122555,Synthetic transaction
+TXN-0000636,ACCT-000053,CUST-00053,2026-05-08,2026-05-08,ACH Debit - Atlas Wireless,Atlas Wireless,ACH Debit,-315.37,Posted,REF0000122748,Synthetic transaction
+TXN-0000637,ACCT-000060,CUST-00060,2026-02-13,2026-02-15,ACH Debit - Oak & Main,Oak & Main,ACH Debit,-241.25,Posted,REF0000122941,Synthetic transaction
+TXN-0000638,ACCT-000067,CUST-00067,2026-01-29,2026-01-29,Transfer In - Metro Grocery,Metro Grocery,Transfer In,3075.87,Posted,REF0000123134,Synthetic transaction
+TXN-0000639,ACCT-000074,CUST-00074,2026-05-01,2026-05-01,Fee - Wire Fee,Wire Fee,Fee,-33.35,Posted,REF0000123327,Synthetic transaction
+TXN-0000640,ACCT-000081,CUST-00081,2026-06-11,2026-06-11,Refund - MedPlus Clinic,MedPlus Clinic,Refund,1912.71,Posted,REF0000123520,Synthetic transaction
+TXN-0000641,ACCT-000088,CUST-00088,2026-06-10,2026-06-10,POS - FastShip,FastShip,POS,-219.02,Posted,REF0000123713,Synthetic transaction
+TXN-0000642,ACCT-000095,CUST-00095,2026-04-02,2026-04-02,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-662.64,Posted,REF0000123906,Synthetic transaction
+TXN-0000643,ACCT-000102,CUST-00102,2026-05-27,2026-05-27,ACH Credit - City Fitness,City Fitness,ACH Credit,1944.25,Posted,REF0000124099,Synthetic transaction
+TXN-0000644,ACCT-000109,CUST-00109,2026-06-16,2026-06-16,ATM - Atlas Wireless,Atlas Wireless,ATM,-168.68,Posted,REF0000124292,Synthetic transaction
+TXN-0000645,ACCT-000116,CUST-00116,2026-02-08,2026-02-08,POS - StreamBox Media,StreamBox Media,POS,-589.06,Posted,REF0000124485,Synthetic transaction
+TXN-0000646,ACCT-000123,CUST-00123,2026-05-20,2026-05-20,ATM - City Fitness,City Fitness,ATM,-534.11,Posted,REF0000124678,Synthetic transaction
+TXN-0000647,ACCT-000130,CUST-00130,2026-05-31,2026-05-31,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-259.68,Posted,REF0000124871,Synthetic transaction
+TXN-0000648,ACCT-000137,CUST-00137,2026-05-30,2026-05-30,ACH Credit - TuitionPay,TuitionPay,ACH Credit,3079.94,Posted,REF0000125064,Synthetic transaction
+TXN-0000649,ACCT-000144,CUST-00144,2026-02-17,2026-02-17,Fee - Overdraft Fee,Overdraft Fee,Fee,-8.07,Posted,REF0000125257,Synthetic transaction
+TXN-0000650,ACCT-000151,CUST-00151,2026-03-30,2026-03-30,Fee - Overdraft Fee,Overdraft Fee,Fee,-20.12,Posted,REF0000125450,Synthetic transaction
+TXN-0000651,ACCT-000158,CUST-00158,2026-03-14,2026-03-14,ACH Credit - City Fitness,City Fitness,ACH Credit,3411.7,Pending,REF0000125643,Synthetic transaction
+TXN-0000652,ACCT-000165,CUST-00165,2026-02-27,2026-02-27,Refund - TuitionPay,TuitionPay,Refund,1773.78,Posted,REF0000125836,Synthetic transaction
+TXN-0000653,ACCT-000172,CUST-00172,2026-02-26,2026-02-26,Fee - Returned Item Fee,Returned Item Fee,Fee,-31.53,Posted,REF0000126029,Synthetic transaction
+TXN-0000654,ACCT-000179,CUST-00179,2026-06-15,2026-06-15,ATM - BrightFuel,BrightFuel,ATM,-460.14,Posted,REF0000126222,Synthetic transaction
+TXN-0000655,ACCT-000186,CUST-00186,2026-02-03,2026-02-03,Fee - Returned Item Fee,Returned Item Fee,Fee,-11.35,Posted,REF0000126415,Synthetic transaction
+TXN-0000656,ACCT-000193,CUST-00193,2026-02-09,2026-02-09,Fee - Wire Fee,Wire Fee,Fee,-29.07,Posted,REF0000126608,Synthetic transaction
+TXN-0000657,ACCT-000200,CUST-00200,2026-05-26,2026-05-26,ACH Debit - Northline Utilities,Northline Utilities,ACH Debit,-401.74,Posted,REF0000126801,Synthetic transaction
+TXN-0000658,ACCT-000207,CUST-00007,2026-05-27,2026-05-27,Fee - Wire Fee,Wire Fee,Fee,-32.17,Pending,REF0000126994,Synthetic transaction
+TXN-0000659,ACCT-000214,CUST-00014,2026-05-05,2026-05-05,Card Purchase - GreenLeaf Market,GreenLeaf Market,Card Purchase,-114.95,Posted,REF0000127187,Synthetic transaction
+TXN-0000660,ACCT-000221,CUST-00021,2026-02-01,2026-02-01,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-134.89,Posted,REF0000127380,Synthetic transaction
+TXN-0000661,ACCT-000228,CUST-00028,2026-06-05,2026-06-05,Bill Pay - Corner Cafe,Corner Cafe,Bill Pay,-137.1,Posted,REF0000127573,Synthetic transaction
+TXN-0000662,ACCT-000235,CUST-00035,2026-05-02,2026-05-04,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-204.97,Posted,REF0000127766,Synthetic transaction
+TXN-0000663,ACCT-000242,CUST-00042,2026-04-14,2026-04-14,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-587.15,Posted,REF0000127959,Synthetic transaction
+TXN-0000664,ACCT-000249,CUST-00049,2026-04-13,2026-04-13,Transfer In - FastShip,FastShip,Transfer In,1670.07,Posted,REF0000128152,Synthetic transaction
+TXN-0000665,ACCT-000256,CUST-00056,2026-03-24,2026-03-24,Card Purchase - Harbor Insurance,Harbor Insurance,Card Purchase,-730.96,Posted,REF0000128345,Synthetic transaction
+TXN-0000666,ACCT-000263,CUST-00063,2026-03-18,2026-03-18,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-438.5,Posted,REF0000128538,Synthetic transaction
+TXN-0000667,ACCT-000270,CUST-00070,2026-03-01,2026-03-01,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-412.68,Posted,REF0000128731,Synthetic transaction
+TXN-0000668,ACCT-000277,CUST-00077,2026-01-24,2026-01-26,Bill Pay - Corner Cafe,Corner Cafe,Bill Pay,-441.53,Posted,REF0000128924,Synthetic transaction
+TXN-0000669,ACCT-000284,CUST-00084,2026-04-26,2026-04-26,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-419.42,Posted,REF0000129117,Synthetic transaction
+TXN-0000670,ACCT-000291,CUST-00091,2026-04-19,2026-04-19,Transfer In - Oak & Main,Oak & Main,Transfer In,2339.14,Pending,REF0000129310,Synthetic transaction
+TXN-0000671,ACCT-000298,CUST-00098,2026-04-19,2026-04-19,Deposit - BrightFuel,BrightFuel,Deposit,1967.63,Posted,REF0000129503,Synthetic transaction
+TXN-0000672,ACCT-000305,CUST-00105,2026-06-21,2026-06-23,ACH Credit - Metro Grocery,Metro Grocery,ACH Credit,1302.89,Posted,REF0000129696,Synthetic transaction
+TXN-0000673,ACCT-000312,CUST-00112,2026-05-30,2026-05-30,ACH Debit - FastShip,FastShip,ACH Debit,-697.54,Posted,REF0000129889,Synthetic transaction
+TXN-0000674,ACCT-000319,CUST-00119,2026-05-19,2026-05-21,ACH Credit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Credit,1878.62,Posted,REF0000130082,Synthetic transaction
+TXN-0000675,ACCT-000326,CUST-00126,2026-04-27,2026-04-29,ACH Debit - Oak & Main,Oak & Main,ACH Debit,-20.6,Posted,REF0000130275,Synthetic transaction
+TXN-0000676,ACCT-000333,CUST-00133,2026-02-01,2026-02-01,POS - RideNow Transit,RideNow Transit,POS,-67.02,Posted,REF0000130468,Synthetic transaction
+TXN-0000677,ACCT-000340,CUST-00140,2026-03-05,2026-03-05,Refund - MedPlus Clinic,MedPlus Clinic,Refund,2930.94,Posted,REF0000130661,Synthetic transaction
+TXN-0000678,ACCT-000347,CUST-00147,2026-04-26,2026-04-26,Card Purchase - City Fitness,City Fitness,Card Purchase,-477.04,Posted,REF0000130854,Synthetic transaction
+TXN-0000679,ACCT-000354,CUST-00154,2026-04-29,2026-05-01,Card Purchase - StreamBox Media,StreamBox Media,Card Purchase,-37.29,Pending,REF0000131047,Synthetic transaction
+TXN-0000680,ACCT-000361,CUST-00161,2026-04-25,2026-04-25,Bill Pay - TuitionPay,TuitionPay,Bill Pay,-400.06,Posted,REF0000131240,Synthetic transaction
+TXN-0000681,ACCT-000368,CUST-00168,2026-02-24,2026-02-24,POS - Atlas Wireless,Atlas Wireless,POS,-263.46,Posted,REF0000131433,Synthetic transaction
+TXN-0000682,ACCT-000375,CUST-00175,2026-04-01,2026-04-01,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-177.47,Posted,REF0000131626,Synthetic transaction
+TXN-0000683,ACCT-000382,CUST-00182,2026-04-24,2026-04-24,ATM - StreamBox Media,StreamBox Media,ATM,-442.27,Posted,REF0000131819,Synthetic transaction
+TXN-0000684,ACCT-000389,CUST-00189,2026-06-12,2026-06-12,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-616.39,Posted,REF0000132012,Synthetic transaction
+TXN-0000685,ACCT-000396,CUST-00196,2026-05-27,2026-05-27,ATM - Corner Cafe,Corner Cafe,ATM,-764.67,Posted,REF0000132205,Synthetic transaction
+TXN-0000686,ACCT-000003,CUST-00003,2026-02-10,2026-02-10,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-29.87,Posted,REF0000132398,Synthetic transaction
+TXN-0000687,ACCT-000010,CUST-00010,2026-05-13,2026-05-13,Card Purchase - MedPlus Clinic,MedPlus Clinic,Card Purchase,-760.06,Posted,REF0000132591,Synthetic transaction
+TXN-0000688,ACCT-000017,CUST-00017,2026-05-14,2026-05-16,Transfer In - RideNow Transit,RideNow Transit,Transfer In,3351.48,Posted,REF0000132784,Synthetic transaction
+TXN-0000689,ACCT-000024,CUST-00024,2026-02-12,2026-02-12,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-473.86,Pending,REF0000132977,Synthetic transaction
+TXN-0000690,ACCT-000031,CUST-00031,2026-04-10,2026-04-10,POS - GreenLeaf Market,GreenLeaf Market,POS,-85.22,Posted,REF0000133170,Synthetic transaction
+TXN-0000691,ACCT-000038,CUST-00038,2026-03-18,2026-03-18,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-441.62,Posted,REF0000133363,Synthetic transaction
+TXN-0000692,ACCT-000045,CUST-00045,2026-03-15,2026-03-15,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-107.23,Posted,REF0000133556,Synthetic transaction
+TXN-0000693,ACCT-000052,CUST-00052,2026-06-13,2026-06-13,Bill Pay - Atlas Wireless,Atlas Wireless,Bill Pay,-172.68,Posted,REF0000133749,Synthetic transaction
+TXN-0000694,ACCT-000059,CUST-00059,2026-03-18,2026-03-18,Bill Pay - RideNow Transit,RideNow Transit,Bill Pay,-455.53,Posted,REF0000133942,Synthetic transaction
+TXN-0000695,ACCT-000066,CUST-00066,2026-06-03,2026-06-03,ACH Credit - RideNow Transit,RideNow Transit,ACH Credit,416.28,Posted,REF0000134135,Synthetic transaction
+TXN-0000696,ACCT-000073,CUST-00073,2026-06-21,2026-06-23,ACH Debit - FastShip,FastShip,ACH Debit,-209.89,Posted,REF0000134328,Synthetic transaction
+TXN-0000697,ACCT-000080,CUST-00080,2026-06-12,2026-06-12,POS - Northline Utilities,Northline Utilities,POS,-527.28,Posted,REF0000134521,Synthetic transaction
+TXN-0000698,ACCT-000087,CUST-00087,2026-03-18,2026-03-18,ACH Credit - RideNow Transit,RideNow Transit,ACH Credit,3124.22,Posted,REF0000134714,Synthetic transaction
+TXN-0000699,ACCT-000094,CUST-00094,2026-05-16,2026-05-16,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-7.48,Posted,REF0000134907,Synthetic transaction
+TXN-0000700,ACCT-000101,CUST-00101,2026-02-25,2026-02-25,POS - Harbor Insurance,Harbor Insurance,POS,-546.32,Posted,REF0000135100,Synthetic transaction
+TXN-0000701,ACCT-000108,CUST-00108,2026-02-14,2026-02-14,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-603.52,Posted,REF0000135293,Synthetic transaction
+TXN-0000702,ACCT-000115,CUST-00115,2026-04-18,2026-04-18,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-10.98,Posted,REF0000135486,Synthetic transaction
+TXN-0000703,ACCT-000122,CUST-00122,2026-05-17,2026-05-17,Fee - Returned Item Fee,Returned Item Fee,Fee,-22.86,Posted,REF0000135679,Synthetic transaction
+TXN-0000704,ACCT-000129,CUST-00129,2026-02-10,2026-02-10,POS - StreamBox Media,StreamBox Media,POS,-33.1,Pending,REF0000135872,Synthetic transaction
+TXN-0000705,ACCT-000136,CUST-00136,2026-03-29,2026-03-29,ACH Credit - BrightFuel,BrightFuel,ACH Credit,2338.19,Posted,REF0000136065,Synthetic transaction
+TXN-0000706,ACCT-000143,CUST-00143,2026-04-28,2026-04-28,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-228.35,Posted,REF0000136258,Synthetic transaction
+TXN-0000707,ACCT-000150,CUST-00150,2026-06-09,2026-06-09,Bill Pay - FastShip,FastShip,Bill Pay,-127.95,Posted,REF0000136451,Synthetic transaction
+TXN-0000708,ACCT-000157,CUST-00157,2026-06-01,2026-06-01,POS - TuitionPay,TuitionPay,POS,-34.71,Posted,REF0000136644,Synthetic transaction
+TXN-0000709,ACCT-000164,CUST-00164,2026-05-17,2026-05-17,POS - Corner Cafe,Corner Cafe,POS,-616.32,Posted,REF0000136837,Synthetic transaction
+TXN-0000710,ACCT-000171,CUST-00171,2026-03-19,2026-03-19,Bill Pay - City Fitness,City Fitness,Bill Pay,-598.33,Posted,REF0000137030,Synthetic transaction
+TXN-0000711,ACCT-000178,CUST-00178,2026-05-13,2026-05-13,Deposit - TuitionPay,TuitionPay,Deposit,647.07,Posted,REF0000137223,Synthetic transaction
+TXN-0000712,ACCT-000185,CUST-00185,2026-06-13,2026-06-13,ATM - FastShip,FastShip,ATM,-415.34,Posted,REF0000137416,Synthetic transaction
+TXN-0000713,ACCT-000192,CUST-00192,2026-03-30,2026-03-30,Fee - Wire Fee,Wire Fee,Fee,-26.48,Posted,REF0000137609,Synthetic transaction
+TXN-0000714,ACCT-000199,CUST-00199,2026-04-29,2026-04-29,Transfer In - Oak & Main,Oak & Main,Transfer In,1066.5,Pending,REF0000137802,Synthetic transaction
+TXN-0000715,ACCT-000206,CUST-00006,2026-06-17,2026-06-17,POS - Corner Cafe,Corner Cafe,POS,-114.9,Pending,REF0000137995,Synthetic transaction
+TXN-0000716,ACCT-000213,CUST-00013,2026-06-19,2026-06-19,ATM - Atlas Wireless,Atlas Wireless,ATM,-441.34,Posted,REF0000138188,Synthetic transaction
+TXN-0000717,ACCT-000220,CUST-00020,2026-04-05,2026-04-07,POS - Northline Utilities,Northline Utilities,POS,-457.37,Posted,REF0000138381,Synthetic transaction
+TXN-0000718,ACCT-000227,CUST-00027,2026-05-03,2026-05-03,Deposit - StreamBox Media,StreamBox Media,Deposit,1548.55,Posted,REF0000138574,Synthetic transaction
+TXN-0000719,ACCT-000234,CUST-00034,2026-05-18,2026-05-18,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-156.99,Posted,REF0000138767,Synthetic transaction
+TXN-0000720,ACCT-000241,CUST-00041,2026-02-01,2026-02-01,ACH Credit - Northline Utilities,Northline Utilities,ACH Credit,1146.28,Posted,REF0000138960,Synthetic transaction
+TXN-0000721,ACCT-000248,CUST-00048,2026-06-11,2026-06-11,POS - BrightFuel,BrightFuel,POS,-91.43,Posted,REF0000139153,Synthetic transaction
+TXN-0000722,ACCT-000255,CUST-00055,2026-02-19,2026-02-19,Transfer In - StreamBox Media,StreamBox Media,Transfer In,370.53,Posted,REF0000139346,Synthetic transaction
+TXN-0000723,ACCT-000262,CUST-00062,2026-06-12,2026-06-12,ACH Debit - Oak & Main,Oak & Main,ACH Debit,-700.85,Posted,REF0000139539,Synthetic transaction
+TXN-0000724,ACCT-000269,CUST-00069,2026-05-17,2026-05-19,POS - City Fitness,City Fitness,POS,-381.15,Posted,REF0000139732,Synthetic transaction
+TXN-0000725,ACCT-000276,CUST-00076,2026-04-28,2026-04-30,ACH Debit - RideNow Transit,RideNow Transit,ACH Debit,-173.1,Posted,REF0000139925,Synthetic transaction
+TXN-0000726,ACCT-000283,CUST-00083,2026-06-16,2026-06-18,POS - City Fitness,City Fitness,POS,-339.53,Posted,REF0000140118,Synthetic transaction
+TXN-0000727,ACCT-000290,CUST-00090,2026-05-22,2026-05-22,POS - Harbor Insurance,Harbor Insurance,POS,-359.13,Posted,REF0000140311,Synthetic transaction
+TXN-0000728,ACCT-000297,CUST-00097,2026-05-03,2026-05-05,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-4.67,Posted,REF0000140504,Synthetic transaction
+TXN-0000729,ACCT-000304,CUST-00104,2026-06-11,2026-06-11,Card Purchase - RideNow Transit,RideNow Transit,Card Purchase,-636.04,Posted,REF0000140697,Synthetic transaction
+TXN-0000730,ACCT-000311,CUST-00111,2026-05-28,2026-05-28,Fee - Returned Item Fee,Returned Item Fee,Fee,-18.58,Posted,REF0000140890,Synthetic transaction
+TXN-0000731,ACCT-000318,CUST-00118,2026-05-29,2026-05-29,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-4.1,Posted,REF0000141083,Synthetic transaction
+TXN-0000732,ACCT-000325,CUST-00125,2026-05-21,2026-05-21,ATM - Northline Utilities,Northline Utilities,ATM,-657.69,Posted,REF0000141276,Synthetic transaction
+TXN-0000733,ACCT-000332,CUST-00132,2026-02-16,2026-02-16,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-293.68,Posted,REF0000141469,Synthetic transaction
+TXN-0000734,ACCT-000339,CUST-00139,2026-02-02,2026-02-02,Refund - TuitionPay,TuitionPay,Refund,1554.65,Posted,REF0000141662,Synthetic transaction
+TXN-0000735,ACCT-000346,CUST-00146,2026-02-09,2026-02-09,Refund - GreenLeaf Market,GreenLeaf Market,Refund,3005.11,Posted,REF0000141855,Synthetic transaction
+TXN-0000736,ACCT-000353,CUST-00153,2026-02-21,2026-02-21,Refund - GreenLeaf Market,GreenLeaf Market,Refund,719.46,Posted,REF0000142048,Synthetic transaction
+TXN-0000737,ACCT-000360,CUST-00160,2026-01-30,2026-01-30,ACH Credit - Atlas Wireless,Atlas Wireless,ACH Credit,695.16,Posted,REF0000142241,Synthetic transaction
+TXN-0000738,ACCT-000367,CUST-00167,2026-05-08,2026-05-08,ATM - TuitionPay,TuitionPay,ATM,-630.32,Posted,REF0000142434,Synthetic transaction
+TXN-0000739,ACCT-000374,CUST-00174,2026-01-25,2026-01-25,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-202.47,Posted,REF0000142627,Synthetic transaction
+TXN-0000740,ACCT-000381,CUST-00181,2026-06-12,2026-06-12,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-442.23,Posted,REF0000142820,Synthetic transaction
+TXN-0000741,ACCT-000388,CUST-00188,2026-03-03,2026-03-03,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-21.16,Posted,REF0000143013,Synthetic transaction
+TXN-0000742,ACCT-000395,CUST-00195,2026-03-16,2026-03-18,POS - City Fitness,City Fitness,POS,-368.92,Posted,REF0000143206,Synthetic transaction
+TXN-0000743,ACCT-000002,CUST-00002,2026-01-27,2026-01-27,Bill Pay - Atlas Wireless,Atlas Wireless,Bill Pay,-662.48,Posted,REF0000143399,Synthetic transaction
+TXN-0000744,ACCT-000009,CUST-00009,2026-06-06,2026-06-06,Fee - Returned Item Fee,Returned Item Fee,Fee,-34.83,Posted,REF0000143592,Synthetic transaction
+TXN-0000745,ACCT-000016,CUST-00016,2026-05-16,2026-05-16,Fee - Overdraft Fee,Overdraft Fee,Fee,-8.09,Posted,REF0000143785,Synthetic transaction
+TXN-0000746,ACCT-000023,CUST-00023,2026-04-10,2026-04-10,POS - Harbor Insurance,Harbor Insurance,POS,-517.03,Posted,REF0000143978,Synthetic transaction
+TXN-0000747,ACCT-000030,CUST-00030,2026-04-15,2026-04-15,Deposit - Oak & Main,Oak & Main,Deposit,1712.9,Posted,REF0000144171,Synthetic transaction
+TXN-0000748,ACCT-000037,CUST-00037,2026-02-24,2026-02-26,Fee - Wire Fee,Wire Fee,Fee,-23.47,Posted,REF0000144364,Synthetic transaction
+TXN-0000749,ACCT-000044,CUST-00044,2026-05-13,2026-05-13,ATM - FastShip,FastShip,ATM,-447.43,Posted,REF0000144557,Synthetic transaction
+TXN-0000750,ACCT-000051,CUST-00051,2026-03-12,2026-03-12,ATM - StreamBox Media,StreamBox Media,ATM,-344.51,Pending,REF0000144750,Synthetic transaction
+TXN-0000751,ACCT-000058,CUST-00058,2026-05-08,2026-05-10,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-553.52,Posted,REF0000144943,Synthetic transaction
+TXN-0000752,ACCT-000065,CUST-00065,2026-03-30,2026-03-30,ACH Debit - FastShip,FastShip,ACH Debit,-133.16,Posted,REF0000145136,Synthetic transaction
+TXN-0000753,ACCT-000072,CUST-00072,2026-03-05,2026-03-05,ACH Credit - RideNow Transit,RideNow Transit,ACH Credit,1929.74,Posted,REF0000145329,Synthetic transaction
+TXN-0000754,ACCT-000079,CUST-00079,2026-03-09,2026-03-09,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-32.04,Posted,REF0000145522,Synthetic transaction
+TXN-0000755,ACCT-000086,CUST-00086,2026-06-20,2026-06-20,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-613.28,Posted,REF0000145715,Synthetic transaction
+TXN-0000756,ACCT-000093,CUST-00093,2026-04-13,2026-04-13,Fee - Returned Item Fee,Returned Item Fee,Fee,-10.02,Pending,REF0000145908,Synthetic transaction
+TXN-0000757,ACCT-000100,CUST-00100,2026-06-21,2026-06-21,Deposit - Corner Cafe,Corner Cafe,Deposit,1415.3,Posted,REF0000146101,Synthetic transaction
+TXN-0000758,ACCT-000107,CUST-00107,2026-05-09,2026-05-09,ACH Credit - RideNow Transit,RideNow Transit,ACH Credit,1151.17,Posted,REF0000146294,Synthetic transaction
+TXN-0000759,ACCT-000114,CUST-00114,2026-02-08,2026-02-08,Card Purchase - MedPlus Clinic,MedPlus Clinic,Card Purchase,-488.15,Posted,REF0000146487,Synthetic transaction
+TXN-0000760,ACCT-000121,CUST-00121,2026-03-21,2026-03-21,Refund - City Fitness,City Fitness,Refund,853.02,Pending,REF0000146680,Synthetic transaction
+TXN-0000761,ACCT-000128,CUST-00128,2026-02-28,2026-03-02,POS - City Fitness,City Fitness,POS,-695.29,Posted,REF0000146873,Synthetic transaction
+TXN-0000762,ACCT-000135,CUST-00135,2026-03-17,2026-03-17,ATM - Metro Grocery,Metro Grocery,ATM,-224.82,Posted,REF0000147066,Synthetic transaction
+TXN-0000763,ACCT-000142,CUST-00142,2026-02-18,2026-02-18,ACH Credit - Corner Cafe,Corner Cafe,ACH Credit,364.25,Posted,REF0000147259,Synthetic transaction
+TXN-0000764,ACCT-000149,CUST-00149,2026-03-26,2026-03-26,Deposit - Harbor Insurance,Harbor Insurance,Deposit,184.85,Posted,REF0000147452,Synthetic transaction
+TXN-0000765,ACCT-000156,CUST-00156,2026-05-22,2026-05-22,ATM - StreamBox Media,StreamBox Media,ATM,-214.66,Posted,REF0000147645,Synthetic transaction
+TXN-0000766,ACCT-000163,CUST-00163,2026-06-19,2026-06-19,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-689.39,Posted,REF0000147838,Synthetic transaction
+TXN-0000767,ACCT-000170,CUST-00170,2026-03-09,2026-03-09,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-461.71,Posted,REF0000148031,Synthetic transaction
+TXN-0000768,ACCT-000177,CUST-00177,2026-04-18,2026-04-20,POS - Harbor Insurance,Harbor Insurance,POS,-211.77,Posted,REF0000148224,Synthetic transaction
+TXN-0000769,ACCT-000184,CUST-00184,2026-06-17,2026-06-17,POS - Harbor Insurance,Harbor Insurance,POS,-317.03,Posted,REF0000148417,Synthetic transaction
+TXN-0000770,ACCT-000191,CUST-00191,2026-05-14,2026-05-14,ATM - MedPlus Clinic,MedPlus Clinic,ATM,-717.42,Posted,REF0000148610,Synthetic transaction
+TXN-0000771,ACCT-000198,CUST-00198,2026-03-05,2026-03-05,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-625.63,Pending,REF0000148803,Synthetic transaction
+TXN-0000772,ACCT-000205,CUST-00005,2026-04-23,2026-04-23,ACH Credit - FastShip,FastShip,ACH Credit,2282.79,Posted,REF0000148996,Synthetic transaction
+TXN-0000773,ACCT-000212,CUST-00012,2026-04-26,2026-04-26,Refund - Harbor Insurance,Harbor Insurance,Refund,497.38,Posted,REF0000149189,Synthetic transaction
+TXN-0000774,ACCT-000219,CUST-00019,2026-02-28,2026-02-28,POS - GreenLeaf Market,GreenLeaf Market,POS,-726.9,Posted,REF0000149382,Synthetic transaction
+TXN-0000775,ACCT-000226,CUST-00026,2026-05-12,2026-05-12,Fee - Overdraft Fee,Overdraft Fee,Fee,-6.81,Posted,REF0000149575,Synthetic transaction
+TXN-0000776,ACCT-000233,CUST-00033,2026-04-12,2026-04-12,Transfer In - RideNow Transit,RideNow Transit,Transfer In,391.12,Posted,REF0000149768,Synthetic transaction
+TXN-0000777,ACCT-000240,CUST-00040,2026-04-04,2026-04-04,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-283.95,Posted,REF0000149961,Synthetic transaction
+TXN-0000778,ACCT-000247,CUST-00047,2026-02-21,2026-02-21,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-673.17,Posted,REF0000150154,Synthetic transaction
+TXN-0000779,ACCT-000254,CUST-00054,2026-01-27,2026-01-27,Refund - RideNow Transit,RideNow Transit,Refund,278.93,Posted,REF0000150347,Synthetic transaction
+TXN-0000780,ACCT-000261,CUST-00061,2026-05-06,2026-05-06,Deposit - Corner Cafe,Corner Cafe,Deposit,2696.86,Posted,REF0000150540,Synthetic transaction
+TXN-0000781,ACCT-000268,CUST-00068,2026-05-21,2026-05-23,Bill Pay - Corner Cafe,Corner Cafe,Bill Pay,-325.92,Posted,REF0000150733,Synthetic transaction
+TXN-0000782,ACCT-000275,CUST-00075,2026-05-01,2026-05-01,ATM - Oak & Main,Oak & Main,ATM,-147.06,Posted,REF0000150926,Synthetic transaction
+TXN-0000783,ACCT-000282,CUST-00082,2026-05-31,2026-05-31,Card Purchase - FastShip,FastShip,Card Purchase,-583.62,Pending,REF0000151119,Synthetic transaction
+TXN-0000784,ACCT-000289,CUST-00089,2026-05-14,2026-05-14,Fee - Wire Fee,Wire Fee,Fee,-20.63,Posted,REF0000151312,Synthetic transaction
+TXN-0000785,ACCT-000296,CUST-00096,2026-02-16,2026-02-16,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-589.14,Posted,REF0000151505,Synthetic transaction
+TXN-0000786,ACCT-000303,CUST-00103,2026-04-01,2026-04-01,Bill Pay - FastShip,FastShip,Bill Pay,-468.28,Posted,REF0000151698,Synthetic transaction
+TXN-0000787,ACCT-000310,CUST-00110,2026-02-15,2026-02-15,Refund - Corner Cafe,Corner Cafe,Refund,263.23,Posted,REF0000151891,Synthetic transaction
+TXN-0000788,ACCT-000317,CUST-00117,2026-04-21,2026-04-21,ATM - Atlas Wireless,Atlas Wireless,ATM,-635.98,Posted,REF0000152084,Synthetic transaction
+TXN-0000789,ACCT-000324,CUST-00124,2026-02-21,2026-02-21,Transfer In - Harbor Insurance,Harbor Insurance,Transfer In,264.58,Pending,REF0000152277,Synthetic transaction
+TXN-0000790,ACCT-000331,CUST-00131,2026-02-25,2026-02-25,ATM - BrightFuel,BrightFuel,ATM,-517.03,Posted,REF0000152470,Synthetic transaction
+TXN-0000791,ACCT-000338,CUST-00138,2026-06-07,2026-06-07,Bill Pay - City Fitness,City Fitness,Bill Pay,-315.78,Posted,REF0000152663,Synthetic transaction
+TXN-0000792,ACCT-000345,CUST-00145,2026-06-09,2026-06-09,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-394.36,Posted,REF0000152856,Synthetic transaction
+TXN-0000793,ACCT-000352,CUST-00152,2026-02-15,2026-02-15,POS - TuitionPay,TuitionPay,POS,-209.69,Posted,REF0000153049,Synthetic transaction
+TXN-0000794,ACCT-000359,CUST-00159,2026-02-05,2026-02-07,Refund - City Fitness,City Fitness,Refund,3341.74,Posted,REF0000153242,Synthetic transaction
+TXN-0000795,ACCT-000366,CUST-00166,2026-06-15,2026-06-15,ATM - StreamBox Media,StreamBox Media,ATM,-710.19,Posted,REF0000153435,Synthetic transaction
+TXN-0000796,ACCT-000373,CUST-00173,2026-01-27,2026-01-29,Fee - Returned Item Fee,Returned Item Fee,Fee,-15.44,Posted,REF0000153628,Synthetic transaction
+TXN-0000797,ACCT-000380,CUST-00180,2026-05-27,2026-05-27,ACH Credit - GreenLeaf Market,GreenLeaf Market,ACH Credit,3427.61,Posted,REF0000153821,Synthetic transaction
+TXN-0000798,ACCT-000387,CUST-00187,2026-02-01,2026-02-03,ACH Debit - FastShip,FastShip,ACH Debit,-510.31,Posted,REF0000154014,Synthetic transaction
+TXN-0000799,ACCT-000394,CUST-00194,2026-05-23,2026-05-25,ACH Debit - Atlas Wireless,Atlas Wireless,ACH Debit,-403.32,Posted,REF0000154207,Synthetic transaction
+TXN-0000800,ACCT-000001,CUST-00001,2026-02-07,2026-02-07,ATM - Harbor Insurance,Harbor Insurance,ATM,-329.74,Posted,REF0000154400,Synthetic transaction
+TXN-0000801,ACCT-000008,CUST-00008,2026-03-23,2026-03-23,Card Purchase - Harbor Insurance,Harbor Insurance,Card Purchase,-433.52,Posted,REF0000154593,Synthetic transaction
+TXN-0000802,ACCT-000015,CUST-00015,2026-04-30,2026-04-30,Refund - Oak & Main,Oak & Main,Refund,2104.32,Posted,REF0000154786,Synthetic transaction
+TXN-0000803,ACCT-000022,CUST-00022,2026-02-07,2026-02-09,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-384.52,Posted,REF0000154979,Synthetic transaction
+TXN-0000804,ACCT-000029,CUST-00029,2026-06-10,2026-06-10,POS - BrightFuel,BrightFuel,POS,-627.29,Posted,REF0000155172,Synthetic transaction
+TXN-0000805,ACCT-000036,CUST-00036,2026-05-31,2026-05-31,Bill Pay - City Fitness,City Fitness,Bill Pay,-500.69,Posted,REF0000155365,Synthetic transaction
+TXN-0000806,ACCT-000043,CUST-00043,2026-02-04,2026-02-04,Deposit - Bluebird Pharmacy,Bluebird Pharmacy,Deposit,891.31,Posted,REF0000155558,Synthetic transaction
+TXN-0000807,ACCT-000050,CUST-00050,2026-03-10,2026-03-10,ACH Debit - StreamBox Media,StreamBox Media,ACH Debit,-777.24,Posted,REF0000155751,Synthetic transaction
+TXN-0000808,ACCT-000057,CUST-00057,2026-06-02,2026-06-02,Fee - Overdraft Fee,Overdraft Fee,Fee,-19.84,Posted,REF0000155944,Synthetic transaction
+TXN-0000809,ACCT-000064,CUST-00064,2026-03-17,2026-03-17,Fee - Overdraft Fee,Overdraft Fee,Fee,-31.26,Posted,REF0000156137,Synthetic transaction
+TXN-0000810,ACCT-000071,CUST-00071,2026-03-23,2026-03-23,POS - GreenLeaf Market,GreenLeaf Market,POS,-80.46,Posted,REF0000156330,Synthetic transaction
+TXN-0000811,ACCT-000078,CUST-00078,2026-04-28,2026-04-28,POS - FastShip,FastShip,POS,-72.24,Posted,REF0000156523,Synthetic transaction
+TXN-0000812,ACCT-000085,CUST-00085,2026-05-08,2026-05-10,POS - TuitionPay,TuitionPay,POS,-651.4,Posted,REF0000156716,Synthetic transaction
+TXN-0000813,ACCT-000092,CUST-00092,2026-04-09,2026-04-09,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-132.53,Posted,REF0000156909,Synthetic transaction
+TXN-0000814,ACCT-000099,CUST-00099,2026-02-09,2026-02-09,POS - StreamBox Media,StreamBox Media,POS,-341.36,Posted,REF0000157102,Synthetic transaction
+TXN-0000815,ACCT-000106,CUST-00106,2026-03-18,2026-03-18,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,46.71,Posted,REF0000157295,Synthetic transaction
+TXN-0000816,ACCT-000113,CUST-00113,2026-03-10,2026-03-10,Transfer In - Oak & Main,Oak & Main,Transfer In,851.39,Posted,REF0000157488,Synthetic transaction
+TXN-0000817,ACCT-000120,CUST-00120,2026-04-08,2026-04-08,Deposit - BrightFuel,BrightFuel,Deposit,3154.94,Posted,REF0000157681,Synthetic transaction
+TXN-0000818,ACCT-000127,CUST-00127,2026-03-14,2026-03-14,ACH Debit - MedPlus Clinic,MedPlus Clinic,ACH Debit,-428.83,Posted,REF0000157874,Synthetic transaction
+TXN-0000819,ACCT-000134,CUST-00134,2026-02-08,2026-02-08,ATM - TuitionPay,TuitionPay,ATM,-620.49,Posted,REF0000158067,Synthetic transaction
+TXN-0000820,ACCT-000141,CUST-00141,2026-04-21,2026-04-21,ATM - TuitionPay,TuitionPay,ATM,-242.35,Posted,REF0000158260,Synthetic transaction
+TXN-0000821,ACCT-000148,CUST-00148,2026-04-23,2026-04-23,Fee - Returned Item Fee,Returned Item Fee,Fee,-23.05,Posted,REF0000158453,Synthetic transaction
+TXN-0000822,ACCT-000155,CUST-00155,2026-04-03,2026-04-03,Fee - Overdraft Fee,Overdraft Fee,Fee,-27.36,Posted,REF0000158646,Synthetic transaction
+TXN-0000823,ACCT-000162,CUST-00162,2026-04-18,2026-04-18,Transfer In - StreamBox Media,StreamBox Media,Transfer In,1883.4,Posted,REF0000158839,Synthetic transaction
+TXN-0000824,ACCT-000169,CUST-00169,2026-01-29,2026-01-31,Deposit - StreamBox Media,StreamBox Media,Deposit,2753.61,Posted,REF0000159032,Synthetic transaction
+TXN-0000825,ACCT-000176,CUST-00176,2026-03-21,2026-03-23,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-102.56,Posted,REF0000159225,Synthetic transaction
+TXN-0000826,ACCT-000183,CUST-00183,2026-05-24,2026-05-24,ACH Credit - TuitionPay,TuitionPay,ACH Credit,2621.45,Posted,REF0000159418,Synthetic transaction
+TXN-0000827,ACCT-000190,CUST-00190,2026-06-12,2026-06-12,Card Purchase - Northline Utilities,Northline Utilities,Card Purchase,-589.98,Posted,REF0000159611,Synthetic transaction
+TXN-0000828,ACCT-000197,CUST-00197,2026-05-22,2026-05-22,Card Purchase - Bluebird Pharmacy,Bluebird Pharmacy,Card Purchase,-716.54,Posted,REF0000159804,Synthetic transaction
+TXN-0000829,ACCT-000204,CUST-00004,2026-05-11,2026-05-13,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,2063.46,Posted,REF0000159997,Synthetic transaction
+TXN-0000830,ACCT-000211,CUST-00011,2026-06-13,2026-06-13,ATM - Oak & Main,Oak & Main,ATM,-355.39,Posted,REF0000160190,Synthetic transaction
+TXN-0000831,ACCT-000218,CUST-00018,2026-06-05,2026-06-05,ATM - MedPlus Clinic,MedPlus Clinic,ATM,-625.71,Posted,REF0000160383,Synthetic transaction
+TXN-0000832,ACCT-000225,CUST-00025,2026-02-11,2026-02-11,Bill Pay - Oak & Main,Oak & Main,Bill Pay,-469.72,Pending,REF0000160576,Synthetic transaction
+TXN-0000833,ACCT-000232,CUST-00032,2026-03-31,2026-03-31,ACH Debit - FastShip,FastShip,ACH Debit,-180.59,Posted,REF0000160769,Synthetic transaction
+TXN-0000834,ACCT-000239,CUST-00039,2026-03-27,2026-03-27,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-34.59,Posted,REF0000160962,Synthetic transaction
+TXN-0000835,ACCT-000246,CUST-00046,2026-06-15,2026-06-15,ACH Credit - BrightFuel,BrightFuel,ACH Credit,794.58,Posted,REF0000161155,Synthetic transaction
+TXN-0000836,ACCT-000253,CUST-00053,2026-05-04,2026-05-04,Card Purchase - MedPlus Clinic,MedPlus Clinic,Card Purchase,-42.4,Posted,REF0000161348,Synthetic transaction
+TXN-0000837,ACCT-000260,CUST-00060,2026-02-15,2026-02-15,Card Purchase - StreamBox Media,StreamBox Media,Card Purchase,-186.32,Posted,REF0000161541,Synthetic transaction
+TXN-0000838,ACCT-000267,CUST-00067,2026-03-05,2026-03-07,Bill Pay - StreamBox Media,StreamBox Media,Bill Pay,-324.93,Posted,REF0000161734,Synthetic transaction
+TXN-0000839,ACCT-000274,CUST-00074,2026-04-17,2026-04-17,POS - Harbor Insurance,Harbor Insurance,POS,-362.38,Posted,REF0000161927,Synthetic transaction
+TXN-0000840,ACCT-000281,CUST-00081,2026-06-14,2026-06-14,POS - MedPlus Clinic,MedPlus Clinic,POS,-5.88,Posted,REF0000162120,Synthetic transaction
+TXN-0000841,ACCT-000288,CUST-00088,2026-04-17,2026-04-17,Refund - Atlas Wireless,Atlas Wireless,Refund,3483.95,Posted,REF0000162313,Synthetic transaction
+TXN-0000842,ACCT-000295,CUST-00095,2026-04-01,2026-04-01,POS - Harbor Insurance,Harbor Insurance,POS,-163.51,Posted,REF0000162506,Synthetic transaction
+TXN-0000843,ACCT-000302,CUST-00102,2026-02-15,2026-02-15,Card Purchase - Oak & Main,Oak & Main,Card Purchase,-327.15,Posted,REF0000162699,Synthetic transaction
+TXN-0000844,ACCT-000309,CUST-00109,2026-05-21,2026-05-21,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-514.01,Posted,REF0000162892,Synthetic transaction
+TXN-0000845,ACCT-000316,CUST-00116,2026-04-02,2026-04-02,POS - Corner Cafe,Corner Cafe,POS,-355.58,Posted,REF0000163085,Synthetic transaction
+TXN-0000846,ACCT-000323,CUST-00123,2026-06-22,2026-06-23,ACH Debit - RideNow Transit,RideNow Transit,ACH Debit,-268.01,Posted,REF0000163278,Synthetic transaction
+TXN-0000847,ACCT-000330,CUST-00130,2026-02-14,2026-02-14,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-23.85,Posted,REF0000163471,Synthetic transaction
+TXN-0000848,ACCT-000337,CUST-00137,2026-06-17,2026-06-17,ATM - FastShip,FastShip,ATM,-666.58,Posted,REF0000163664,Synthetic transaction
+TXN-0000849,ACCT-000344,CUST-00144,2026-02-12,2026-02-12,Deposit - GreenLeaf Market,GreenLeaf Market,Deposit,1715.63,Posted,REF0000163857,Synthetic transaction
+TXN-0000850,ACCT-000351,CUST-00151,2026-05-14,2026-05-14,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-8.31,Posted,REF0000164050,Synthetic transaction
+TXN-0000851,ACCT-000358,CUST-00158,2026-04-19,2026-04-21,Card Purchase - Atlas Wireless,Atlas Wireless,Card Purchase,-168.7,Posted,REF0000164243,Synthetic transaction
+TXN-0000852,ACCT-000365,CUST-00165,2026-06-13,2026-06-13,Fee - Wire Fee,Wire Fee,Fee,-10.37,Posted,REF0000164436,Synthetic transaction
+TXN-0000853,ACCT-000372,CUST-00172,2026-05-14,2026-05-14,Bill Pay - Oak & Main,Oak & Main,Bill Pay,-374.58,Posted,REF0000164629,Synthetic transaction
+TXN-0000854,ACCT-000379,CUST-00179,2026-05-18,2026-05-18,Transfer In - RideNow Transit,RideNow Transit,Transfer In,2600.29,Posted,REF0000164822,Synthetic transaction
+TXN-0000855,ACCT-000386,CUST-00186,2026-05-20,2026-05-20,ACH Debit - Harbor Insurance,Harbor Insurance,ACH Debit,-562.42,Posted,REF0000165015,Synthetic transaction
+TXN-0000856,ACCT-000393,CUST-00193,2026-04-13,2026-04-15,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-229.59,Posted,REF0000165208,Synthetic transaction
+TXN-0000857,ACCT-000400,CUST-00200,2026-01-30,2026-01-30,Deposit - RideNow Transit,RideNow Transit,Deposit,1743.74,Posted,REF0000165401,Synthetic transaction
+TXN-0000858,ACCT-000007,CUST-00007,2026-06-09,2026-06-09,Fee - Returned Item Fee,Returned Item Fee,Fee,-21.77,Posted,REF0000165594,Synthetic transaction
+TXN-0000859,ACCT-000014,CUST-00014,2026-03-25,2026-03-27,Fee - Returned Item Fee,Returned Item Fee,Fee,-23.48,Posted,REF0000165787,Synthetic transaction
+TXN-0000860,ACCT-000021,CUST-00021,2026-02-09,2026-02-09,Fee - Wire Fee,Wire Fee,Fee,-28.35,Posted,REF0000165980,Synthetic transaction
+TXN-0000861,ACCT-000028,CUST-00028,2026-04-26,2026-04-26,ATM - MedPlus Clinic,MedPlus Clinic,ATM,-595.41,Posted,REF0000166173,Synthetic transaction
+TXN-0000862,ACCT-000035,CUST-00035,2026-02-06,2026-02-06,POS - City Fitness,City Fitness,POS,-298.8,Posted,REF0000166366,Synthetic transaction
+TXN-0000863,ACCT-000042,CUST-00042,2026-04-29,2026-04-29,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-59.9,Posted,REF0000166559,Synthetic transaction
+TXN-0000864,ACCT-000049,CUST-00049,2026-04-03,2026-04-03,Deposit - Corner Cafe,Corner Cafe,Deposit,1827.59,Posted,REF0000166752,Synthetic transaction
+TXN-0000865,ACCT-000056,CUST-00056,2026-02-20,2026-02-20,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-266.3,Posted,REF0000166945,Synthetic transaction
+TXN-0000866,ACCT-000063,CUST-00063,2026-02-14,2026-02-16,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-197.95,Posted,REF0000167138,Synthetic transaction
+TXN-0000867,ACCT-000070,CUST-00070,2026-03-12,2026-03-12,Bill Pay - Corner Cafe,Corner Cafe,Bill Pay,-77.97,Posted,REF0000167331,Synthetic transaction
+TXN-0000868,ACCT-000077,CUST-00077,2026-03-21,2026-03-21,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-724.49,Posted,REF0000167524,Synthetic transaction
+TXN-0000869,ACCT-000084,CUST-00084,2026-06-06,2026-06-06,ACH Credit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Credit,619.05,Posted,REF0000167717,Synthetic transaction
+TXN-0000870,ACCT-000091,CUST-00091,2026-04-19,2026-04-19,ACH Credit - Oak & Main,Oak & Main,ACH Credit,1085.24,Posted,REF0000167910,Synthetic transaction
+TXN-0000871,ACCT-000098,CUST-00098,2026-04-19,2026-04-19,Refund - FastShip,FastShip,Refund,1535.83,Posted,REF0000168103,Synthetic transaction
+TXN-0000872,ACCT-000105,CUST-00105,2026-05-16,2026-05-16,Deposit - Northline Utilities,Northline Utilities,Deposit,2354.76,Posted,REF0000168296,Synthetic transaction
+TXN-0000873,ACCT-000112,CUST-00112,2026-05-04,2026-05-04,ACH Credit - TuitionPay,TuitionPay,ACH Credit,3359.06,Posted,REF0000168489,Synthetic transaction
+TXN-0000874,ACCT-000119,CUST-00119,2026-03-11,2026-03-11,ACH Credit - TuitionPay,TuitionPay,ACH Credit,2317.9,Posted,REF0000168682,Synthetic transaction
+TXN-0000875,ACCT-000126,CUST-00126,2026-06-07,2026-06-07,Fee - Overdraft Fee,Overdraft Fee,Fee,-24.38,Posted,REF0000168875,Synthetic transaction
+TXN-0000876,ACCT-000133,CUST-00133,2026-05-11,2026-05-11,Card Purchase - Oak & Main,Oak & Main,Card Purchase,-76.99,Posted,REF0000169068,Synthetic transaction
+TXN-0000877,ACCT-000140,CUST-00140,2026-05-30,2026-05-30,ATM - City Fitness,City Fitness,ATM,-380,Posted,REF0000169261,Synthetic transaction
+TXN-0000878,ACCT-000147,CUST-00147,2026-04-04,2026-04-06,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-346.76,Posted,REF0000169454,Synthetic transaction
+TXN-0000879,ACCT-000154,CUST-00154,2026-06-10,2026-06-10,ACH Credit - TuitionPay,TuitionPay,ACH Credit,800.26,Posted,REF0000169647,Synthetic transaction
+TXN-0000880,ACCT-000161,CUST-00161,2026-01-28,2026-01-28,ACH Credit - FastShip,FastShip,ACH Credit,2544.64,Posted,REF0000169840,Synthetic transaction
+TXN-0000881,ACCT-000168,CUST-00168,2026-05-25,2026-05-25,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-266.3,Posted,REF0000170033,Synthetic transaction
+TXN-0000882,ACCT-000175,CUST-00175,2026-04-19,2026-04-19,ATM - MedPlus Clinic,MedPlus Clinic,ATM,-13.78,Posted,REF0000170226,Synthetic transaction
+TXN-0000883,ACCT-000182,CUST-00182,2026-03-13,2026-03-13,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-28.56,Posted,REF0000170419,Synthetic transaction
+TXN-0000884,ACCT-000189,CUST-00189,2026-05-21,2026-05-23,Card Purchase - Bluebird Pharmacy,Bluebird Pharmacy,Card Purchase,-477.55,Posted,REF0000170612,Synthetic transaction
+TXN-0000885,ACCT-000196,CUST-00196,2026-03-10,2026-03-10,Transfer In - Harbor Insurance,Harbor Insurance,Transfer In,782.66,Posted,REF0000170805,Synthetic transaction
+TXN-0000886,ACCT-000203,CUST-00003,2026-05-24,2026-05-24,Card Purchase - City Fitness,City Fitness,Card Purchase,-582.5,Posted,REF0000170998,Synthetic transaction
+TXN-0000887,ACCT-000210,CUST-00010,2026-04-11,2026-04-11,Bill Pay - RideNow Transit,RideNow Transit,Bill Pay,-474.26,Posted,REF0000171191,Synthetic transaction
+TXN-0000888,ACCT-000217,CUST-00017,2026-02-11,2026-02-11,ACH Debit - City Fitness,City Fitness,ACH Debit,-385.08,Posted,REF0000171384,Synthetic transaction
+TXN-0000889,ACCT-000224,CUST-00024,2026-05-09,2026-05-09,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,768.35,Posted,REF0000171577,Synthetic transaction
+TXN-0000890,ACCT-000231,CUST-00031,2026-03-23,2026-03-23,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-753.8,Posted,REF0000171770,Synthetic transaction
+TXN-0000891,ACCT-000238,CUST-00038,2026-02-27,2026-02-27,Bill Pay - City Fitness,City Fitness,Bill Pay,-157,Posted,REF0000171963,Synthetic transaction
+TXN-0000892,ACCT-000245,CUST-00045,2026-04-26,2026-04-26,Card Purchase - Atlas Wireless,Atlas Wireless,Card Purchase,-35.9,Posted,REF0000172156,Synthetic transaction
+TXN-0000893,ACCT-000252,CUST-00052,2026-03-13,2026-03-13,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-587.68,Posted,REF0000172349,Synthetic transaction
+TXN-0000894,ACCT-000259,CUST-00059,2026-06-01,2026-06-01,Card Purchase - Atlas Wireless,Atlas Wireless,Card Purchase,-717.84,Posted,REF0000172542,Synthetic transaction
+TXN-0000895,ACCT-000266,CUST-00066,2026-06-09,2026-06-11,ACH Credit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Credit,1424.43,Posted,REF0000172735,Synthetic transaction
+TXN-0000896,ACCT-000273,CUST-00073,2026-03-28,2026-03-28,Bill Pay - StreamBox Media,StreamBox Media,Bill Pay,-509.14,Posted,REF0000172928,Synthetic transaction
+TXN-0000897,ACCT-000280,CUST-00080,2026-04-19,2026-04-19,Transfer In - City Fitness,City Fitness,Transfer In,461.03,Posted,REF0000173121,Synthetic transaction
+TXN-0000898,ACCT-000287,CUST-00087,2026-01-31,2026-01-31,Card Purchase - Oak & Main,Oak & Main,Card Purchase,-679.66,Posted,REF0000173314,Synthetic transaction
+TXN-0000899,ACCT-000294,CUST-00094,2026-05-17,2026-05-19,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-326.82,Posted,REF0000173507,Synthetic transaction
+TXN-0000900,ACCT-000301,CUST-00101,2026-03-09,2026-03-09,POS - GreenLeaf Market,GreenLeaf Market,POS,-388.66,Posted,REF0000173700,Synthetic transaction
+TXN-0000901,ACCT-000308,CUST-00108,2026-04-24,2026-04-24,POS - FastShip,FastShip,POS,-606.61,Posted,REF0000173893,Synthetic transaction
+TXN-0000902,ACCT-000315,CUST-00115,2026-02-07,2026-02-07,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-543.54,Posted,REF0000174086,Synthetic transaction
+TXN-0000903,ACCT-000322,CUST-00122,2026-05-11,2026-05-11,Deposit - RideNow Transit,RideNow Transit,Deposit,2775.82,Posted,REF0000174279,Synthetic transaction
+TXN-0000904,ACCT-000329,CUST-00129,2026-03-06,2026-03-08,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-678.13,Posted,REF0000174472,Synthetic transaction
+TXN-0000905,ACCT-000336,CUST-00136,2026-05-10,2026-05-10,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-592.83,Posted,REF0000174665,Synthetic transaction
+TXN-0000906,ACCT-000343,CUST-00143,2026-04-13,2026-04-15,ATM - GreenLeaf Market,GreenLeaf Market,ATM,-452.85,Posted,REF0000174858,Synthetic transaction
+TXN-0000907,ACCT-000350,CUST-00150,2026-05-15,2026-05-15,POS - TuitionPay,TuitionPay,POS,-61.69,Posted,REF0000175051,Synthetic transaction
+TXN-0000908,ACCT-000357,CUST-00157,2026-04-06,2026-04-08,Refund - StreamBox Media,StreamBox Media,Refund,83.06,Posted,REF0000175244,Synthetic transaction
+TXN-0000909,ACCT-000364,CUST-00164,2026-04-20,2026-04-20,Fee - Returned Item Fee,Returned Item Fee,Fee,-4.5,Posted,REF0000175437,Synthetic transaction
+TXN-0000910,ACCT-000371,CUST-00171,2026-04-16,2026-04-16,ACH Debit - Bluebird Pharmacy,Bluebird Pharmacy,ACH Debit,-524.45,Posted,REF0000175630,Synthetic transaction
+TXN-0000911,ACCT-000378,CUST-00178,2026-02-23,2026-02-23,ACH Credit - City Fitness,City Fitness,ACH Credit,2915.34,Posted,REF0000175823,Synthetic transaction
+TXN-0000912,ACCT-000385,CUST-00185,2026-03-09,2026-03-09,Fee - Returned Item Fee,Returned Item Fee,Fee,-34.67,Posted,REF0000176016,Synthetic transaction
+TXN-0000913,ACCT-000392,CUST-00192,2026-02-25,2026-02-25,POS - RideNow Transit,RideNow Transit,POS,-477.26,Posted,REF0000176209,Synthetic transaction
+TXN-0000914,ACCT-000399,CUST-00199,2026-05-31,2026-05-31,Bill Pay - City Fitness,City Fitness,Bill Pay,-638.3,Posted,REF0000176402,Synthetic transaction
+TXN-0000915,ACCT-000006,CUST-00006,2026-02-19,2026-02-19,ATM - RideNow Transit,RideNow Transit,ATM,-110.06,Posted,REF0000176595,Synthetic transaction
+TXN-0000916,ACCT-000013,CUST-00013,2026-06-21,2026-06-23,Bill Pay - Bluebird Pharmacy,Bluebird Pharmacy,Bill Pay,-28.59,Posted,REF0000176788,Synthetic transaction
+TXN-0000917,ACCT-000020,CUST-00020,2026-02-19,2026-02-19,Transfer In - Atlas Wireless,Atlas Wireless,Transfer In,1577.15,Posted,REF0000176981,Synthetic transaction
+TXN-0000918,ACCT-000027,CUST-00027,2026-04-30,2026-04-30,Transfer In - Metro Grocery,Metro Grocery,Transfer In,2520.7,Posted,REF0000177174,Synthetic transaction
+TXN-0000919,ACCT-000034,CUST-00034,2026-02-04,2026-02-06,Transfer In - Bluebird Pharmacy,Bluebird Pharmacy,Transfer In,2794.21,Posted,REF0000177367,Synthetic transaction
+TXN-0000920,ACCT-000041,CUST-00041,2026-04-16,2026-04-18,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-99.86,Posted,REF0000177560,Synthetic transaction
+TXN-0000921,ACCT-000048,CUST-00048,2026-03-13,2026-03-13,Card Purchase - FastShip,FastShip,Card Purchase,-748.29,Posted,REF0000177753,Synthetic transaction
+TXN-0000922,ACCT-000055,CUST-00055,2026-06-01,2026-06-01,POS - StreamBox Media,StreamBox Media,POS,-102.33,Posted,REF0000177946,Synthetic transaction
+TXN-0000923,ACCT-000062,CUST-00062,2026-05-23,2026-05-25,Refund - Metro Grocery,Metro Grocery,Refund,3078.93,Posted,REF0000178139,Synthetic transaction
+TXN-0000924,ACCT-000069,CUST-00069,2026-02-20,2026-02-20,Card Purchase - Corner Cafe,Corner Cafe,Card Purchase,-676.53,Posted,REF0000178332,Synthetic transaction
+TXN-0000925,ACCT-000076,CUST-00076,2026-03-11,2026-03-11,Deposit - Bluebird Pharmacy,Bluebird Pharmacy,Deposit,1350.14,Posted,REF0000178525,Synthetic transaction
+TXN-0000926,ACCT-000083,CUST-00083,2026-03-30,2026-03-30,ACH Credit - Corner Cafe,Corner Cafe,ACH Credit,3325.06,Posted,REF0000178718,Synthetic transaction
+TXN-0000927,ACCT-000090,CUST-00090,2026-03-21,2026-03-21,ATM - BrightFuel,BrightFuel,ATM,-253.8,Posted,REF0000178911,Synthetic transaction
+TXN-0000928,ACCT-000097,CUST-00097,2026-05-21,2026-05-21,ACH Debit - City Fitness,City Fitness,ACH Debit,-188.64,Posted,REF0000179104,Synthetic transaction
+TXN-0000929,ACCT-000104,CUST-00104,2026-04-07,2026-04-07,ACH Debit - RideNow Transit,RideNow Transit,ACH Debit,-127.13,Posted,REF0000179297,Synthetic transaction
+TXN-0000930,ACCT-000111,CUST-00111,2026-04-02,2026-04-02,Fee - Overdraft Fee,Overdraft Fee,Fee,-14.7,Posted,REF0000179490,Synthetic transaction
+TXN-0000931,ACCT-000118,CUST-00118,2026-05-31,2026-06-02,Card Purchase - City Fitness,City Fitness,Card Purchase,-540.01,Posted,REF0000179683,Synthetic transaction
+TXN-0000932,ACCT-000125,CUST-00125,2026-03-26,2026-03-28,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-13.64,Posted,REF0000179876,Synthetic transaction
+TXN-0000933,ACCT-000132,CUST-00132,2026-06-21,2026-06-21,Card Purchase - GreenLeaf Market,GreenLeaf Market,Card Purchase,-359.7,Posted,REF0000180069,Synthetic transaction
+TXN-0000934,ACCT-000139,CUST-00139,2026-03-12,2026-03-12,Deposit - BrightFuel,BrightFuel,Deposit,880.12,Posted,REF0000180262,Synthetic transaction
+TXN-0000935,ACCT-000146,CUST-00146,2026-05-04,2026-05-04,Refund - Metro Grocery,Metro Grocery,Refund,1282.25,Posted,REF0000180455,Synthetic transaction
+TXN-0000936,ACCT-000153,CUST-00153,2026-04-09,2026-04-09,Deposit - Bluebird Pharmacy,Bluebird Pharmacy,Deposit,780.05,Pending,REF0000180648,Synthetic transaction
+TXN-0000937,ACCT-000160,CUST-00160,2026-02-08,2026-02-08,POS - BrightFuel,BrightFuel,POS,-183.82,Posted,REF0000180841,Synthetic transaction
+TXN-0000938,ACCT-000167,CUST-00167,2026-03-05,2026-03-07,Fee - Wire Fee,Wire Fee,Fee,-26.73,Posted,REF0000181034,Synthetic transaction
+TXN-0000939,ACCT-000174,CUST-00174,2026-02-08,2026-02-08,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-540.69,Posted,REF0000181227,Synthetic transaction
+TXN-0000940,ACCT-000181,CUST-00181,2026-03-15,2026-03-15,Transfer In - Corner Cafe,Corner Cafe,Transfer In,1111.84,Posted,REF0000181420,Synthetic transaction
+TXN-0000941,ACCT-000188,CUST-00188,2026-02-23,2026-02-25,ACH Credit - Oak & Main,Oak & Main,ACH Credit,1761.77,Posted,REF0000181613,Synthetic transaction
+TXN-0000942,ACCT-000195,CUST-00195,2026-02-10,2026-02-12,Bill Pay - MedPlus Clinic,MedPlus Clinic,Bill Pay,-275.08,Posted,REF0000181806,Synthetic transaction
+TXN-0000943,ACCT-000202,CUST-00002,2026-03-12,2026-03-12,Refund - TuitionPay,TuitionPay,Refund,3372.08,Posted,REF0000181999,Synthetic transaction
+TXN-0000944,ACCT-000209,CUST-00009,2026-01-29,2026-01-29,Bill Pay - BrightFuel,BrightFuel,Bill Pay,-339.19,Posted,REF0000182192,Synthetic transaction
+TXN-0000945,ACCT-000216,CUST-00016,2026-06-15,2026-06-17,Deposit - Atlas Wireless,Atlas Wireless,Deposit,2752.41,Posted,REF0000182385,Synthetic transaction
+TXN-0000946,ACCT-000223,CUST-00023,2026-05-10,2026-05-10,Card Purchase - Harbor Insurance,Harbor Insurance,Card Purchase,-338.14,Posted,REF0000182578,Synthetic transaction
+TXN-0000947,ACCT-000230,CUST-00030,2026-01-25,2026-01-27,Refund - MedPlus Clinic,MedPlus Clinic,Refund,573.08,Posted,REF0000182771,Synthetic transaction
+TXN-0000948,ACCT-000237,CUST-00037,2026-02-17,2026-02-17,ATM - City Fitness,City Fitness,ATM,-443.59,Posted,REF0000182964,Synthetic transaction
+TXN-0000949,ACCT-000244,CUST-00044,2026-03-24,2026-03-24,POS - FastShip,FastShip,POS,-670.68,Pending,REF0000183157,Synthetic transaction
+TXN-0000950,ACCT-000251,CUST-00051,2026-05-06,2026-05-06,POS - Atlas Wireless,Atlas Wireless,POS,-404.79,Posted,REF0000183350,Synthetic transaction
+TXN-0000951,ACCT-000258,CUST-00058,2026-01-26,2026-01-26,Deposit - Harbor Insurance,Harbor Insurance,Deposit,2972.84,Posted,REF0000183543,Synthetic transaction
+TXN-0000952,ACCT-000265,CUST-00065,2026-04-12,2026-04-12,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-152.1,Posted,REF0000183736,Synthetic transaction
+TXN-0000953,ACCT-000272,CUST-00072,2026-03-10,2026-03-12,Fee - Returned Item Fee,Returned Item Fee,Fee,-10.68,Posted,REF0000183929,Synthetic transaction
+TXN-0000954,ACCT-000279,CUST-00079,2026-04-13,2026-04-13,ATM - Corner Cafe,Corner Cafe,ATM,-685.54,Posted,REF0000184122,Synthetic transaction
+TXN-0000955,ACCT-000286,CUST-00086,2026-01-29,2026-01-29,Deposit - TuitionPay,TuitionPay,Deposit,2675.06,Posted,REF0000184315,Synthetic transaction
+TXN-0000956,ACCT-000293,CUST-00093,2026-06-08,2026-06-10,POS - Atlas Wireless,Atlas Wireless,POS,-306.84,Posted,REF0000184508,Synthetic transaction
+TXN-0000957,ACCT-000300,CUST-00100,2026-05-13,2026-05-13,POS - Atlas Wireless,Atlas Wireless,POS,-44.61,Posted,REF0000184701,Synthetic transaction
+TXN-0000958,ACCT-000307,CUST-00107,2026-06-07,2026-06-09,Deposit - FastShip,FastShip,Deposit,2584.78,Posted,REF0000184894,Synthetic transaction
+TXN-0000959,ACCT-000314,CUST-00114,2026-04-09,2026-04-11,Bill Pay - GreenLeaf Market,GreenLeaf Market,Bill Pay,-633.67,Posted,REF0000185087,Synthetic transaction
+TXN-0000960,ACCT-000321,CUST-00121,2026-05-27,2026-05-27,Transfer In - FastShip,FastShip,Transfer In,1020.11,Posted,REF0000185280,Synthetic transaction
+TXN-0000961,ACCT-000328,CUST-00128,2026-05-18,2026-05-18,Fee - Returned Item Fee,Returned Item Fee,Fee,-14.04,Pending,REF0000185473,Synthetic transaction
+TXN-0000962,ACCT-000335,CUST-00135,2026-05-23,2026-05-23,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-15.45,Posted,REF0000185666,Synthetic transaction
+TXN-0000963,ACCT-000342,CUST-00142,2026-02-28,2026-02-28,Card Purchase - BrightFuel,BrightFuel,Card Purchase,-492.75,Posted,REF0000185859,Synthetic transaction
+TXN-0000964,ACCT-000349,CUST-00149,2026-04-01,2026-04-01,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-19.34,Posted,REF0000186052,Synthetic transaction
+TXN-0000965,ACCT-000356,CUST-00156,2026-06-14,2026-06-14,ACH Debit - Corner Cafe,Corner Cafe,ACH Debit,-548.11,Posted,REF0000186245,Synthetic transaction
+TXN-0000966,ACCT-000363,CUST-00163,2026-02-04,2026-02-04,Refund - MedPlus Clinic,MedPlus Clinic,Refund,1797.64,Posted,REF0000186438,Synthetic transaction
+TXN-0000967,ACCT-000370,CUST-00170,2026-03-26,2026-03-26,Fee - Expedited Card Fee,Expedited Card Fee,Fee,-33.62,Posted,REF0000186631,Synthetic transaction
+TXN-0000968,ACCT-000377,CUST-00177,2026-03-21,2026-03-23,Refund - City Fitness,City Fitness,Refund,2116.01,Posted,REF0000186824,Synthetic transaction
+TXN-0000969,ACCT-000384,CUST-00184,2026-05-11,2026-05-13,POS - FastShip,FastShip,POS,-38.6,Posted,REF0000187017,Synthetic transaction
+TXN-0000970,ACCT-000391,CUST-00191,2026-03-09,2026-03-11,ACH Debit - BrightFuel,BrightFuel,ACH Debit,-376.44,Posted,REF0000187210,Synthetic transaction
+TXN-0000971,ACCT-000398,CUST-00198,2026-06-14,2026-06-14,Fee - Overdraft Fee,Overdraft Fee,Fee,-9.54,Posted,REF0000187403,Synthetic transaction
+TXN-0000972,ACCT-000005,CUST-00005,2026-05-13,2026-05-13,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-691.08,Posted,REF0000187596,Synthetic transaction
+TXN-0000973,ACCT-000012,CUST-00012,2026-06-18,2026-06-18,ATM - Metro Grocery,Metro Grocery,ATM,-616.27,Posted,REF0000187789,Synthetic transaction
+TXN-0000974,ACCT-000019,CUST-00019,2026-06-08,2026-06-10,ATM - TuitionPay,TuitionPay,ATM,-151.75,Posted,REF0000187982,Synthetic transaction
+TXN-0000975,ACCT-000026,CUST-00026,2026-03-18,2026-03-18,Fee - Wire Fee,Wire Fee,Fee,-22,Posted,REF0000188175,Synthetic transaction
+TXN-0000976,ACCT-000033,CUST-00033,2026-01-28,2026-01-28,ACH Debit - Metro Grocery,Metro Grocery,ACH Debit,-610.06,Posted,REF0000188368,Synthetic transaction
+TXN-0000977,ACCT-000040,CUST-00040,2026-04-14,2026-04-14,ACH Debit - TuitionPay,TuitionPay,ACH Debit,-526.96,Posted,REF0000188561,Synthetic transaction
+TXN-0000978,ACCT-000047,CUST-00047,2026-03-21,2026-03-21,ACH Debit - City Fitness,City Fitness,ACH Debit,-662.17,Posted,REF0000188754,Synthetic transaction
+TXN-0000979,ACCT-000054,CUST-00054,2026-05-12,2026-05-14,Card Purchase - GreenLeaf Market,GreenLeaf Market,Card Purchase,-701.99,Posted,REF0000188947,Synthetic transaction
+TXN-0000980,ACCT-000061,CUST-00061,2026-05-01,2026-05-03,Card Purchase - TuitionPay,TuitionPay,Card Purchase,-631.98,Posted,REF0000189140,Synthetic transaction
+TXN-0000981,ACCT-000068,CUST-00068,2026-02-21,2026-02-21,ACH Debit - Atlas Wireless,Atlas Wireless,ACH Debit,-181.87,Pending,REF0000189333,Synthetic transaction
+TXN-0000982,ACCT-000075,CUST-00075,2026-05-06,2026-05-06,Fee - Returned Item Fee,Returned Item Fee,Fee,-32.31,Posted,REF0000189526,Synthetic transaction
+TXN-0000983,ACCT-000082,CUST-00082,2026-02-25,2026-02-25,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-213.03,Posted,REF0000189719,Synthetic transaction
+TXN-0000984,ACCT-000089,CUST-00089,2026-05-16,2026-05-16,Transfer In - TuitionPay,TuitionPay,Transfer In,3366.17,Posted,REF0000189912,Synthetic transaction
+TXN-0000985,ACCT-000096,CUST-00096,2026-04-02,2026-04-02,Refund - Bluebird Pharmacy,Bluebird Pharmacy,Refund,1292.46,Posted,REF0000190105,Synthetic transaction
+TXN-0000986,ACCT-000103,CUST-00103,2026-02-26,2026-02-26,ATM - Harbor Insurance,Harbor Insurance,ATM,-539.09,Posted,REF0000190298,Synthetic transaction
+TXN-0000987,ACCT-000110,CUST-00110,2026-04-01,2026-04-01,ACH Credit - Harbor Insurance,Harbor Insurance,ACH Credit,2279.13,Posted,REF0000190491,Synthetic transaction
+TXN-0000988,ACCT-000117,CUST-00117,2026-02-10,2026-02-10,Refund - BrightFuel,BrightFuel,Refund,2710.89,Posted,REF0000190684,Synthetic transaction
+TXN-0000989,ACCT-000124,CUST-00124,2026-03-26,2026-03-26,ACH Debit - GreenLeaf Market,GreenLeaf Market,ACH Debit,-582.89,Posted,REF0000190877,Synthetic transaction
+TXN-0000990,ACCT-000131,CUST-00131,2026-02-13,2026-02-13,Card Purchase - FastShip,FastShip,Card Purchase,-732.58,Posted,REF0000191070,Synthetic transaction
+TXN-0000991,ACCT-000138,CUST-00138,2026-04-14,2026-04-14,Refund - City Fitness,City Fitness,Refund,1089.08,Posted,REF0000191263,Synthetic transaction
+TXN-0000992,ACCT-000145,CUST-00145,2026-03-08,2026-03-10,ATM - Atlas Wireless,Atlas Wireless,ATM,-445.22,Posted,REF0000191456,Synthetic transaction
+TXN-0000993,ACCT-000152,CUST-00152,2026-02-10,2026-02-10,POS - Bluebird Pharmacy,Bluebird Pharmacy,POS,-685.16,Posted,REF0000191649,Synthetic transaction
+TXN-0000994,ACCT-000159,CUST-00159,2026-04-24,2026-04-26,Fee - Overdraft Fee,Overdraft Fee,Fee,-27.92,Posted,REF0000191842,Synthetic transaction
+TXN-0000995,ACCT-000166,CUST-00166,2026-04-25,2026-04-25,ACH Credit - FastShip,FastShip,ACH Credit,534.92,Posted,REF0000192035,Synthetic transaction
+TXN-0000996,ACCT-000173,CUST-00173,2026-06-04,2026-06-04,ACH Credit - RideNow Transit,RideNow Transit,ACH Credit,2167.93,Posted,REF0000192228,Synthetic transaction
+TXN-0000997,ACCT-000180,CUST-00180,2026-04-10,2026-04-10,Card Purchase - Bluebird Pharmacy,Bluebird Pharmacy,Card Purchase,-56.61,Posted,REF0000192421,Synthetic transaction
+TXN-0000998,ACCT-000187,CUST-00187,2026-04-19,2026-04-19,Card Purchase - Metro Grocery,Metro Grocery,Card Purchase,-726.16,Posted,REF0000192614,Synthetic transaction
+TXN-0000999,ACCT-000194,CUST-00194,2026-02-23,2026-02-23,Bill Pay - Northline Utilities,Northline Utilities,Bill Pay,-179.2,Posted,REF0000192807,Synthetic transaction
+TXN-0001000,ACCT-000201,CUST-00001,2026-05-29,2026-05-29,ACH Debit - Metro Grocery,Metro Grocery,ACH Debit,-138.49,Posted,REF0000193000,Synthetic transaction

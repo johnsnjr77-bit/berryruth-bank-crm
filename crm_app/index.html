@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BerryRuth Bank CRM Console</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <div class="brand">
+          <div class="brand-mark">BR</div>
+          <div>
+            <div class="brand-title">BerryRuth Bank</div>
+            <div class="brand-subtitle">Service CRM</div>
+          </div>
+        </div>
+        <nav class="nav">
+          <button class="nav-item active" data-view="cases" type="button">Cases</button>
+          <button class="nav-item" data-view="customers" type="button">Customers</button>
+          <button class="nav-item" data-view="knowledge" type="button">Knowledge</button>
+          <button class="nav-item" data-view="tests" type="button">Golden Tests</button>
+          <button class="nav-item" data-view="health" type="button">Data Health</button>
+        </nav>
+        <div class="environment">
+          <span class="dot"></span>
+          Synthetic environment
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <h1>Customer Service Case Resolution</h1>
+            <p>Mock operations console for copilot workflow testing</p>
+          </div>
+          <div class="top-actions">
+            <label class="search">
+              <span>Search</span>
+              <input id="globalSearch" type="search" placeholder="Case, customer, account, keyword">
+            </label>
+            <button id="resetFilters" class="ghost-button" type="button">Reset</button>
+          </div>
+        </header>
+
+        <section id="summaryCards" class="summary-grid" aria-label="Dataset summary"></section>
+
+        <section id="casesView" class="view active">
+          <div class="workbench">
+            <section class="queue-panel">
+              <div class="panel-head">
+                <div>
+                  <h2>Case Queue</h2>
+                  <span id="caseCount"></span>
+                </div>
+                <select id="categoryFilter" aria-label="Filter by category"></select>
+              </div>
+              <div class="filter-row">
+                <select id="statusFilter" aria-label="Filter by status"></select>
+                <select id="priorityFilter" aria-label="Filter by priority"></select>
+              </div>
+              <div id="caseList" class="case-list"></div>
+            </section>
+
+            <section class="detail-panel">
+              <div id="caseDetail" class="case-detail"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="customersView" class="view">
+          <div class="split-grid">
+            <section class="table-panel">
+              <div class="panel-head">
+                <div>
+                  <h2>Customers</h2>
+                  <span id="customerCount"></span>
+                </div>
+              </div>
+              <div id="customerTable" class="data-table"></div>
+            </section>
+            <section class="side-panel">
+              <h2>Selected Customer</h2>
+              <div id="customerDetail"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="knowledgeView" class="view">
+          <div class="split-grid">
+            <section class="table-panel">
+              <div class="panel-head">
+                <div>
+                  <h2>Knowledge Base</h2>
+                  <span id="kbCount"></span>
+                </div>
+              </div>
+              <div id="kbTable" class="data-table"></div>
+            </section>
+            <section class="side-panel">
+              <h2>Article Preview</h2>
+              <div id="kbDetail" class="markdown-box"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="testsView" class="view">
+          <section class="table-panel full">
+            <div class="panel-head">
+              <div>
+                <h2>Golden-Answer Test Cases</h2>
+                <span id="testCount"></span>
+              </div>
+            </div>
+            <div id="testTable" class="data-table tall"></div>
+          </section>
+        </section>
+
+        <section id="healthView" class="view">
+          <div id="healthGrid" class="health-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

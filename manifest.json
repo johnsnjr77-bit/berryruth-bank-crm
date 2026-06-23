@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-06-23T00:00:00-04:00",
+  "seed": 42075,
+  "synthetic_notice": "All records and artifacts are fictional and for testing only.",
+  "counts": {
+    "customers": 200,
+    "accounts": 400,
+    "transactions": 1000,
+    "customer_service_cases": 100,
+    "knowledge_base_articles": 30,
+    "golden_answer_tests": 50,
+    "case_artifact_folders": 100,
+    "category_templates": 9
+  },
+  "categories": [
+    "overdraft fee reversal",
+    "card replacement",
+    "address change",
+    "payment not posted",
+    "account access issue",
+    "wire transfer question",
+    "loan payoff question",
+    "dispute handoff",
+    "complaint escalation"
+  ],
+  "join_keys": [
+    "customer_id",
+    "account_id",
+    "transaction_id",
+    "case_id",
+    "kb_article_id"
+  ]
+}

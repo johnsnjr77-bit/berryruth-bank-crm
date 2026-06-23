@@ -1,0 +1,16 @@
+# Chat Transcript - CASE-00040
+
+Synthetic artifact for mock Customer Service Case Resolution Copilot testing.
+
+Customer: Alex Vega (CUST-00041)
+Channel: chat
+Category: payment not posted
+
+Customer: Hi, I need help with my account ending in ****2189.
+Agent S. Morgan: I can help. I will first verify the profile and then review what happened.
+Customer: The issue is about payment not posted. I noticed it after the transaction REF0000023160.
+Agent S. Morgan: I see the related item listed as "ACH Credit - BrightFuel" for $2003.04, status Posted.
+Customer: What can you do today?
+Agent S. Morgan: I will follow the Missing Payment Research Guide and document the next step: Collect trace data, check posting windows, and open research if outside SLA.
+
+No real customer data is present in this transcript.

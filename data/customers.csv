@@ -1,0 +1,201 @@
+customer_id,first_name,last_name,full_name,email,phone,street_address,city,state,zip,segment,preferred_contact,customer_since,synthetic_notice
+CUST-00001,Emerson,Usman,Emerson Usman,emerson.usman.00001@example.test,555-101-1037,107 Cedar Blvd,Omaha,NE,10083,Student,email,2020-02-23,Synthetic test customer; not a real person
+CUST-00002,Quinn,Young,Quinn Young,quinn.young.00002@example.test,555-102-1074,114 Sunset Ave,Sacramento,CA,10166,Mass Affluent,phone,2023-06-21,Synthetic test customer; not a real person
+CUST-00003,Jordan,Turner,Jordan Turner,jordan.turner.00003@example.test,555-103-1111,121 Lake Ln,Nashville,TN,10249,Small Business Owner,secure message,2017-03-11,Synthetic test customer; not a real person
+CUST-00004,Drew,Stone,Drew Stone,drew.stone.00004@example.test,555-104-1148,128 Hill Rd,Albany,NY,10332,Senior,chat,2021-06-11,Synthetic test customer; not a real person
+CUST-00005,Cameron,Patel,Cameron Patel,cameron.patel.00005@example.test,555-105-1185,135 Oak St,Sacramento,CA,10415,New-to-Bank,email,2020-04-05,Synthetic test customer; not a real person
+CUST-00006,Payton,Young,Payton Young,payton.young.00006@example.test,555-106-1222,142 Oak Rd,Boise,ID,10498,Everyday,phone,2022-09-08,Synthetic test customer; not a real person
+CUST-00007,Winter,Nolan,Winter Nolan,winter.nolan.00007@example.test,555-107-1259,149 Pine Ave,Raleigh,NC,10581,Student,secure message,2023-08-06,Synthetic test customer; not a real person
+CUST-00008,Riley,Owens,Riley Owens,riley.owens.00008@example.test,555-108-1296,156 River Rd,Austin,TX,10664,Mass Affluent,chat,2017-04-27,Synthetic test customer; not a real person
+CUST-00009,Avery,Xu,Avery Xu,avery.xu.00009@example.test,555-109-1333,163 Oak St,Albany,NY,10747,Small Business Owner,email,2017-06-13,Synthetic test customer; not a real person
+CUST-00010,Logan,Reed,Logan Reed,logan.reed.00010@example.test,555-110-1370,170 Oak Ave,Tulsa,OK,10830,Senior,phone,2023-07-03,Synthetic test customer; not a real person
+CUST-00011,Noel,Nolan,Noel Nolan,noel.nolan.00011@example.test,555-111-1407,177 Lake St,Sacramento,CA,10913,New-to-Bank,secure message,2024-10-16,Synthetic test customer; not a real person
+CUST-00012,Jordan,Reed,Jordan Reed,jordan.reed.00012@example.test,555-112-1444,184 Cedar Ave,Tampa,FL,10996,Everyday,chat,2021-07-28,Synthetic test customer; not a real person
+CUST-00013,Noel,Zimmer,Noel Zimmer,noel.zimmer.00013@example.test,555-113-1481,191 Union St,Tulsa,OK,11079,Student,email,2022-09-07,Synthetic test customer; not a real person
+CUST-00014,Harper,Kim,Harper Kim,harper.kim.00014@example.test,555-114-1518,198 Pine Blvd,Richmond,VA,11162,Mass Affluent,phone,2017-12-24,Synthetic test customer; not a real person
+CUST-00015,Quinn,Irwin,Quinn Irwin,quinn.irwin.00015@example.test,555-115-1555,205 Union Blvd,Richmond,VA,11245,Small Business Owner,secure message,2017-06-12,Synthetic test customer; not a real person
+CUST-00016,Payton,Bennett,Payton Bennett,payton.bennett.00016@example.test,555-116-1592,212 Hill Rd,Columbus,OH,11328,Senior,chat,2022-11-12,Synthetic test customer; not a real person
+CUST-00017,Alex,Patel,Alex Patel,alex.patel.00017@example.test,555-117-1629,219 Pine Blvd,Nashville,TN,11411,New-to-Bank,email,2022-10-08,Synthetic test customer; not a real person
+CUST-00018,Hayden,Owens,Hayden Owens,hayden.owens.00018@example.test,555-118-1666,226 Oak Ave,Columbus,OH,11494,Everyday,phone,2019-11-28,Synthetic test customer; not a real person
+CUST-00019,Reese,Walsh-Synthetic,Reese Walsh,reese.walsh.00019@example.test,555-119-1703,233 Pine Ave,Raleigh,NC,11577,Student,secure message,2022-12-30,Synthetic test customer; not a real person
+CUST-00020,Quinn,Vega,Quinn Vega,quinn.vega.00020@example.test,555-120-1740,240 Pine Ln,Albany,NY,11660,Mass Affluent,chat,2023-11-10,Synthetic test customer; not a real person
+CUST-00021,Reese,Morris,Reese Morris,reese.morris.00021@example.test,555-121-1777,247 Union Blvd,Denver,CO,11743,Small Business Owner,email,2020-07-24,Synthetic test customer; not a real person
+CUST-00022,Finley,Foster,Finley Foster,finley.foster.00022@example.test,555-122-1814,254 Lake Blvd,Richmond,VA,11826,Senior,phone,2021-08-16,Synthetic test customer; not a real person
+CUST-00023,Vaughn,Nolan,Vaughn Nolan,vaughn.nolan.00023@example.test,555-123-1851,261 River Rd,Raleigh,NC,11909,New-to-Bank,secure message,2024-07-20,Synthetic test customer; not a real person
+CUST-00024,Jordan,Lewis,Jordan Lewis,jordan.lewis.00024@example.test,555-124-1888,268 Maple St,Portland,OR,11992,Everyday,chat,2021-09-07,Synthetic test customer; not a real person
+CUST-00025,Rowan,Wells,Rowan Wells,rowan.wells.00025@example.test,555-125-1925,275 Pine Ave,Phoenix,AZ,12075,Student,email,2017-02-07,Synthetic test customer; not a real person
+CUST-00026,Quinn,Xu,Quinn Xu,quinn.xu.00026@example.test,555-126-1962,282 Union Blvd,Tulsa,OK,12158,Mass Affluent,phone,2022-02-11,Synthetic test customer; not a real person
+CUST-00027,Avery,Quincy,Avery Quincy,avery.quincy.00027@example.test,555-127-1999,289 Lake St,Portland,OR,12241,Small Business Owner,secure message,2018-03-11,Synthetic test customer; not a real person
+CUST-00028,Drew,Cole,Drew Cole,drew.cole.00028@example.test,555-128-2036,296 Sunset St,Tampa,FL,12324,Senior,chat,2021-05-10,Synthetic test customer; not a real person
+CUST-00029,Avery,Hughes,Avery Hughes,avery.hughes.00029@example.test,555-129-2073,303 River Ln,Phoenix,AZ,12407,New-to-Bank,email,2021-11-20,Synthetic test customer; not a real person
+CUST-00030,Rowan,Irwin,Rowan Irwin,rowan.irwin.00030@example.test,555-130-2110,310 River Rd,Raleigh,NC,12490,Everyday,phone,2020-12-16,Synthetic test customer; not a real person
+CUST-00031,Marley,Kim,Marley Kim,marley.kim.00031@example.test,555-131-2147,317 Pine Ave,Boise,ID,12573,Student,secure message,2025-05-06,Synthetic test customer; not a real person
+CUST-00032,Rowan,Carter,Rowan Carter,rowan.carter.00032@example.test,555-132-2184,324 Pine Blvd,Omaha,NE,12656,Mass Affluent,chat,2024-08-23,Synthetic test customer; not a real person
+CUST-00033,Cameron,Turner,Cameron Turner,cameron.turner.00033@example.test,555-133-2221,331 Pine Ln,Richmond,VA,12739,Small Business Owner,email,2024-03-15,Synthetic test customer; not a real person
+CUST-00034,Avery,Carter,Avery Carter,avery.carter.00034@example.test,555-134-2258,338 Oak Blvd,Denver,CO,12822,Senior,phone,2016-06-25,Synthetic test customer; not a real person
+CUST-00035,Drew,Patel,Drew Patel,drew.patel.00035@example.test,555-135-2295,345 Sunset St,Portland,OR,12905,New-to-Bank,secure message,2018-04-26,Synthetic test customer; not a real person
+CUST-00036,Alex,Bennett,Alex Bennett,alex.bennett.00036@example.test,555-136-2332,352 Pine Blvd,Omaha,NE,12988,Everyday,chat,2023-02-15,Synthetic test customer; not a real person
+CUST-00037,Blair,Stone,Blair Stone,blair.stone.00037@example.test,555-137-2369,359 Union Rd,Madison,WI,13071,Student,email,2021-05-21,Synthetic test customer; not a real person
+CUST-00038,Alex,Nguyen-Synthetic,Alex Nguyen,alex.nguyen.00038@example.test,555-138-2406,366 Pine Rd,Denver,CO,13154,Mass Affluent,phone,2017-09-07,Synthetic test customer; not a real person
+CUST-00039,Drew,Usman,Drew Usman,drew.usman.00039@example.test,555-139-2443,373 Market Blvd,Omaha,NE,13237,Small Business Owner,secure message,2017-09-13,Synthetic test customer; not a real person
+CUST-00040,Casey,Hughes,Casey Hughes,casey.hughes.00040@example.test,555-140-2480,380 Pine St,Austin,TX,13320,Senior,chat,2024-03-07,Synthetic test customer; not a real person
+CUST-00041,Alex,Vega,Alex Vega,alex.vega.00041@example.test,555-141-2517,387 Lake Rd,Richmond,VA,13403,New-to-Bank,email,2017-09-17,Synthetic test customer; not a real person
+CUST-00042,Rowan,Morris,Rowan Morris,rowan.morris.00042@example.test,555-142-2554,394 River Ln,Denver,CO,13486,Everyday,phone,2022-01-03,Synthetic test customer; not a real person
+CUST-00043,Skyler,Nguyen,Skyler Nguyen,skyler.nguyen.00043@example.test,555-143-2591,401 Oak Rd,Richmond,VA,13569,Student,secure message,2016-09-17,Synthetic test customer; not a real person
+CUST-00044,Drew,Young,Drew Young,drew.young.00044@example.test,555-144-2628,408 Oak Ln,Boise,ID,13652,Mass Affluent,chat,2023-09-11,Synthetic test customer; not a real person
+CUST-00045,Sage,Reed,Sage Reed,sage.reed.00045@example.test,555-145-2665,415 Hill St,Richmond,VA,13735,Small Business Owner,email,2022-09-09,Synthetic test customer; not a real person
+CUST-00046,Tatum,Patel,Tatum Patel,tatum.patel.00046@example.test,555-146-2702,422 Pine St,Madison,WI,13818,Senior,phone,2016-06-29,Synthetic test customer; not a real person
+CUST-00047,Sage,Nguyen,Sage Nguyen,sage.nguyen.00047@example.test,555-147-2739,429 Pine Rd,Omaha,NE,13901,New-to-Bank,secure message,2019-12-01,Synthetic test customer; not a real person
+CUST-00048,Parker,Xu,Parker Xu,parker.xu.00048@example.test,555-148-2776,436 River Rd,Raleigh,NC,13984,Everyday,chat,2021-04-05,Synthetic test customer; not a real person
+CUST-00049,Jamie,Hughes,Jamie Hughes,jamie.hughes.00049@example.test,555-149-2813,443 Maple Blvd,Denver,CO,14067,Student,email,2020-01-04,Synthetic test customer; not a real person
+CUST-00050,Rowan,Patel,Rowan Patel,rowan.patel.00050@example.test,555-150-2850,450 Cedar Ln,Raleigh,NC,14150,Mass Affluent,phone,2021-06-09,Synthetic test customer; not a real person
+CUST-00051,Marley,Hughes,Marley Hughes,marley.hughes.00051@example.test,555-151-2887,457 Cedar St,Albany,NY,14233,Small Business Owner,secure message,2023-11-07,Synthetic test customer; not a real person
+CUST-00052,Blair,Singh,Blair Singh,blair.singh.00052@example.test,555-152-2924,464 Union Ave,Sacramento,CA,14316,Senior,chat,2020-06-06,Synthetic test customer; not a real person
+CUST-00053,Payton,Stone,Payton Stone,payton.stone.00053@example.test,555-153-2961,471 Union St,Richmond,VA,14399,New-to-Bank,email,2022-02-24,Synthetic test customer; not a real person
+CUST-00054,Taylor,Quincy,Taylor Quincy,taylor.quincy.00054@example.test,555-154-2998,478 Sunset Rd,Nashville,TN,14482,Everyday,phone,2023-04-06,Synthetic test customer; not a real person
+CUST-00055,Reese,Garcia,Reese Garcia,reese.garcia.00055@example.test,555-155-3035,485 Maple St,Columbus,OH,14565,Student,secure message,2016-03-21,Synthetic test customer; not a real person
+CUST-00056,Riley,Morris,Riley Morris,riley.morris.00056@example.test,555-156-3072,492 Lake St,Nashville,TN,14648,Mass Affluent,chat,2023-07-27,Synthetic test customer; not a real person
+CUST-00057,Rowan,Patel-Synthetic,Rowan Patel,rowan.patel.00057@example.test,555-157-3109,499 Cedar Ave,Madison,WI,14731,Small Business Owner,email,2018-12-13,Synthetic test customer; not a real person
+CUST-00058,Drew,Zimmer,Drew Zimmer,drew.zimmer.00058@example.test,555-158-3146,506 Hill Rd,Tulsa,OK,14814,Senior,phone,2016-12-23,Synthetic test customer; not a real person
+CUST-00059,Quinn,Walsh,Quinn Walsh,quinn.walsh.00059@example.test,555-159-3183,513 Maple Rd,Tampa,FL,14897,New-to-Bank,secure message,2022-05-31,Synthetic test customer; not a real person
+CUST-00060,Tatum,Xu,Tatum Xu,tatum.xu.00060@example.test,555-160-3220,520 Oak St,Omaha,NE,14980,Everyday,chat,2021-04-25,Synthetic test customer; not a real person
+CUST-00061,Riley,Xu,Riley Xu,riley.xu.00061@example.test,555-161-3257,527 Lake Ln,Columbus,OH,15063,Student,email,2021-06-07,Synthetic test customer; not a real person
+CUST-00062,Emerson,Bennett,Emerson Bennett,emerson.bennett.00062@example.test,555-162-3294,534 Pine Blvd,Omaha,NE,15146,Mass Affluent,phone,2024-02-05,Synthetic test customer; not a real person
+CUST-00063,Jamie,Garcia,Jamie Garcia,jamie.garcia.00063@example.test,555-163-3331,541 Sunset Blvd,Raleigh,NC,15229,Small Business Owner,secure message,2017-04-02,Synthetic test customer; not a real person
+CUST-00064,Logan,Wells,Logan Wells,logan.wells.00064@example.test,555-164-3368,548 Sunset St,Austin,TX,15312,Senior,chat,2024-07-25,Synthetic test customer; not a real person
+CUST-00065,Hayden,Cole,Hayden Cole,hayden.cole.00065@example.test,555-165-3405,555 Market St,Albany,NY,15395,New-to-Bank,email,2018-10-10,Synthetic test customer; not a real person
+CUST-00066,Kendall,Stone,Kendall Stone,kendall.stone.00066@example.test,555-166-3442,562 Maple Ave,Albany,NY,15478,Everyday,phone,2018-11-27,Synthetic test customer; not a real person
+CUST-00067,Casey,Kim,Casey Kim,casey.kim.00067@example.test,555-167-3479,569 River Ln,Raleigh,NC,15561,Student,secure message,2018-03-20,Synthetic test customer; not a real person
+CUST-00068,Tatum,Stone,Tatum Stone,tatum.stone.00068@example.test,555-168-3516,576 Hill Ln,Sacramento,CA,15644,Mass Affluent,chat,2023-12-30,Synthetic test customer; not a real person
+CUST-00069,Kendall,Stone,Kendall Stone,kendall.stone.00069@example.test,555-169-3553,583 Sunset Ln,Albany,NY,15727,Small Business Owner,email,2020-12-02,Synthetic test customer; not a real person
+CUST-00070,Hayden,Diaz,Hayden Diaz,hayden.diaz.00070@example.test,555-170-3590,590 Oak Rd,Columbus,OH,15810,Senior,phone,2021-11-09,Synthetic test customer; not a real person
+CUST-00071,Emerson,Foster,Emerson Foster,emerson.foster.00071@example.test,555-171-3627,597 Maple Ln,Tulsa,OK,15893,New-to-Bank,secure message,2024-09-28,Synthetic test customer; not a real person
+CUST-00072,Quinn,Usman,Quinn Usman,quinn.usman.00072@example.test,555-172-3664,604 Pine St,Columbus,OH,15976,Everyday,chat,2020-11-03,Synthetic test customer; not a real person
+CUST-00073,Hayden,Lewis,Hayden Lewis,hayden.lewis.00073@example.test,555-173-3701,611 River St,Columbus,OH,16059,Student,email,2023-12-10,Synthetic test customer; not a real person
+CUST-00074,Taylor,Singh,Taylor Singh,taylor.singh.00074@example.test,555-174-3738,618 Hill Ln,Phoenix,AZ,16142,Mass Affluent,phone,2024-08-14,Synthetic test customer; not a real person
+CUST-00075,Payton,Usman,Payton Usman,payton.usman.00075@example.test,555-175-3775,625 Maple St,Albany,NY,16225,Small Business Owner,secure message,2024-01-08,Synthetic test customer; not a real person
+CUST-00076,Sage,Foster-Synthetic,Sage Foster,sage.foster.00076@example.test,555-176-3812,632 Maple Rd,Nashville,TN,16308,Senior,chat,2023-07-24,Synthetic test customer; not a real person
+CUST-00077,Quinn,Singh,Quinn Singh,quinn.singh.00077@example.test,555-177-3849,639 Maple Rd,Columbus,OH,16391,New-to-Bank,email,2022-09-14,Synthetic test customer; not a real person
+CUST-00078,Payton,Vega,Payton Vega,payton.vega.00078@example.test,555-178-3886,646 Hill Ave,Boise,ID,16474,Everyday,phone,2024-10-15,Synthetic test customer; not a real person
+CUST-00079,Logan,Zimmer,Logan Zimmer,logan.zimmer.00079@example.test,555-179-3923,653 Market Ln,Nashville,TN,16557,Student,secure message,2024-11-28,Synthetic test customer; not a real person
+CUST-00080,Rowan,Carter,Rowan Carter,rowan.carter.00080@example.test,555-180-3960,660 Maple Ln,Austin,TX,16640,Mass Affluent,chat,2019-11-29,Synthetic test customer; not a real person
+CUST-00081,Casey,Patel,Casey Patel,casey.patel.00081@example.test,555-181-3997,667 Hill Ave,Albany,NY,16723,Small Business Owner,email,2022-12-12,Synthetic test customer; not a real person
+CUST-00082,Tatum,Nolan,Tatum Nolan,tatum.nolan.00082@example.test,555-182-4034,674 Maple Ln,Omaha,NE,16806,Senior,phone,2016-10-30,Synthetic test customer; not a real person
+CUST-00083,Tatum,Lewis,Tatum Lewis,tatum.lewis.00083@example.test,555-183-4071,681 Sunset Ln,Madison,WI,16889,New-to-Bank,secure message,2024-03-16,Synthetic test customer; not a real person
+CUST-00084,Logan,Cole,Logan Cole,logan.cole.00084@example.test,555-184-4108,688 Sunset Blvd,Richmond,VA,16972,Everyday,chat,2020-05-01,Synthetic test customer; not a real person
+CUST-00085,Blair,Patel,Blair Patel,blair.patel.00085@example.test,555-185-4145,695 Maple Ln,Omaha,NE,17055,Student,email,2024-01-01,Synthetic test customer; not a real person
+CUST-00086,Quinn,Usman,Quinn Usman,quinn.usman.00086@example.test,555-186-4182,702 Market Ave,Tampa,FL,17138,Mass Affluent,phone,2015-12-24,Synthetic test customer; not a real person
+CUST-00087,Emerson,Zimmer,Emerson Zimmer,emerson.zimmer.00087@example.test,555-187-4219,709 Hill Ave,Madison,WI,17221,Small Business Owner,secure message,2020-03-17,Synthetic test customer; not a real person
+CUST-00088,Drew,Nguyen,Drew Nguyen,drew.nguyen.00088@example.test,555-188-4256,716 Cedar Ln,Raleigh,NC,17304,Senior,chat,2019-03-31,Synthetic test customer; not a real person
+CUST-00089,Quinn,Young,Quinn Young,quinn.young.00089@example.test,555-189-4293,723 Oak St,Portland,OR,17387,New-to-Bank,email,2020-01-31,Synthetic test customer; not a real person
+CUST-00090,Marley,Quincy,Marley Quincy,marley.quincy.00090@example.test,555-190-4330,730 Lake Rd,Phoenix,AZ,17470,Everyday,phone,2019-04-07,Synthetic test customer; not a real person
+CUST-00091,Avery,Turner,Avery Turner,avery.turner.00091@example.test,555-191-4367,737 Market Blvd,Richmond,VA,17553,Student,secure message,2016-02-06,Synthetic test customer; not a real person
+CUST-00092,Casey,Lewis,Casey Lewis,casey.lewis.00092@example.test,555-192-4404,744 Oak Ave,Nashville,TN,17636,Mass Affluent,chat,2018-01-24,Synthetic test customer; not a real person
+CUST-00093,Blair,Zimmer,Blair Zimmer,blair.zimmer.00093@example.test,555-193-4441,751 Maple St,Phoenix,AZ,17719,Small Business Owner,email,2020-02-25,Synthetic test customer; not a real person
+CUST-00094,Marley,Carter,Marley Carter,marley.carter.00094@example.test,555-194-4478,758 Lake Rd,Nashville,TN,17802,Senior,phone,2018-08-16,Synthetic test customer; not a real person
+CUST-00095,Taylor,Garcia-Synthetic,Taylor Garcia,taylor.garcia.00095@example.test,555-195-4515,765 Hill Ln,Nashville,TN,17885,New-to-Bank,secure message,2022-09-29,Synthetic test customer; not a real person
+CUST-00096,Hayden,Zimmer,Hayden Zimmer,hayden.zimmer.00096@example.test,555-196-4552,772 Sunset Blvd,Tampa,FL,17968,Everyday,chat,2023-08-23,Synthetic test customer; not a real person
+CUST-00097,Riley,Quincy,Riley Quincy,riley.quincy.00097@example.test,555-197-4589,779 Lake Ln,Madison,WI,18051,Student,email,2019-04-03,Synthetic test customer; not a real person
+CUST-00098,Marley,Bennett,Marley Bennett,marley.bennett.00098@example.test,555-198-4626,786 Cedar Ave,Albany,NY,18134,Mass Affluent,phone,2018-03-18,Synthetic test customer; not a real person
+CUST-00099,Blair,Bennett,Blair Bennett,blair.bennett.00099@example.test,555-199-4663,793 Maple Blvd,Columbus,OH,18217,Small Business Owner,secure message,2022-07-18,Synthetic test customer; not a real person
+CUST-00100,Avery,Nolan,Avery Nolan,avery.nolan.00100@example.test,555-200-4700,800 Maple Ln,Albany,NY,18300,Senior,chat,2022-02-25,Synthetic test customer; not a real person
+CUST-00101,Finley,Price,Finley Price,finley.price.00101@example.test,555-201-4737,807 Sunset Ln,Tulsa,OK,18383,New-to-Bank,email,2017-03-09,Synthetic test customer; not a real person
+CUST-00102,Taylor,Lewis,Taylor Lewis,taylor.lewis.00102@example.test,555-202-4774,814 Lake St,Tulsa,OK,18466,Everyday,phone,2017-07-31,Synthetic test customer; not a real person
+CUST-00103,Casey,Foster,Casey Foster,casey.foster.00103@example.test,555-203-4811,821 Market Rd,Sacramento,CA,18549,Student,secure message,2018-12-08,Synthetic test customer; not a real person
+CUST-00104,Payton,Owens,Payton Owens,payton.owens.00104@example.test,555-204-4848,828 Maple Blvd,Omaha,NE,18632,Mass Affluent,chat,2024-04-07,Synthetic test customer; not a real person
+CUST-00105,Taylor,Quincy,Taylor Quincy,taylor.quincy.00105@example.test,555-205-4885,835 Hill Ln,Phoenix,AZ,18715,Small Business Owner,email,2017-05-22,Synthetic test customer; not a real person
+CUST-00106,Tatum,Xu,Tatum Xu,tatum.xu.00106@example.test,555-206-4922,842 Union St,Columbus,OH,18798,Senior,phone,2018-03-18,Synthetic test customer; not a real person
+CUST-00107,Rowan,Ellis,Rowan Ellis,rowan.ellis.00107@example.test,555-207-4959,849 Lake Blvd,Madison,WI,18881,New-to-Bank,secure message,2018-03-25,Synthetic test customer; not a real person
+CUST-00108,Payton,Zimmer,Payton Zimmer,payton.zimmer.00108@example.test,555-208-4996,856 Hill St,Sacramento,CA,18964,Everyday,chat,2018-09-01,Synthetic test customer; not a real person
+CUST-00109,Noel,Wells,Noel Wells,noel.wells.00109@example.test,555-209-5033,863 Lake Blvd,Albany,NY,19047,Student,email,2025-03-31,Synthetic test customer; not a real person
+CUST-00110,Reese,Quincy,Reese Quincy,reese.quincy.00110@example.test,555-210-5070,870 Lake St,Richmond,VA,19130,Mass Affluent,phone,2024-08-25,Synthetic test customer; not a real person
+CUST-00111,Winter,Young,Winter Young,winter.young.00111@example.test,555-211-5107,877 Hill Ave,Columbus,OH,19213,Small Business Owner,secure message,2020-05-31,Synthetic test customer; not a real person
+CUST-00112,Rowan,Usman,Rowan Usman,rowan.usman.00112@example.test,555-212-5144,884 Hill Rd,Austin,TX,19296,Senior,chat,2016-01-07,Synthetic test customer; not a real person
+CUST-00113,Jamie,Vega,Jamie Vega,jamie.vega.00113@example.test,555-213-5181,891 Lake Ave,Albany,NY,19379,New-to-Bank,email,2017-01-11,Synthetic test customer; not a real person
+CUST-00114,Morgan,Jensen-Synthetic,Morgan Jensen,morgan.jensen.00114@example.test,555-214-5218,898 Oak Rd,Tampa,FL,19462,Everyday,phone,2021-02-07,Synthetic test customer; not a real person
+CUST-00115,Morgan,Garcia,Morgan Garcia,morgan.garcia.00115@example.test,555-215-5255,905 Sunset Rd,Richmond,VA,19545,Student,secure message,2018-12-13,Synthetic test customer; not a real person
+CUST-00116,Noel,Young,Noel Young,noel.young.00116@example.test,555-216-5292,912 Oak Ave,Tulsa,OK,19628,Mass Affluent,chat,2020-06-19,Synthetic test customer; not a real person
+CUST-00117,Logan,Singh,Logan Singh,logan.singh.00117@example.test,555-217-5329,919 Oak Ln,Sacramento,CA,19711,Small Business Owner,email,2023-04-01,Synthetic test customer; not a real person
+CUST-00118,Jordan,Hughes,Jordan Hughes,jordan.hughes.00118@example.test,555-218-5366,926 Hill Ln,Albany,NY,19794,Senior,phone,2019-04-15,Synthetic test customer; not a real person
+CUST-00119,Parker,Vega,Parker Vega,parker.vega.00119@example.test,555-219-5403,933 Cedar Ln,Portland,OR,19877,New-to-Bank,secure message,2019-02-14,Synthetic test customer; not a real person
+CUST-00120,Logan,Garcia,Logan Garcia,logan.garcia.00120@example.test,555-220-5440,940 Sunset Ave,Phoenix,AZ,19960,Everyday,chat,2024-06-24,Synthetic test customer; not a real person
+CUST-00121,Blair,Young,Blair Young,blair.young.00121@example.test,555-221-5477,947 Hill Rd,Tampa,FL,20043,Student,email,2019-09-24,Synthetic test customer; not a real person
+CUST-00122,Blair,Singh,Blair Singh,blair.singh.00122@example.test,555-222-5514,954 Hill St,Madison,WI,20126,Mass Affluent,phone,2024-03-25,Synthetic test customer; not a real person
+CUST-00123,Skyler,Nolan,Skyler Nolan,skyler.nolan.00123@example.test,555-223-5551,961 Sunset Blvd,Tulsa,OK,20209,Small Business Owner,secure message,2017-06-29,Synthetic test customer; not a real person
+CUST-00124,Sage,Stone,Sage Stone,sage.stone.00124@example.test,555-224-5588,968 Market Ave,Albany,NY,20292,Senior,chat,2017-06-29,Synthetic test customer; not a real person
+CUST-00125,Quinn,Singh,Quinn Singh,quinn.singh.00125@example.test,555-225-5625,975 Market Rd,Tulsa,OK,20375,New-to-Bank,email,2019-05-13,Synthetic test customer; not a real person
+CUST-00126,Harper,Foster,Harper Foster,harper.foster.00126@example.test,555-226-5662,982 River Ln,Boise,ID,20458,Everyday,phone,2023-06-15,Synthetic test customer; not a real person
+CUST-00127,Reese,Xu,Reese Xu,reese.xu.00127@example.test,555-227-5699,989 Hill Ave,Denver,CO,20541,Student,secure message,2019-01-15,Synthetic test customer; not a real person
+CUST-00128,Quinn,Owens,Quinn Owens,quinn.owens.00128@example.test,555-228-5736,996 Pine Rd,Omaha,NE,20624,Mass Affluent,chat,2017-11-16,Synthetic test customer; not a real person
+CUST-00129,Skyler,Ellis,Skyler Ellis,skyler.ellis.00129@example.test,555-229-5773,1003 Sunset St,Nashville,TN,20707,Small Business Owner,email,2019-06-22,Synthetic test customer; not a real person
+CUST-00130,Casey,Wells,Casey Wells,casey.wells.00130@example.test,555-230-5810,1010 Pine Ln,Boise,ID,20790,Senior,phone,2018-08-19,Synthetic test customer; not a real person
+CUST-00131,Harper,Nolan,Harper Nolan,harper.nolan.00131@example.test,555-231-5847,1017 Maple Rd,Phoenix,AZ,20873,New-to-Bank,secure message,2024-12-26,Synthetic test customer; not a real person
+CUST-00132,Marley,Hughes,Marley Hughes,marley.hughes.00132@example.test,555-232-5884,1024 Hill St,Austin,TX,20956,Everyday,chat,2022-11-21,Synthetic test customer; not a real person
+CUST-00133,Morgan,Turner-Synthetic,Morgan Turner,morgan.turner.00133@example.test,555-233-5921,1031 Maple Rd,Nashville,TN,21039,Student,email,2025-04-12,Synthetic test customer; not a real person
+CUST-00134,Skyler,Wells,Skyler Wells,skyler.wells.00134@example.test,555-234-5958,1038 Pine Ave,Phoenix,AZ,21122,Mass Affluent,phone,2023-03-02,Synthetic test customer; not a real person
+CUST-00135,Marley,Vega,Marley Vega,marley.vega.00135@example.test,555-235-5995,1045 Pine Ln,Tulsa,OK,21205,Small Business Owner,secure message,2020-01-07,Synthetic test customer; not a real person
+CUST-00136,Finley,Quincy,Finley Quincy,finley.quincy.00136@example.test,555-236-6032,1052 Pine Blvd,Tampa,FL,21288,Senior,chat,2020-04-12,Synthetic test customer; not a real person
+CUST-00137,Morgan,Garcia,Morgan Garcia,morgan.garcia.00137@example.test,555-237-6069,1059 Market Rd,Columbus,OH,21371,New-to-Bank,email,2024-11-01,Synthetic test customer; not a real person
+CUST-00138,Logan,Usman,Logan Usman,logan.usman.00138@example.test,555-238-6106,1066 Market St,Nashville,TN,21454,Everyday,phone,2015-12-31,Synthetic test customer; not a real person
+CUST-00139,Payton,Usman,Payton Usman,payton.usman.00139@example.test,555-239-6143,1073 Hill Ln,Albany,NY,21537,Student,secure message,2016-05-22,Synthetic test customer; not a real person
+CUST-00140,Hayden,Irwin,Hayden Irwin,hayden.irwin.00140@example.test,555-240-6180,1080 Maple Ave,Omaha,NE,21620,Mass Affluent,chat,2023-04-15,Synthetic test customer; not a real person
+CUST-00141,Finley,Wells,Finley Wells,finley.wells.00141@example.test,555-241-6217,1087 Cedar Rd,Sacramento,CA,21703,Small Business Owner,email,2020-11-09,Synthetic test customer; not a real person
+CUST-00142,Morgan,Zimmer,Morgan Zimmer,morgan.zimmer.00142@example.test,555-242-6254,1094 Pine Rd,Sacramento,CA,21786,Senior,phone,2024-03-16,Synthetic test customer; not a real person
+CUST-00143,Riley,Cole,Riley Cole,riley.cole.00143@example.test,555-243-6291,1101 River Rd,Tulsa,OK,21869,New-to-Bank,secure message,2020-10-13,Synthetic test customer; not a real person
+CUST-00144,Cameron,Reed,Cameron Reed,cameron.reed.00144@example.test,555-244-6328,1108 River Rd,Richmond,VA,21952,Everyday,chat,2023-07-22,Synthetic test customer; not a real person
+CUST-00145,Casey,Morris,Casey Morris,casey.morris.00145@example.test,555-245-6365,1115 Hill Rd,Madison,WI,22035,Student,email,2023-08-23,Synthetic test customer; not a real person
+CUST-00146,Hayden,Turner,Hayden Turner,hayden.turner.00146@example.test,555-246-6402,1122 River Rd,Columbus,OH,22118,Mass Affluent,phone,2018-02-18,Synthetic test customer; not a real person
+CUST-00147,Kendall,Garcia,Kendall Garcia,kendall.garcia.00147@example.test,555-247-6439,1129 River Blvd,Madison,WI,22201,Small Business Owner,secure message,2019-09-23,Synthetic test customer; not a real person
+CUST-00148,Tatum,Price,Tatum Price,tatum.price.00148@example.test,555-248-6476,1136 Sunset Ave,Albany,NY,22284,Senior,chat,2024-12-02,Synthetic test customer; not a real person
+CUST-00149,Tatum,Foster,Tatum Foster,tatum.foster.00149@example.test,555-249-6513,1143 Oak Rd,Omaha,NE,22367,New-to-Bank,email,2024-03-13,Synthetic test customer; not a real person
+CUST-00150,Reese,Garcia,Reese Garcia,reese.garcia.00150@example.test,555-250-6550,1150 Sunset Rd,Richmond,VA,22450,Everyday,phone,2021-07-20,Synthetic test customer; not a real person
+CUST-00151,Rowan,Stone,Rowan Stone,rowan.stone.00151@example.test,555-251-6587,1157 Maple Rd,Raleigh,NC,22533,Student,secure message,2021-12-01,Synthetic test customer; not a real person
+CUST-00152,Harper,Zimmer-Synthetic,Harper Zimmer,harper.zimmer.00152@example.test,555-252-6624,1164 Market Ave,Nashville,TN,22616,Mass Affluent,chat,2023-11-24,Synthetic test customer; not a real person
+CUST-00153,Avery,Walsh,Avery Walsh,avery.walsh.00153@example.test,555-253-6661,1171 Sunset Ln,Madison,WI,22699,Small Business Owner,email,2024-04-18,Synthetic test customer; not a real person
+CUST-00154,Winter,Price,Winter Price,winter.price.00154@example.test,555-254-6698,1178 Pine Rd,Madison,WI,22782,Senior,phone,2024-09-26,Synthetic test customer; not a real person
+CUST-00155,Rowan,Owens,Rowan Owens,rowan.owens.00155@example.test,555-255-6735,1185 Pine St,Sacramento,CA,22865,New-to-Bank,secure message,2023-04-08,Synthetic test customer; not a real person
+CUST-00156,Blair,Garcia,Blair Garcia,blair.garcia.00156@example.test,555-256-6772,1192 Hill Ln,Austin,TX,22948,Everyday,chat,2023-02-01,Synthetic test customer; not a real person
+CUST-00157,Cameron,Quincy,Cameron Quincy,cameron.quincy.00157@example.test,555-257-6809,1199 Maple Ave,Tampa,FL,23031,Student,email,2017-12-28,Synthetic test customer; not a real person
+CUST-00158,Jamie,Hughes,Jamie Hughes,jamie.hughes.00158@example.test,555-258-6846,1206 Pine Rd,Tulsa,OK,23114,Mass Affluent,phone,2016-10-08,Synthetic test customer; not a real person
+CUST-00159,Winter,Reed,Winter Reed,winter.reed.00159@example.test,555-259-6883,1213 Cedar Blvd,Denver,CO,23197,Small Business Owner,secure message,2019-04-13,Synthetic test customer; not a real person
+CUST-00160,Cameron,Stone,Cameron Stone,cameron.stone.00160@example.test,555-260-6920,1220 River Ave,Richmond,VA,23280,Senior,chat,2020-01-18,Synthetic test customer; not a real person
+CUST-00161,Drew,Morris,Drew Morris,drew.morris.00161@example.test,555-261-6957,1227 Sunset Rd,Boise,ID,23363,New-to-Bank,email,2020-06-14,Synthetic test customer; not a real person
+CUST-00162,Blair,Price,Blair Price,blair.price.00162@example.test,555-262-6994,1234 Cedar Ln,Boise,ID,23446,Everyday,phone,2022-01-06,Synthetic test customer; not a real person
+CUST-00163,Avery,Lewis,Avery Lewis,avery.lewis.00163@example.test,555-263-7031,1241 Maple Rd,Phoenix,AZ,23529,Student,secure message,2016-10-31,Synthetic test customer; not a real person
+CUST-00164,Alex,Singh,Alex Singh,alex.singh.00164@example.test,555-264-7068,1248 Cedar Blvd,Raleigh,NC,23612,Mass Affluent,chat,2019-07-06,Synthetic test customer; not a real person
+CUST-00165,Noel,Diaz,Noel Diaz,noel.diaz.00165@example.test,555-265-7105,1255 Pine Blvd,Albany,NY,23695,Small Business Owner,email,2019-07-27,Synthetic test customer; not a real person
+CUST-00166,Alex,Carter,Alex Carter,alex.carter.00166@example.test,555-266-7142,1262 Market St,Austin,TX,23778,Senior,phone,2016-03-16,Synthetic test customer; not a real person
+CUST-00167,Taylor,Wells,Taylor Wells,taylor.wells.00167@example.test,555-267-7179,1269 Sunset Ln,Sacramento,CA,23861,New-to-Bank,secure message,2016-08-01,Synthetic test customer; not a real person
+CUST-00168,Finley,Carter,Finley Carter,finley.carter.00168@example.test,555-268-7216,1276 Sunset Ln,Columbus,OH,23944,Everyday,chat,2021-01-21,Synthetic test customer; not a real person
+CUST-00169,Taylor,Vega,Taylor Vega,taylor.vega.00169@example.test,555-269-7253,1283 River Rd,Boise,ID,24027,Student,email,2022-09-27,Synthetic test customer; not a real person
+CUST-00170,Jordan,Owens,Jordan Owens,jordan.owens.00170@example.test,555-270-7290,1290 Market St,Omaha,NE,24110,Mass Affluent,phone,2019-03-26,Synthetic test customer; not a real person
+CUST-00171,Logan,Kim-Synthetic,Logan Kim,logan.kim.00171@example.test,555-271-7327,1297 Union Ln,Sacramento,CA,24193,Small Business Owner,secure message,2023-07-23,Synthetic test customer; not a real person
+CUST-00172,Harper,Hughes,Harper Hughes,harper.hughes.00172@example.test,555-272-7364,1304 Pine Ln,Tampa,FL,24276,Senior,chat,2020-07-19,Synthetic test customer; not a real person
+CUST-00173,Riley,Irwin,Riley Irwin,riley.irwin.00173@example.test,555-273-7401,1311 Hill Rd,Raleigh,NC,24359,New-to-Bank,email,2016-11-03,Synthetic test customer; not a real person
+CUST-00174,Parker,Xu,Parker Xu,parker.xu.00174@example.test,555-274-7438,1318 River Ave,Tulsa,OK,24442,Everyday,phone,2019-08-11,Synthetic test customer; not a real person
+CUST-00175,Vaughn,Nolan,Vaughn Nolan,vaughn.nolan.00175@example.test,555-275-7475,1325 Hill Rd,Richmond,VA,24525,Student,secure message,2018-10-18,Synthetic test customer; not a real person
+CUST-00176,Blair,Bennett,Blair Bennett,blair.bennett.00176@example.test,555-276-7512,1332 Lake Blvd,Austin,TX,24608,Mass Affluent,chat,2025-05-06,Synthetic test customer; not a real person
+CUST-00177,Finley,Owens,Finley Owens,finley.owens.00177@example.test,555-277-7549,1339 Sunset Ave,Raleigh,NC,24691,Small Business Owner,email,2023-06-09,Synthetic test customer; not a real person
+CUST-00178,Tatum,Stone,Tatum Stone,tatum.stone.00178@example.test,555-278-7586,1346 Maple Rd,Tulsa,OK,24774,Senior,phone,2018-02-24,Synthetic test customer; not a real person
+CUST-00179,Jamie,Cole,Jamie Cole,jamie.cole.00179@example.test,555-279-7623,1353 Sunset Ln,Boise,ID,24857,New-to-Bank,secure message,2016-08-19,Synthetic test customer; not a real person
+CUST-00180,Avery,Wells,Avery Wells,avery.wells.00180@example.test,555-280-7660,1360 Cedar Ave,Portland,OR,24940,Everyday,chat,2016-03-24,Synthetic test customer; not a real person
+CUST-00181,Noel,Kim,Noel Kim,noel.kim.00181@example.test,555-281-7697,1367 Lake Ln,Boise,ID,25023,Student,email,2019-03-12,Synthetic test customer; not a real person
+CUST-00182,Jordan,Usman,Jordan Usman,jordan.usman.00182@example.test,555-282-7734,1374 Hill Rd,Richmond,VA,25106,Mass Affluent,phone,2018-05-01,Synthetic test customer; not a real person
+CUST-00183,Vaughn,Stone,Vaughn Stone,vaughn.stone.00183@example.test,555-283-7771,1381 Market Rd,Tampa,FL,25189,Small Business Owner,secure message,2015-12-27,Synthetic test customer; not a real person
+CUST-00184,Marley,Turner,Marley Turner,marley.turner.00184@example.test,555-284-7808,1388 Lake St,Tulsa,OK,25272,Senior,chat,2018-11-23,Synthetic test customer; not a real person
+CUST-00185,Winter,Price,Winter Price,winter.price.00185@example.test,555-285-7845,1395 Union Rd,Tampa,FL,25355,New-to-Bank,email,2018-08-21,Synthetic test customer; not a real person
+CUST-00186,Harper,Walsh,Harper Walsh,harper.walsh.00186@example.test,555-286-7882,1402 Market Ave,Phoenix,AZ,25438,Everyday,phone,2020-10-29,Synthetic test customer; not a real person
+CUST-00187,Kendall,Patel,Kendall Patel,kendall.patel.00187@example.test,555-287-7919,1409 River St,Richmond,VA,25521,Student,secure message,2018-02-14,Synthetic test customer; not a real person
+CUST-00188,Payton,Cole,Payton Cole,payton.cole.00188@example.test,555-288-7956,1416 Maple Ln,Sacramento,CA,25604,Mass Affluent,chat,2016-10-11,Synthetic test customer; not a real person
+CUST-00189,Vaughn,Jensen,Vaughn Jensen,vaughn.jensen.00189@example.test,555-289-7993,1423 Lake Blvd,Madison,WI,25687,Small Business Owner,email,2022-02-22,Synthetic test customer; not a real person
+CUST-00190,Payton,Reed-Synthetic,Payton Reed,payton.reed.00190@example.test,555-290-8030,1430 Maple Ln,Tulsa,OK,25770,Senior,phone,2022-04-13,Synthetic test customer; not a real person
+CUST-00191,Quinn,Singh,Quinn Singh,quinn.singh.00191@example.test,555-291-8067,1437 Market Blvd,Sacramento,CA,25853,New-to-Bank,secure message,2024-08-22,Synthetic test customer; not a real person
+CUST-00192,Drew,Walsh,Drew Walsh,drew.walsh.00192@example.test,555-292-8104,1444 Oak Blvd,Sacramento,CA,25936,Everyday,chat,2021-05-12,Synthetic test customer; not a real person
+CUST-00193,Hayden,Jensen,Hayden Jensen,hayden.jensen.00193@example.test,555-293-8141,1451 River St,Phoenix,AZ,26019,Student,email,2020-10-25,Synthetic test customer; not a real person
+CUST-00194,Logan,Bennett,Logan Bennett,logan.bennett.00194@example.test,555-294-8178,1458 Market Ave,Tulsa,OK,26102,Mass Affluent,phone,2018-03-24,Synthetic test customer; not a real person
+CUST-00195,Hayden,Hughes,Hayden Hughes,hayden.hughes.00195@example.test,555-295-8215,1465 River Ln,Phoenix,AZ,26185,Small Business Owner,secure message,2025-04-21,Synthetic test customer; not a real person
+CUST-00196,Alex,Price,Alex Price,alex.price.00196@example.test,555-296-8252,1472 Cedar Ave,Albany,NY,26268,Senior,chat,2022-02-04,Synthetic test customer; not a real person
+CUST-00197,Rowan,Reed,Rowan Reed,rowan.reed.00197@example.test,555-297-8289,1479 Maple St,Phoenix,AZ,26351,New-to-Bank,email,2019-12-10,Synthetic test customer; not a real person
+CUST-00198,Cameron,Zimmer,Cameron Zimmer,cameron.zimmer.00198@example.test,555-298-8326,1486 Hill Ln,Richmond,VA,26434,Everyday,phone,2019-10-21,Synthetic test customer; not a real person
+CUST-00199,Logan,Turner,Logan Turner,logan.turner.00199@example.test,555-299-8363,1493 Union Ave,Columbus,OH,26517,Student,secure message,2023-07-29,Synthetic test customer; not a real person
+CUST-00200,Blair,Owens,Blair Owens,blair.owens.00200@example.test,555-300-8400,1500 Hill Ave,Boise,ID,26600,Mass Affluent,chat,2017-03-18,Synthetic test customer; not a real person
