@@ -9,6 +9,7 @@ const state = {
   selectedCaseId: data.cases[0]?.case_id,
   selectedArtifact: "caseNotes",
   isCreatingCase: false,
+  isCreatingCustomer: false,
   isCreatingAccount: false,
   selectedCustomerId: data.customers[0]?.customer_id,
   selectedKbId: data.kbArticles[0]?.article_id,
@@ -34,10 +35,12 @@ const byId = {
 };
 
 const RECOMMENDATION_STORAGE_KEY = "berryruthAgentRecommendations";
+const CUSTOMER_STORAGE_KEY = "berryruthCreatedCustomers";
 const ACCOUNT_STORAGE_KEY = "berryruthCreatedAccounts";
 const agentRecommendations = loadAgentRecommendations();
 let recommendationApiAvailable = false;
 let caseApiAvailable = false;
+let customerApiAvailable = false;
 let accountApiAvailable = false;
 
 const money = (value) => {
@@ -202,6 +205,111 @@ async function createCase(record) {
   else localCases.unshift(normalized);
   localStorage.setItem("berryruthCreatedCases", JSON.stringify(localCases));
   upsertCases([normalized]);
+  return normalized;
+}
+
+function nextCustomerId() {
+  const nums = data.customers
+    .map((c) => String(c.customer_id || "").match(/^CUST-(\d{5})$/)?.[1])
+    .filter(Boolean)
+    .map(Number);
+  const next = Math.max(0, ...nums) + 1;
+  return `CUST-${String(next).padStart(5, "0")}`;
+}
+
+function splitCustomerName(input) {
+  const fullName = String(input.full_name || input.customer_name || "").trim();
+  const parts = fullName.split(/\s+/).filter(Boolean);
+  return {
+    firstName: String(input.first_name || parts[0] || "").trim(),
+    lastName: String(input.last_name || parts.slice(1).join(" ") || "").trim(),
+    fullName,
+  };
+}
+
+function normalizeCreatedCustomer(input) {
+  const names = splitCustomerName(input);
+  const firstName = names.firstName;
+  const lastName = names.lastName;
+  const fullName = String(names.fullName || `${firstName} ${lastName}`.trim()).trim();
+  const customerId = String(input.customer_id || nextCustomerId()).trim();
+  const seed = stableNumber(customerId || fullName || Date.now());
+  const creditScore = Number(input.credit_score || (580 + (seed % 260)));
+  return {
+    customer_id: customerId,
+    first_name: firstName,
+    last_name: lastName,
+    full_name: fullName,
+    email: String(input.email || "").trim(),
+    phone: String(input.phone || "").trim(),
+    street_address: String(input.street_address || input.address || "").trim(),
+    city: String(input.city || "").trim(),
+    state: String(input.state || "").trim().toUpperCase(),
+    zip: String(input.zip || input.postal_code || "").trim(),
+    segment: String(input.segment || "Retail").trim(),
+    preferred_contact: String(input.preferred_contact || "email").trim(),
+    customer_since: input.customer_since || new Date().toISOString().slice(0, 10),
+    household_id: String(input.household_id || `HH-${String(90000 + (seed % 9999)).slice(-5)}`).trim(),
+    household_name: String(input.household_name || `${lastName || "Customer"} Household`).trim(),
+    household_role: String(input.household_role || "Primary").trim(),
+    household_size: String(input.household_size || "1").trim(),
+    credit_score: creditScore,
+    risk_tier: String(input.risk_tier || riskTier(creditScore)).trim(),
+    synthetic_notice: "User-created sandbox customer",
+    source: input.source || "CRM",
+  };
+}
+
+function upsertCustomers(customers) {
+  for (const item of customers) {
+    const normalized = normalizeCreatedCustomer(item);
+    const index = data.customers.findIndex((c) => c.customer_id === normalized.customer_id);
+    if (index >= 0) data.customers[index] = { ...data.customers[index], ...normalized };
+    else data.customers.unshift(normalized);
+    byId.customer.set(normalized.customer_id, normalized);
+  }
+}
+
+async function hydrateCustomersFromApi() {
+  try {
+    const response = await fetch("/api/customers", { cache: "no-store" });
+    if (!response.ok) throw new Error("Customer API unavailable");
+    const payload = await response.json();
+    upsertCustomers(payload.customers || []);
+    customerApiAvailable = true;
+  } catch {
+    customerApiAvailable = false;
+    try {
+      upsertCustomers(JSON.parse(localStorage.getItem(CUSTOMER_STORAGE_KEY) || "[]"));
+    } catch {
+      // Ignore local draft parse issues.
+    }
+  }
+}
+
+async function createCustomer(record) {
+  const normalized = normalizeCreatedCustomer(record);
+  if (customerApiAvailable) {
+    try {
+      const response = await fetch("/api/customers", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(normalized),
+      });
+      if (!response.ok) throw new Error("Create customer failed");
+      const payload = await response.json();
+      upsertCustomers([payload.customer]);
+      return payload.customer;
+    } catch {
+      customerApiAvailable = false;
+    }
+  }
+  const localCustomers = JSON.parse(localStorage.getItem(CUSTOMER_STORAGE_KEY) || "[]");
+  const existing = localCustomers.findIndex((c) => c.customer_id === normalized.customer_id);
+  if (existing >= 0) localCustomers[existing] = normalized;
+  else localCustomers.unshift(normalized);
+  localStorage.setItem(CUSTOMER_STORAGE_KEY, JSON.stringify(localCustomers));
+  upsertCustomers([normalized]);
   return normalized;
 }
 
@@ -708,9 +816,84 @@ function renderTable(rootId, rows, cols, onSelect, activeId) {
   root.replaceChildren(table);
 }
 
+function renderCreateCustomerForm() {
+  const host = document.getElementById("newCustomerFormHost");
+  if (!state.isCreatingCustomer) {
+    host.replaceChildren();
+    return;
+  }
+  host.innerHTML = `
+    <form id="newCustomerForm" class="case-form account-form customer-form">
+      <label>Customer ID<input name="customer_id" value="${nextCustomerId()}" required></label>
+      <label>First Name<input name="first_name" placeholder="Jordan" required></label>
+      <label>Last Name<input name="last_name" placeholder="Taylor" required></label>
+      <label>Email<input name="email" type="email" placeholder="customer@example.test" required></label>
+      <label>Phone<input name="phone" placeholder="555-123-4567" required></label>
+      <label>Preferred Contact
+        <select name="preferred_contact">
+          <option value="email">email</option>
+          <option value="phone">phone</option>
+          <option value="secure message">secure message</option>
+        </select>
+      </label>
+      <label class="wide">Street Address<input name="street_address" placeholder="100 Main St" required></label>
+      <label>City<input name="city" placeholder="Charlotte" required></label>
+      <label>State<input name="state" maxlength="2" placeholder="NC" required></label>
+      <label>ZIP<input name="zip" placeholder="28202" required></label>
+      <label>Segment
+        <select name="segment">
+          <option>Retail</option>
+          <option>Mass Affluent</option>
+          <option>Student</option>
+          <option>Small Business Owner</option>
+          <option>Premier</option>
+        </select>
+      </label>
+      <label>Customer Since<input name="customer_since" type="date" value="${new Date().toISOString().slice(0, 10)}"></label>
+      <label>Household ID<input name="household_id" placeholder="Auto-generated if blank"></label>
+      <label>Household Name<input name="household_name" placeholder="Taylor Household"></label>
+      <label>Household Role
+        <select name="household_role">
+          <option>Primary</option>
+          <option>Household Member</option>
+          <option>Authorized User</option>
+        </select>
+      </label>
+      <label>Household Size<input name="household_size" type="number" min="1" max="12" value="1"></label>
+      <label>Credit Score<input name="credit_score" type="number" min="300" max="850" placeholder="720"></label>
+      <label>Risk Tier
+        <select name="risk_tier">
+          <option value="">Auto</option>
+          <option>Low</option>
+          <option>Moderate</option>
+          <option>High</option>
+        </select>
+      </label>
+      <div class="form-actions wide">
+        <button class="action-button" type="submit">Create Customer</button>
+        <button class="ghost-button" id="cancelCreateCustomer" type="button">Cancel</button>
+      </div>
+    </form>
+  `;
+  host.querySelector("#newCustomerForm").addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const record = Object.fromEntries(new FormData(event.currentTarget).entries());
+    const created = await createCustomer(record);
+    state.selectedCustomerId = created.customer_id;
+    state.isCreatingCustomer = false;
+    state.isCreatingAccount = false;
+    renderActiveView();
+  });
+  host.querySelector("#cancelCreateCustomer").addEventListener("click", () => {
+    state.isCreatingCustomer = false;
+    renderCustomers();
+  });
+}
+
 function renderCustomers() {
   const rows = data.customers.filter((c) => matchesQuery(c));
   document.getElementById("customerCount").textContent = `${rows.length} visible`;
+  renderCreateCustomerForm();
   renderTable("customerTable", rows.slice(0, 200), [
     { key: "customer_id", label: "Customer ID" },
     { key: "full_name", label: "Name" },
@@ -719,6 +902,7 @@ function renderCustomers() {
     { key: "state", label: "State" },
   ], (row) => {
     state.selectedCustomerId = row.customer_id;
+    state.isCreatingCustomer = false;
     state.isCreatingAccount = false;
     renderCustomers();
   }, state.selectedCustomerId);
@@ -1285,6 +1469,11 @@ function bindEvents() {
     renderCases();
     renderCaseDetail();
   });
+  document.getElementById("newCustomerButton").addEventListener("click", () => {
+    state.isCreatingCustomer = true;
+    state.isCreatingAccount = false;
+    setView("customers");
+  });
   document.getElementById("resetFilters").addEventListener("click", () => {
     state.query = "";
     state.category = "All categories";
@@ -1297,6 +1486,7 @@ function bindEvents() {
 }
 
 async function initialize() {
+  await hydrateCustomersFromApi();
   await hydrateAccountsFromApi();
   await hydrateCasesFromApi();
   await hydrateLoanDocuments();

@@ -8,6 +8,7 @@ const PORT = Number(process.env.PORT || 4173);
 const HOST = process.env.HOST || "127.0.0.1";
 const STORE_FILE = path.join(__dirname, "agent_recommendations.json");
 const CASE_STORE_FILE = path.join(__dirname, "created_cases.json");
+const CUSTOMER_STORE_FILE = path.join(__dirname, "created_customers.json");
 const ACCOUNT_STORE_FILE = path.join(__dirname, "created_accounts.json");
 const DATA_FILE = path.join(__dirname, "data.js");
 const LOAN_DOCS_DIR = path.resolve(__dirname, "..", "loan_origination_documents");
@@ -61,6 +62,19 @@ async function readCaseStore() {
 
 async function writeCaseStore(store) {
   await fs.writeFile(CASE_STORE_FILE, JSON.stringify(store, null, 2) + "\n", "utf8");
+}
+
+async function readCustomerStore() {
+  try {
+    const parsed = JSON.parse(await fs.readFile(CUSTOMER_STORE_FILE, "utf8"));
+    return { customers: parsed.customers || [] };
+  } catch {
+    return { customers: [] };
+  }
+}
+
+async function writeCustomerStore(store) {
+  await fs.writeFile(CUSTOMER_STORE_FILE, JSON.stringify(store, null, 2) + "\n", "utf8");
 }
 
 async function readAccountStore() {
@@ -173,6 +187,49 @@ function riskTier(score) {
   if (score >= 740) return "Low";
   if (score >= 660) return "Moderate";
   return "High";
+}
+
+function splitCustomerName(input) {
+  const fullName = String(input.full_name || input.customer_name || "").trim();
+  const parts = fullName.split(/\s+/).filter(Boolean);
+  return {
+    firstName: String(input.first_name || parts[0] || "").trim(),
+    lastName: String(input.last_name || parts.slice(1).join(" ") || "").trim(),
+    fullName,
+  };
+}
+
+function normalizeCreatedCustomer(input) {
+  const names = splitCustomerName(input);
+  const firstName = names.firstName;
+  const lastName = names.lastName;
+  const fullName = String(names.fullName || `${firstName} ${lastName}`.trim()).trim();
+  const customerId = String(input.customer_id || "").trim();
+  const seed = stableNumber(customerId || fullName || Date.now());
+  const creditScore = Number(input.credit_score || (580 + (seed % 260)));
+  return {
+    customer_id: customerId,
+    first_name: firstName,
+    last_name: lastName,
+    full_name: fullName,
+    email: String(input.email || "").trim(),
+    phone: String(input.phone || "").trim(),
+    street_address: String(input.street_address || input.address || "").trim(),
+    city: String(input.city || "").trim(),
+    state: String(input.state || "").trim().toUpperCase(),
+    zip: String(input.zip || input.postal_code || "").trim(),
+    segment: String(input.segment || "Retail").trim(),
+    preferred_contact: String(input.preferred_contact || "email").trim(),
+    customer_since: input.customer_since || new Date().toISOString().slice(0, 10),
+    household_id: String(input.household_id || `HH-${String(90000 + (seed % 9999)).slice(-5)}`).trim(),
+    household_name: String(input.household_name || `${lastName || "Customer"} Household`).trim(),
+    household_role: String(input.household_role || "Primary").trim(),
+    household_size: String(input.household_size || "1").trim(),
+    credit_score: creditScore,
+    risk_tier: String(input.risk_tier || riskTier(creditScore)).trim(),
+    synthetic_notice: "User-created sandbox customer",
+    source: input.source || "CRM",
+  };
 }
 
 function nextLoanId(manifest) {
@@ -416,6 +473,24 @@ async function handleApi(req, res, url) {
     const filePath = safeLoanDocPath(relativePath);
     const content = await fs.readFile(filePath, "utf8");
     return send(res, 200, { relativePath, content });
+  }
+  if (url.pathname === "/api/customers" && req.method === "GET") {
+    return send(res, 200, await readCustomerStore());
+  }
+  if (url.pathname === "/api/customers" && req.method === "POST") {
+    const body = await readJsonBody(req);
+    const record = normalizeCreatedCustomer(body);
+    if (!record.customer_id) return send(res, 400, { error: "Field 'customer_id' is required" });
+    if (!record.first_name) return send(res, 400, { error: "Field 'first_name' is required" });
+    if (!record.last_name) return send(res, 400, { error: "Field 'last_name' is required" });
+    if (!record.email) return send(res, 400, { error: "Field 'email' is required" });
+    if (!record.phone) return send(res, 400, { error: "Field 'phone' is required" });
+    const store = await readCustomerStore();
+    const existing = store.customers.findIndex((c) => c.customer_id === record.customer_id);
+    if (existing >= 0) store.customers[existing] = { ...store.customers[existing], ...record };
+    else store.customers.unshift(record);
+    await writeCustomerStore(store);
+    return send(res, existing >= 0 ? 200 : 201, { customer: record });
   }
   if (url.pathname === "/api/accounts" && req.method === "GET") {
     return send(res, 200, await readAccountStore());
