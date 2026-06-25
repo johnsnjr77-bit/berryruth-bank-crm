@@ -1,0 +1,49 @@
+---
+loan_id: LOAN-00026
+customer_id: CUST-00026
+document_type: Loan application
+demo_use: Data extraction
+synthetic_notice: Synthetic BerryRuth Bank document for testing only; no real customer data.
+---
+
+# Loan application
+
+Demo use: Data extraction
+
+## Customer Match Fields
+
+| Field | Value |
+| --- | --- |
+| Customer ID | CUST-00026 |
+| Full name | Quinn Xu |
+| Email | quinn.xu.00026@example.test |
+| Phone | 555-126-1962 |
+| Address | 282 Union Blvd, Tulsa, OK 12158 |
+| Segment | Mass Affluent |
+| Preferred contact | phone |
+| Customer since | 2022-02-11 |
+| Household ID | HH-00013 |
+| Household name | Xu Household |
+| Household role | Household Member |
+| Household size | 3 |
+| Credit score | 672 |
+| Risk tier | Moderate |
+
+## Loan Application Fields
+
+| Field | Value |
+| --- | --- |
+| Application date | 2026-01-19 |
+| Loan purpose | Move-up home purchase |
+| Occupancy | Primary residence |
+| Requested loan amount | $256,012.00 |
+| Purchase price | $281,332.00 |
+| Down payment | $25,320.00 |
+| Proposed rate | 6.52% |
+| Property address | 1512 Pine Ln, Tulsa, OK 12158 |
+| Employer | Metro Learning Group |
+| Stated annual income | $151,844.00 |
+
+## Extraction Notes
+
+Use this document to extract borrower identity, CRM matching fields, loan request terms, property address, income, and consent status.

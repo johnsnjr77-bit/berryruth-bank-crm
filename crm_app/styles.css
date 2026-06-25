@@ -702,3 +702,695 @@ select {
 .recommendation-editor .meta {
   text-align: right;
 }
+
+
+.queue-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.case-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 16px;
+}
+
+.case-form label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.case-form input,
+.case-form select,
+.case-form textarea {
+  width: 100%;
+}
+
+.case-form textarea {
+  min-height: 110px;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  background: #fff;
+  padding: 10px 11px;
+}
+
+.case-form .wide,
+.form-actions {
+  grid-column: 1 / -1;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.section-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.action-button.compact {
+  padding: 7px 10px;
+  font-size: 12px;
+}
+
+.account-form {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 760px) {
+  .queue-actions,
+  .case-form {
+    grid-template-columns: 1fr;
+  }
+
+  .queue-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
+
+.loan-docs-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.8fr) minmax(360px, 1.2fr) minmax(360px, 1.1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.loan-package-list {
+  display: grid;
+  max-height: 68vh;
+  overflow: auto;
+  gap: 8px;
+}
+
+.loan-package {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  padding: 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+}
+
+.loan-package:hover,
+.loan-package.active {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.loan-package span,
+.loan-package small {
+  color: var(--muted);
+}
+
+.loan-preview-panel {
+  min-height: 70vh;
+}
+
+.loan-document-preview {
+  max-height: 72vh;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.loan-document-table tr {
+  cursor: pointer;
+}
+
+@media (max-width: 1180px) {
+  .loan-docs-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .loan-package-list,
+  .loan-document-preview {
+    max-height: none;
+  }
+}
+
+
+.selected-loan-summary {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.selected-loan-summary .eyebrow {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.selected-loan-summary h3 {
+  margin-top: 2px;
+}
+
+.selected-loan-summary p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.loan-summary-grid .kv {
+  grid-template-columns: minmax(92px, 0.8fr) minmax(0, 1.2fr);
+}
+
+.loan-doc-type-strip {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+
+.loan-package-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(36, 121, 107, 0.25);
+}
+
+.loan-package-detail div {
+  display: grid;
+  gap: 2px;
+}
+
+.loan-package-detail .wide {
+  grid-column: 1 / -1;
+}
+
+.loan-package-detail b {
+  color: var(--ink);
+  font-size: 11px;
+}
+
+.loan-package-detail span {
+  overflow-wrap: anywhere;
+}
+
+
+/* BerryRuth flyer-inspired theme */
+:root {
+  --ink: #f4fbff;
+  --muted: #a8c4dd;
+  --line: rgba(111, 214, 255, 0.26);
+  --panel: rgba(8, 31, 59, 0.82);
+  --page: #041426;
+  --nav: #06172b;
+  --nav-2: rgba(21, 92, 139, 0.7);
+  --accent: #55d7ff;
+  --accent-2: #7ff3e6;
+  --accent-soft: rgba(85, 215, 255, 0.16);
+  --berry: #ff4f8b;
+  --warning: #ffd26a;
+  --warning-soft: rgba(255, 210, 106, 0.14);
+  --danger: #ff6f91;
+  --danger-soft: rgba(255, 111, 145, 0.16);
+  --info: #7cc8ff;
+  --info-soft: rgba(124, 200, 255, 0.16);
+  --shadow: 0 18px 40px rgba(0, 8, 20, 0.38);
+}
+
+body {
+  color: var(--ink);
+  background:
+    linear-gradient(rgba(82, 193, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(82, 193, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(135deg, #020b17 0%, #06213d 42%, #071a34 74%, #020815 100%);
+  background-size: 42px 42px, 42px 42px, auto;
+  font-family: "Aptos", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(115deg, transparent 0 18%, rgba(93, 213, 255, 0.12) 18.2%, transparent 18.6% 48%, rgba(93, 213, 255, 0.08) 48.2%, transparent 48.6%),
+    linear-gradient(24deg, transparent 0 28%, rgba(127, 243, 230, 0.08) 28.2%, transparent 28.55% 70%, rgba(85, 215, 255, 0.08) 70.2%, transparent 70.5%);
+}
+
+.sidebar {
+  border-right: 1px solid rgba(85, 215, 255, 0.22);
+  background:
+    linear-gradient(180deg, rgba(7, 33, 64, 0.98), rgba(3, 15, 31, 0.98)),
+    var(--nav);
+  box-shadow: 10px 0 30px rgba(0, 8, 20, 0.28);
+}
+
+.brand {
+  border-bottom-color: rgba(85, 215, 255, 0.24);
+}
+
+.brand-mark {
+  border: 2px solid rgba(85, 215, 255, 0.78);
+  border-radius: 10px;
+  background:
+    linear-gradient(135deg, rgba(85, 215, 255, 0.22), rgba(255, 79, 139, 0.12)),
+    #082340;
+  box-shadow: 0 0 20px rgba(85, 215, 255, 0.28);
+  color: #ffffff;
+}
+
+.brand-title,
+h1,
+h2,
+h3,
+.summary-card .value,
+.case-id {
+  color: #ffffff;
+  font-family: "Aptos Display", "Segoe UI", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-shadow: 0 0 18px rgba(85, 215, 255, 0.2);
+}
+
+.brand-subtitle,
+.topbar p,
+.panel-head span,
+.meta,
+.muted,
+.search,
+.summary-card .label,
+.kv dt,
+.data-table th,
+.mini-table th,
+.loan-package span,
+.loan-package small,
+.selected-loan-summary p,
+.loan-doc-type-strip {
+  color: var(--muted);
+}
+
+.topbar {
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(85, 215, 255, 0.16);
+}
+
+.topbar h1 {
+  font-size: 27px;
+}
+
+.nav-item {
+  color: #c6e5fa;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #ffffff;
+  background: linear-gradient(90deg, rgba(85, 215, 255, 0.22), rgba(27, 82, 133, 0.56));
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.environment {
+  border-color: rgba(85, 215, 255, 0.28);
+  color: #c9e8fb;
+  background: rgba(8, 33, 61, 0.78);
+}
+
+.dot {
+  background: var(--accent-2);
+  box-shadow: 0 0 12px var(--accent-2);
+}
+
+input,
+select,
+textarea,
+.ghost-button {
+  border-color: rgba(111, 214, 255, 0.28);
+  color: #f4fbff;
+  background: rgba(4, 20, 38, 0.76);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(197, 226, 245, 0.62);
+}
+
+select option {
+  color: #102030;
+  background: #f6fbff;
+}
+
+.ghost-button:hover,
+.action-button:hover,
+.tab:hover {
+  border-color: rgba(127, 243, 230, 0.72);
+  box-shadow: 0 0 18px rgba(85, 215, 255, 0.22);
+}
+
+.action-button {
+  color: #031121;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  font-weight: 800;
+}
+
+.summary-card,
+.queue-panel,
+.detail-panel,
+.table-panel,
+.side-panel,
+.health-card,
+.section,
+.selected-loan-summary,
+.loan-package,
+.account-form,
+.markdown-box,
+.copilot-box,
+.recommendation-input {
+  border-color: rgba(111, 214, 255, 0.24);
+  background:
+    linear-gradient(180deg, rgba(18, 59, 101, 0.82), rgba(6, 25, 49, 0.86)),
+    var(--panel);
+  box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.summary-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.summary-card::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+
+.panel-head,
+.filter-row,
+.detail-header,
+.section-title-row,
+.section h3,
+.mini-table th,
+.data-table th {
+  border-color: rgba(111, 214, 255, 0.2);
+  background: rgba(5, 24, 47, 0.72);
+}
+
+.case-row {
+  color: var(--ink);
+  border-bottom-color: rgba(111, 214, 255, 0.16);
+}
+
+.case-row:hover,
+.case-row.active,
+.data-table tr:hover,
+.data-table tr.active,
+.loan-package:hover,
+.loan-package.active {
+  background: rgba(85, 215, 255, 0.12);
+}
+
+.case-row.active,
+.loan-package.active {
+  box-shadow: inset 4px 0 0 var(--accent), 0 0 24px rgba(85, 215, 255, 0.15);
+}
+
+.badge {
+  color: #dffcff;
+  background: rgba(85, 215, 255, 0.16);
+  border: 1px solid rgba(85, 215, 255, 0.26);
+}
+
+.badge.high,
+.badge.urgent,
+.badge.escalated {
+  color: #ffd8e3;
+  background: rgba(255, 79, 139, 0.15);
+  border-color: rgba(255, 79, 139, 0.32);
+}
+
+.badge.medium,
+.badge.waiting,
+.badge.progress {
+  color: #fff0c3;
+  background: rgba(255, 210, 106, 0.14);
+  border-color: rgba(255, 210, 106, 0.28);
+}
+
+.tab {
+  border-color: rgba(111, 214, 255, 0.24);
+  color: #c6e5fa;
+  background: rgba(4, 20, 38, 0.72);
+}
+
+.tab.active {
+  color: #031121;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+
+.artifact-box,
+.markdown-box,
+.copilot-box,
+.recommendation-input,
+.loan-document-preview {
+  color: #e8f7ff;
+  background: rgba(3, 14, 28, 0.82);
+}
+
+.mini-table th,
+.mini-table td,
+.data-table th,
+.data-table td {
+  border-bottom-color: rgba(111, 214, 255, 0.16);
+}
+
+.bar-track {
+  background: rgba(172, 213, 238, 0.18);
+}
+
+.bar-fill {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+.loan-package-detail {
+  border-top-color: rgba(85, 215, 255, 0.35);
+}
+
+.loan-package-detail b,
+.selected-loan-summary .eyebrow {
+  color: var(--accent-2);
+}
+
+
+.loan-doc-form {
+  margin: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(3, 14, 28, 0.72);
+}
+
+.loan-doc-form input[readonly] {
+  color: var(--muted);
+}\n\n
+/* White input screens override */
+input,
+select,
+textarea,
+.case-form input,
+.case-form select,
+.case-form textarea,
+.recommendation-input,
+.loan-doc-form input,
+.loan-doc-form select,
+.loan-doc-form textarea,
+.account-form input,
+.account-form select,
+.account-form textarea {
+  color: #000000;
+  background: #ffffff;
+  border-color: #9aa7b2;
+  caret-color: #000000;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #5f6b76;
+}
+
+select option {
+  color: #000000;
+  background: #ffffff;
+}
+
+.case-form,
+.loan-doc-form,
+.account-form,
+.recommendation-editor {
+  color: #000000;
+  background: #ffffff;
+  border-color: #c9d2da;
+}
+
+.case-form label,
+.loan-doc-form label,
+.account-form label {
+  color: #111111;
+}
+
+.case-form .ghost-button,
+.loan-doc-form .ghost-button,
+.account-form .ghost-button,
+.recommendation-actions .ghost-button {
+  color: #000000;
+  background: #ffffff;
+  border-color: #9aa7b2;
+}
+
+.loan-doc-form input[readonly] {
+  color: #333333;
+  background: #f2f4f7;
+}
+
+
+/* Sticky case detail improvements */
+@media (min-width: 1181px) {
+  .workbench {
+    align-items: start;
+    grid-template-columns: minmax(320px, 390px) minmax(0, 1fr);
+  }
+
+  .queue-panel,
+  .detail-panel {
+    max-height: calc(100vh - 142px);
+    overflow: hidden;
+  }
+
+  .detail-panel {
+    position: sticky;
+    top: 18px;
+  }
+
+  .case-list {
+    max-height: calc(100vh - 302px);
+  }
+
+  .case-detail {
+    max-height: calc(100vh - 142px);
+    min-height: 0;
+    overflow: auto;
+  }
+}
+
+.case-overview {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(85, 215, 255, 0.08);
+}
+
+.case-overview > div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid rgba(111, 214, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(3, 14, 28, 0.42);
+}
+
+.overview-label {
+  color: var(--accent-2);
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.case-overview strong {
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.case-overview small {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 1180px) {
+  .case-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .case-overview {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Wider case sticky breakpoint */
+@media (min-width: 980px) {
+  #casesView .workbench {
+    align-items: start;
+    grid-template-columns: minmax(300px, 380px) minmax(0, 1fr);
+  }
+
+  #casesView .queue-panel,
+  #casesView .detail-panel {
+    max-height: calc(100vh - 142px);
+    overflow: hidden;
+  }
+
+  #casesView .detail-panel {
+    position: sticky;
+    top: 18px;
+  }
+
+  #casesView .case-list {
+    max-height: calc(100vh - 302px);
+    overflow: auto;
+  }
+
+  #casesView .case-detail {
+    max-height: calc(100vh - 142px);
+    min-height: 0;
+    overflow: auto;
+  }
+}
+
+
+.new-loan-form {
+  margin: 12px;
+}

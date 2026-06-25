@@ -20,6 +20,7 @@
           <button class="nav-item active" data-view="cases" type="button">Cases</button>
           <button class="nav-item" data-view="customers" type="button">Customers</button>
           <button class="nav-item" data-view="knowledge" type="button">Knowledge</button>
+          <button class="nav-item" data-view="loanDocs" type="button">Loan Docs</button>
           <button class="nav-item" data-view="tests" type="button">Golden Tests</button>
           <button class="nav-item" data-view="health" type="button">Data Health</button>
         </nav>
@@ -54,7 +55,10 @@
                   <h2>Case Queue</h2>
                   <span id="caseCount"></span>
                 </div>
-                <select id="categoryFilter" aria-label="Filter by category"></select>
+                <div class="queue-actions">
+                  <button id="newCaseButton" class="action-button" type="button">New Case</button>
+                  <select id="categoryFilter" aria-label="Filter by category"></select>
+                </div>
               </div>
               <div class="filter-row">
                 <select id="statusFilter" aria-label="Filter by status"></select>
@@ -101,6 +105,43 @@
             <section class="side-panel">
               <h2>Article Preview</h2>
               <div id="kbDetail" class="markdown-box"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="loanDocsView" class="view">
+          <div class="loan-docs-layout">
+            <section class="table-panel">
+              <div class="panel-head">
+                <div>
+                  <h2>Loan Origination Documents</h2>
+                  <span id="loanDocCount"></span>
+                </div>
+                <button id="newLoanButton" class="action-button compact" type="button">New Loan</button>
+              </div>
+              <div id="newLoanFormHost"></div>
+              <div class="filter-row">
+                <select id="loanDocTypeFilter" aria-label="Filter by document type">
+                  <option>All document types</option>
+                </select>
+              </div>
+              <div id="loanPackageList" class="loan-package-list"></div>
+            </section>
+            <section class="table-panel">
+              <div class="panel-head">
+                <div>
+                  <h2>Documents</h2>
+                  <span id="loanDocSelection"></span>
+                </div>
+                <button id="newLoanDocButton" class="action-button compact" type="button">Add Document</button>
+              </div>
+              <div id="newLoanDocFormHost"></div>
+              <div id="selectedLoanSummary" class="selected-loan-summary"></div>
+              <div id="loanDocumentTable" class="data-table loan-document-table"></div>
+            </section>
+            <section class="side-panel loan-preview-panel">
+              <h2>Document Preview</h2>
+              <div id="loanDocumentPreview" class="markdown-box loan-document-preview">Select a loan document to preview it.</div>
             </section>
           </div>
         </section>

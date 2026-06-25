@@ -1,0 +1,54 @@
+{
+  "required_match_fields": [
+    "customer_id",
+    "customer_name",
+    "email",
+    "phone",
+    "address"
+  ],
+  "optional_profile_fields": [
+    "household_id",
+    "household_name",
+    "credit_score",
+    "risk_tier"
+  ],
+  "loan_fields": [
+    "loan_id",
+    "loan_purpose",
+    "requested_loan_amount",
+    "purchase_price",
+    "down_payment",
+    "property_address",
+    "closing_date"
+  ],
+  "document_types": {
+    "loan_application": {
+      "label": "Loan application",
+      "demo_use": "Data extraction"
+    },
+    "paystub": {
+      "label": "Paystub",
+      "demo_use": "Income verification"
+    },
+    "bank_statement": {
+      "label": "Bank statements",
+      "demo_use": "Asset verification"
+    },
+    "w2_1099_summary": {
+      "label": "W-2 or 1099 summary",
+      "demo_use": "Income validation"
+    },
+    "tax_return_summary": {
+      "label": "Tax return summary",
+      "demo_use": "Income validation"
+    },
+    "purchase_contract": {
+      "label": "Purchase contract",
+      "demo_use": "Property/loan validation"
+    },
+    "appraisal_summary": {
+      "label": "Appraisal summary",
+      "demo_use": "Property valuation"
+    }
+  }
+}
