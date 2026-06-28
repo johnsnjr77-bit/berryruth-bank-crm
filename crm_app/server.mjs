@@ -10,6 +10,7 @@ const STORE_FILE = path.join(__dirname, "agent_recommendations.json");
 const CASE_STORE_FILE = path.join(__dirname, "created_cases.json");
 const CUSTOMER_STORE_FILE = path.join(__dirname, "created_customers.json");
 const ACCOUNT_STORE_FILE = path.join(__dirname, "created_accounts.json");
+const ADJUSTMENT_STORE_FILE = path.join(__dirname, "created_adjustments.json");
 const DATA_FILE = path.join(__dirname, "data.js");
 const LOAN_DOCS_DIR = path.resolve(__dirname, "..", "loan_origination_documents");
 const LOAN_DOCS_MANIFEST = path.join(LOAN_DOCS_DIR, "manifest.json");
@@ -90,6 +91,19 @@ async function writeAccountStore(store) {
   await fs.writeFile(ACCOUNT_STORE_FILE, JSON.stringify(store, null, 2) + "\n", "utf8");
 }
 
+async function readAdjustmentStore() {
+  try {
+    const parsed = JSON.parse(await fs.readFile(ADJUSTMENT_STORE_FILE, "utf8"));
+    return { adjustments: parsed.adjustments || [] };
+  } catch {
+    return { adjustments: [] };
+  }
+}
+
+async function writeAdjustmentStore(store) {
+  await fs.writeFile(ADJUSTMENT_STORE_FILE, JSON.stringify(store, null, 2) + "\n", "utf8");
+}
+
 const ACCOUNT_TYPES = ["Checking", "Savings", "Money Market", "Credit Card", "Mortgage", "Auto Loan", "Personal Loan"];
 
 function maskedAccountNumber(input) {
@@ -121,11 +135,18 @@ function normalizeCreatedAccount(input) {
 function normalizeCreatedCase(input) {
   const issueType = String(input.issue_type || input.category || "").trim();
   const owner = String(input.owner || input.assigned_queue || "").trim();
+  const now = new Date().toISOString();
+  const status = String(input.status || "New").trim();
+  const stage = String(input.maestro_stage || input.process_stage || (status === "Resolved" ? "Closed" : "Intake")).trim();
   return {
     case_id: String(input.case_id || "").trim(),
+    customer_id: String(input.customer_id || "").trim(),
+    account_id: String(input.account_id || "").trim(),
+    related_transaction_id: String(input.related_transaction_id || "").trim(),
+    kb_article_id: String(input.kb_article_id || "").trim(),
     issue_type: issueType,
     category: issueType,
-    status: String(input.status || "New").trim(),
+    status,
     owner,
     assigned_queue: owner,
     sla: String(input.sla || "").trim(),
@@ -133,19 +154,34 @@ function normalizeCreatedCase(input) {
     priority: String(input.priority || "Medium").trim(),
     channel: String(input.channel || "manual").trim(),
     opened_at: input.opened_at || new Date().toLocaleString(),
-    short_summary: issueType ? `New ${issueType} case` : "New case",
-    requested_action: "Review case details and determine next best action.",
-    customer_sentiment: "Neutral",
-    synthetic_notice: "User-created sandbox case",
+    short_summary: String(input.short_summary || (issueType ? `New ${issueType} case` : "New case")).trim(),
+    requested_action: String(input.requested_action || "Review case details and determine next best action.").trim(),
+    customer_sentiment: String(input.customer_sentiment || "Neutral").trim(),
+    maestro_instance_id: String(input.maestro_instance_id || input.maestro_case_id || "").trim(),
+    maestro_stage: stage,
+    maestro_current_actor: String(input.maestro_current_actor || input.current_actor || (stage === "Human Approval" ? "Supervisor" : "Maestro")).trim(),
+    approval_status: String(input.approval_status || "Not Requested").trim(),
+    approved_refund_amount: String(input.approved_refund_amount || "").trim(),
+    escalation_reason: String(input.escalation_reason || "").trim(),
+    last_updated_by: String(input.last_updated_by || input.source || "CRM").trim(),
+    last_updated_at: input.last_updated_at || now,
+    refund_adjustment_id: String(input.refund_adjustment_id || "").trim(),
+    customer_message: String(input.customer_message || "").trim(),
+    ai_summary: String(input.ai_summary || "").trim(),
+    policy_recommendation: String(input.policy_recommendation || "").trim(),
+    synthetic_notice: input.synthetic_notice || "User-created sandbox case",
     source: input.source || "CRM",
   };
 }
 
 let knownCaseIds;
 async function getKnownCaseIds() {
-  if (knownCaseIds) return knownCaseIds;
-  const dataText = await fs.readFile(DATA_FILE, "utf8");
-  knownCaseIds = new Set([...dataText.matchAll(/"case_id":\s*"(CASE-\d{5})"/g)].map((match) => match[1]));
+  const crm = await parseCrmData();
+  const store = await readCaseStore();
+  knownCaseIds = new Set([
+    ...crm.cases.map((row) => row.case_id),
+    ...store.cases.map((row) => row.case_id),
+  ].filter(Boolean));
   return knownCaseIds;
 }
 
@@ -187,6 +223,18 @@ function riskTier(score) {
   if (score >= 740) return "Low";
   if (score >= 660) return "Moderate";
   return "High";
+}
+
+async function readAllCases() {
+  const crm = await parseCrmData();
+  const store = await readCaseStore();
+  const createdIds = new Set(store.cases.map((row) => row.case_id));
+  return [...store.cases, ...crm.cases.filter((row) => !createdIds.has(row.case_id))];
+}
+
+async function getCaseById(caseId) {
+  const allCases = await readAllCases();
+  return allCases.find((row) => row.case_id === caseId) || null;
 }
 
 function splitCustomerName(input) {
@@ -425,6 +473,72 @@ function safeLoanDocPath(relativePath) {
   return resolved;
 }
 
+function nextAdjustmentId(store) {
+  const nums = (store.adjustments || [])
+    .map((row) => String(row.transaction_id || "").match(/^ADJ-(\d{5})$/)?.[1])
+    .filter(Boolean)
+    .map(Number);
+  return `ADJ-${String(Math.max(0, ...nums) + 1).padStart(5, "0")}`;
+}
+
+function normalizeAdjustment(input, accountId, store) {
+  const now = new Date().toISOString();
+  const amount = input.amount === "" || input.amount === undefined ? "0" : String(input.amount);
+  return {
+    transaction_id: String(input.transaction_id || nextAdjustmentId(store)).trim(),
+    account_id: String(accountId || input.account_id || "").trim(),
+    customer_id: String(input.customer_id || "").trim(),
+    case_id: String(input.case_id || "").trim(),
+    transaction_date: input.transaction_date || now.slice(0, 10),
+    posted_date: input.posted_date || now.slice(0, 10),
+    description: String(input.description || "Courtesy overdraft fee reversal").trim(),
+    merchant_name: String(input.merchant_name || "BerryRuth Bank Adjustment").trim(),
+    transaction_type: String(input.transaction_type || "Adjustment").trim(),
+    amount,
+    status: String(input.status || "Posted").trim(),
+    reference_number: String(input.reference_number || `MAESTRO-${String(Date.now()).slice(-8)}`).trim(),
+    adjustment_reason: String(input.adjustment_reason || "Maestro fee dispute resolution").trim(),
+    source: String(input.source || "UiPath Maestro").trim(),
+    created_at: input.created_at || now,
+    synthetic_notice: "Synthetic Maestro adjustment",
+  };
+}
+
+async function createAdjustment(accountId, input) {
+  const store = await readAdjustmentStore();
+  const record = normalizeAdjustment(input, accountId, store);
+  if (!record.account_id) {
+    const error = new Error("Field 'account_id' is required");
+    error.statusCode = 400;
+    throw error;
+  }
+  store.adjustments.unshift(record);
+  await writeAdjustmentStore(store);
+  if (record.case_id) {
+    const existing = await getCaseById(record.case_id);
+    if (existing) {
+      const caseStore = await readCaseStore();
+      const updated = normalizeCreatedCase({
+        ...existing,
+        status: input.case_status || existing.status,
+        resolution: input.case_resolution || existing.resolution,
+        refund_adjustment_id: record.transaction_id,
+        approved_refund_amount: record.amount,
+        maestro_stage: input.maestro_stage || existing.maestro_stage || "Refund Posted",
+        maestro_current_actor: input.maestro_current_actor || "Robot",
+        approval_status: input.approval_status || existing.approval_status || "Approved",
+        last_updated_by: record.source,
+        last_updated_at: record.created_at,
+      });
+      const index = caseStore.cases.findIndex((row) => row.case_id === updated.case_id);
+      if (index >= 0) caseStore.cases[index] = { ...caseStore.cases[index], ...updated };
+      else caseStore.cases.unshift(updated);
+      await writeCaseStore(caseStore);
+    }
+  }
+  return record;
+}
+
 async function readJsonBody(req) {
   const chunks = [];
   let size = 0;
@@ -454,6 +568,9 @@ async function handleApi(req, res, url) {
   }
   if (url.pathname === "/api/recommendations" && req.method === "GET") {
     return send(res, 200, await readStore());
+  }
+  if (url.pathname === "/api/adjustments" && req.method === "GET") {
+    return send(res, 200, await readAdjustmentStore());
   }
   if (url.pathname === "/api/loan-documents" && req.method === "GET") {
     return send(res, 200, await readLoanDocManifest());
@@ -510,6 +627,7 @@ async function handleApi(req, res, url) {
     return send(res, existing >= 0 ? 200 : 201, { account: record });
   }
   if (url.pathname === "/api/cases" && req.method === "GET") {
+    if (url.searchParams.get("include") === "all") return send(res, 200, { cases: await readAllCases() });
     return send(res, 200, await readCaseStore());
   }
   if (url.pathname === "/api/cases" && req.method === "POST") {
@@ -525,6 +643,32 @@ async function handleApi(req, res, url) {
     else store.cases.unshift(record);
     await writeCaseStore(store);
     return send(res, existing >= 0 ? 200 : 201, { case: record });
+  }
+
+  const caseMatch = url.pathname.match(/^\/api\/cases\/(CASE-\d{5})$/);
+  if (caseMatch && req.method === "GET") {
+    const record = await getCaseById(caseMatch[1]);
+    if (!record) return send(res, 404, { error: "Unknown case_id", caseId: caseMatch[1] });
+    return send(res, 200, { case: record });
+  }
+  if (caseMatch && (req.method === "PATCH" || req.method === "PUT")) {
+    const existing = await getCaseById(caseMatch[1]);
+    if (!existing) return send(res, 404, { error: "Unknown case_id", caseId: caseMatch[1] });
+    const body = await readJsonBody(req);
+    const record = normalizeCreatedCase({ ...existing, ...body, case_id: caseMatch[1] });
+    const store = await readCaseStore();
+    const existingIndex = store.cases.findIndex((c) => c.case_id === record.case_id);
+    if (existingIndex >= 0) store.cases[existingIndex] = { ...store.cases[existingIndex], ...record };
+    else store.cases.unshift(record);
+    await writeCaseStore(store);
+    return send(res, 200, { case: record });
+  }
+
+  const adjustmentMatch = url.pathname.match(/^\/api\/accounts\/(ACCT-\d{6})\/adjustments$/);
+  if (adjustmentMatch && req.method === "POST") {
+    const body = await readJsonBody(req);
+    const adjustment = await createAdjustment(adjustmentMatch[1], body);
+    return send(res, 201, { adjustment });
   }
 
   const match = url.pathname.match(/^\/api\/cases\/(CASE-\d{5})\/recommendation$/);

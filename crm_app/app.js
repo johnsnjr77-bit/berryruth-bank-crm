@@ -37,11 +37,13 @@ const byId = {
 const RECOMMENDATION_STORAGE_KEY = "berryruthAgentRecommendations";
 const CUSTOMER_STORAGE_KEY = "berryruthCreatedCustomers";
 const ACCOUNT_STORAGE_KEY = "berryruthCreatedAccounts";
+const ADJUSTMENT_STORAGE_KEY = "berryruthCreatedAdjustments";
 const agentRecommendations = loadAgentRecommendations();
 let recommendationApiAvailable = false;
 let caseApiAvailable = false;
 let customerApiAvailable = false;
 let accountApiAvailable = false;
+let adjustmentApiAvailable = false;
 
 const money = (value) => {
   if (value === "" || value === undefined) return "-";
@@ -136,11 +138,17 @@ function nextCaseId() {
 function normalizeCreatedCase(input) {
   const issueType = String(input.issue_type || input.category || "").trim();
   const owner = String(input.owner || input.assigned_queue || "").trim();
+  const status = String(input.status || "New").trim();
+  const stage = String(input.maestro_stage || input.process_stage || (status === "Resolved" ? "Closed" : "Intake")).trim();
   return {
     case_id: String(input.case_id || nextCaseId()).trim(),
+    customer_id: String(input.customer_id || "").trim(),
+    account_id: String(input.account_id || "").trim(),
+    related_transaction_id: String(input.related_transaction_id || "").trim(),
+    kb_article_id: String(input.kb_article_id || "").trim(),
     issue_type: issueType,
     category: issueType,
-    status: String(input.status || "New").trim(),
+    status,
     owner,
     assigned_queue: owner,
     sla: String(input.sla || "").trim(),
@@ -148,10 +156,22 @@ function normalizeCreatedCase(input) {
     priority: String(input.priority || "Medium").trim(),
     channel: String(input.channel || "manual").trim(),
     opened_at: input.opened_at || new Date().toLocaleString(),
-    short_summary: issueType ? `New ${issueType} case` : "New case",
-    requested_action: "Review case details and determine next best action.",
-    customer_sentiment: "Neutral",
-    synthetic_notice: "User-created sandbox case",
+    short_summary: String(input.short_summary || (issueType ? `New ${issueType} case` : "New case")).trim(),
+    requested_action: String(input.requested_action || "Review case details and determine next best action.").trim(),
+    customer_sentiment: String(input.customer_sentiment || "Neutral").trim(),
+    maestro_instance_id: String(input.maestro_instance_id || input.maestro_case_id || "").trim(),
+    maestro_stage: stage,
+    maestro_current_actor: String(input.maestro_current_actor || input.current_actor || (stage === "Human Approval" ? "Supervisor" : "Maestro")).trim(),
+    approval_status: String(input.approval_status || "Not Requested").trim(),
+    approved_refund_amount: String(input.approved_refund_amount || "").trim(),
+    escalation_reason: String(input.escalation_reason || "").trim(),
+    last_updated_by: String(input.last_updated_by || input.source || "CRM").trim(),
+    last_updated_at: input.last_updated_at || new Date().toISOString(),
+    refund_adjustment_id: String(input.refund_adjustment_id || "").trim(),
+    customer_message: String(input.customer_message || "").trim(),
+    ai_summary: String(input.ai_summary || "").trim(),
+    policy_recommendation: String(input.policy_recommendation || "").trim(),
+    synthetic_notice: input.synthetic_notice || "User-created sandbox case",
     source: input.source || "CRM",
   };
 }
@@ -377,6 +397,54 @@ async function hydrateAccountsFromApi() {
   }
 }
 
+function normalizeCreatedAdjustment(input) {
+  return {
+    transaction_id: String(input.transaction_id || "").trim(),
+    account_id: String(input.account_id || "").trim(),
+    customer_id: String(input.customer_id || "").trim(),
+    case_id: String(input.case_id || "").trim(),
+    transaction_date: input.transaction_date || "",
+    posted_date: input.posted_date || "",
+    description: String(input.description || "Courtesy overdraft fee reversal").trim(),
+    merchant_name: String(input.merchant_name || "BerryRuth Bank Adjustment").trim(),
+    transaction_type: String(input.transaction_type || "Adjustment").trim(),
+    amount: String(input.amount || "0").trim(),
+    status: String(input.status || "Posted").trim(),
+    reference_number: String(input.reference_number || "").trim(),
+    source: String(input.source || "UiPath Maestro").trim(),
+    synthetic_notice: input.synthetic_notice || "Synthetic Maestro adjustment",
+  };
+}
+
+function upsertAdjustments(adjustments) {
+  for (const item of adjustments) {
+    const normalized = normalizeCreatedAdjustment(item);
+    if (!normalized.transaction_id) continue;
+    const index = data.transactions.findIndex((t) => t.transaction_id === normalized.transaction_id);
+    if (index >= 0) data.transactions[index] = { ...data.transactions[index], ...normalized };
+    else data.transactions.unshift(normalized);
+    byId.transaction.set(normalized.transaction_id, normalized);
+  }
+}
+
+async function hydrateAdjustmentsFromApi() {
+  try {
+    const response = await fetch("/api/adjustments", { cache: "no-store" });
+    if (!response.ok) throw new Error("Adjustment API unavailable");
+    const payload = await response.json();
+    upsertAdjustments(payload.adjustments || []);
+    adjustmentApiAvailable = true;
+    localStorage.setItem(ADJUSTMENT_STORAGE_KEY, JSON.stringify(payload.adjustments || []));
+  } catch {
+    adjustmentApiAvailable = false;
+    try {
+      upsertAdjustments(JSON.parse(localStorage.getItem(ADJUSTMENT_STORAGE_KEY) || "[]"));
+    } catch {
+      // Ignore local adjustment parse issues.
+    }
+  }
+}
+
 async function createAccount(record) {
   const normalized = normalizeCreatedAccount(record);
   if (accountApiAvailable) {
@@ -573,6 +641,41 @@ function renderCases() {
 function renderCreateCaseForm() {
   const root = document.getElementById("caseDetail");
   const defaultId = nextCaseId();
+  const issueTypes = [
+    "overdraft fee reversal",
+    "complaint escalation",
+    "card replacement",
+    "address change",
+    "payment not posted",
+    "account access issue",
+    "wire transfer question",
+    "loan payoff question",
+    "dispute handoff",
+    ...new Set(data.cases.map((c) => c.issue_type || c.category).filter(Boolean)),
+  ].filter((value, index, values) => values.indexOf(value) === index);
+  const owners = [
+    "Deposits Servicing",
+    "Supervisor Review",
+    "Executive Resolution",
+    "Cards Operations",
+    "Customer Maintenance",
+    "Payments Research",
+    "Digital Support",
+    "Wire Desk",
+    "Loan Servicing",
+    "Disputes Intake",
+    ...new Set(data.cases.map((c) => c.owner || c.assigned_queue).filter(Boolean)),
+  ].filter((value, index, values) => values.indexOf(value) === index);
+  const slas = [
+    "Same day",
+    "4 business hours",
+    "1 business day",
+    "2 business days",
+    "3 business days",
+    "5 business days",
+    ...new Set(data.cases.map((c) => c.sla).filter(Boolean)),
+  ].filter((value, index, values) => values.indexOf(value) === index);
+  const options = (values, selected) => values.map((value) => `<option value="${escapeHtml(value)}" ${value === selected ? "selected" : ""}>${escapeHtml(titleCase(value))}</option>`).join("");
   root.innerHTML = `
     <div class="detail-header">
       <div>
@@ -582,18 +685,31 @@ function renderCreateCaseForm() {
     </div>
     <form id="newCaseForm" class="case-form">
       <label>Case ID<input name="case_id" value="${defaultId}" required></label>
-      <label>Issue Type<input name="issue_type" placeholder="payment not posted" required></label>
+      <label>Issue Type
+        <select name="issue_type" required>
+          ${options(issueTypes, "overdraft fee reversal")}
+        </select>
+      </label>
       <label>Status
         <select name="status">
           <option>New</option>
           <option>In Progress</option>
+          <option>Waiting on Approval</option>
           <option>Waiting on Customer</option>
           <option>Escalated</option>
           <option>Resolved</option>
         </select>
       </label>
-      <label>Owner<input name="owner" placeholder="Payments Research" required></label>
-      <label>SLA<input name="sla" placeholder="2 business days" required></label>
+      <label>Owner
+        <select name="owner" required>
+          ${options(owners, "Deposits Servicing")}
+        </select>
+      </label>
+      <label>SLA
+        <select name="sla" required>
+          ${options(slas, "2 business days")}
+        </select>
+      </label>
       <label class="wide">Resolution<textarea name="resolution" placeholder="Pending review"></textarea></label>
       <div class="form-actions wide">
         <button class="action-button" type="submit">Create Case</button>
@@ -678,6 +794,45 @@ function renderCaseDetail() {
       ? "Resolved-case example recommendation"
       : "No recommendation saved yet";
   const recommendationMode = recommendationApiAvailable ? "API-backed" : "Local draft";
+  const maestroTimeline = [
+    "Intake",
+    "AI Review",
+    "Policy Check",
+    "Human Approval",
+    "Refund Posted",
+    "Customer Notified",
+  ];
+  const currentStageIndex = Math.max(0, maestroTimeline.indexOf(c.maestro_stage));
+  const maestroSection = `
+      <div class="section maestro-panel">
+        <div class="section-title-row">
+          <h3>Maestro Orchestration</h3>
+          <span class="meta">${c.maestro_instance_id || "No Maestro instance linked"}</span>
+        </div>
+        <div class="section-body">
+          <div class="maestro-grid">
+            ${renderKv([
+              ["Process stage", c.maestro_stage || "Intake"],
+              ["Current actor", c.maestro_current_actor || "Maestro"],
+              ["Approval", c.approval_status || "Not Requested"],
+              ["Approved refund", c.approved_refund_amount ? money(c.approved_refund_amount) : "-"],
+              ["Escalation", c.escalation_reason || "-"],
+              ["Refund adjustment", c.refund_adjustment_id || "-"],
+              ["Last updated by", c.last_updated_by || "-"],
+              ["Last updated", c.last_updated_at || "-"],
+            ])}
+          </div>
+          <ol class="maestro-timeline">
+            ${maestroTimeline.map((stage, index) => `<li class="${index < currentStageIndex ? "done" : ""} ${index === currentStageIndex ? "active" : ""}">${stage}</li>`).join("")}
+          </ol>
+          ${c.ai_summary || c.policy_recommendation || c.customer_message ? `
+            <div class="maestro-notes">
+              ${c.ai_summary ? `<p><strong>AI summary</strong><br>${escapeHtml(c.ai_summary)}</p>` : ""}
+              ${c.policy_recommendation ? `<p><strong>Policy recommendation</strong><br>${escapeHtml(c.policy_recommendation)}</p>` : ""}
+              ${c.customer_message ? `<p><strong>Customer message</strong><br>${escapeHtml(c.customer_message)}</p>` : ""}
+            </div>` : ""}
+        </div>
+      </div>`;
   const recommendationSection = `
       <div class="section recommendation-editor">
         <div class="section-title-row">
@@ -729,6 +884,7 @@ function renderCaseDetail() {
       </div>
     </div>
     <div class="detail-grid">
+      ${maestroSection}
       ${recommendationSection}
       <div class="section">
         <h3>Case Metadata</h3>
@@ -744,6 +900,10 @@ function renderCaseDetail() {
             ["Related item", h.transaction.description ? `${h.transaction.description} (${h.transaction.status})` : c.related_transaction_id],
             ["KB article", h.kb.title ? `${c.kb_article_id} · ${h.kb.title}` : c.kb_article_id],
             ["Sentiment", c.customer_sentiment],
+            ["Maestro instance", c.maestro_instance_id],
+            ["Maestro stage", c.maestro_stage],
+            ["Approval status", c.approval_status],
+            ["Refund adjustment", c.refund_adjustment_id],
           ])}
         </div>
       </div>
@@ -1489,6 +1649,7 @@ async function initialize() {
   await hydrateCustomersFromApi();
   await hydrateAccountsFromApi();
   await hydrateCasesFromApi();
+  await hydrateAdjustmentsFromApi();
   await hydrateLoanDocuments();
   await hydrateAgentRecommendationsFromApi();
   populateFilters();

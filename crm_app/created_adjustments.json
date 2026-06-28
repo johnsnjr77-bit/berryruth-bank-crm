@@ -1,0 +1,22 @@
+{
+  "adjustments": [
+    {
+      "transaction_id": "ADJ-00001",
+      "account_id": "ACCT-000212",
+      "customer_id": "CUST-00012",
+      "case_id": "CASE-99001",
+      "transaction_date": "2026-06-27",
+      "posted_date": "2026-06-27",
+      "description": "Courtesy overdraft fee reversal",
+      "merchant_name": "BerryRuth Bank Adjustment",
+      "transaction_type": "Adjustment",
+      "amount": "35.00",
+      "status": "Posted",
+      "reference_number": "MAESTRO-0001",
+      "adjustment_reason": "Auto-approved Maestro fee dispute resolution",
+      "source": "UiPath Maestro",
+      "created_at": "2026-06-27T14:35:00.000Z",
+      "synthetic_notice": "Synthetic Maestro adjustment"
+    }
+  ]
+}

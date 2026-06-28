@@ -1394,3 +1394,68 @@ select option {
 .new-loan-form {
   margin: 12px;
 }
+
+
+/* Maestro demo orchestration panel */
+.maestro-panel .meta {
+  text-align: right;
+}
+
+.maestro-grid .kv {
+  margin-bottom: 12px;
+}
+
+.maestro-timeline {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.maestro-timeline li {
+  min-height: 42px;
+  padding: 9px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  background: #f7fafb;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.maestro-timeline li.done {
+  color: #0b5137;
+  border-color: #9fe3c3;
+  background: #e7f8ef;
+}
+
+.maestro-timeline li.active {
+  color: #09243d;
+  border-color: #66c7f0;
+  background: #dff4ff;
+}
+
+.maestro-notes {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.maestro-notes p {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: #fbfcfd;
+  line-height: 1.45;
+}
+
+@media (max-width: 980px) {
+  .maestro-timeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
