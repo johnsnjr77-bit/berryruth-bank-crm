@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "berryruth-bank-crm",
+  "main": "cloudflare/worker.mjs",
+  "compatibility_date": "2026-06-23",
+  "kv_namespaces": [
+    {
+      "binding": "RECOMMENDATIONS",
+      "id": "d4666f3e2094472988abe1ef204e70f0"
+    }
+  ]
+}
