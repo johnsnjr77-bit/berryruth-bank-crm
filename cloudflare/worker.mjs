@@ -1,4 +1,4 @@
-const RAW_BASE = "https://raw.githubusercontent.com/johnsnjr77-bit/berryruth-bank-crm/a15ecf8/crm_app";
+const RAW_BASE = "https://raw.githubusercontent.com/johnsnjr77-bit/berryruth-bank-crm/375b18e/crm_app";
 const CASE_PATTERN = /^CASE-\d{5}$/;
 
 const ASSETS = new Map([
