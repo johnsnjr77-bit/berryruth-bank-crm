@@ -829,8 +829,13 @@ function renderCaseDetail() {
             <div class="maestro-notes">
               ${c.ai_summary ? `<p><strong>AI summary</strong><br>${escapeHtml(c.ai_summary)}</p>` : ""}
               ${c.policy_recommendation ? `<p><strong>Policy recommendation</strong><br>${escapeHtml(c.policy_recommendation)}</p>` : ""}
+                if (state.isCreatingCustomer) {
+    root.replaceChildren();
+    return;
+  }
               ${c.customer_message ? `<p><strong>Customer message</strong><br>${escapeHtml(c.customer_message)}</p>` : ""}
             </div>` : ""}
+                state.selectedCustomerId = null;
         </div>
       </div>`;
   const recommendationSection = `
