@@ -983,25 +983,27 @@ function renderCreateCustomerForm() {
     return;
   }
   host.innerHTML = `
-    <form id="newCustomerForm" class="case-form account-form customer-form">
-      <label>Customer ID<input name="customer_id" placeholder="Auto-generated if blank"></label>
-      <label>First Name<input name="first_name" placeholder="Jordan" required></label>
-      <label>Last Name<input name="last_name" placeholder="Taylor" required></label>
-      <label>Email<input name="email" type="email" placeholder="customer@example.test" required></label>
-      <label>Phone<input name="phone" placeholder="555-123-4567" required></label>
+    <form id="newCustomerForm" class="case-form account-form customer-form" autocomplete="off">
+      <label>Customer ID<input name="customer_id"></label>
+      <label>First Name<input name="first_name" required></label>
+      <label>Last Name<input name="last_name" required></label>
+      <label>Email<input name="email" type="email" required></label>
+      <label>Phone<input name="phone" required></label>
       <label>Preferred Contact
         <select name="preferred_contact">
+          <option value=""></option>
           <option value="email">email</option>
           <option value="phone">phone</option>
           <option value="secure message">secure message</option>
         </select>
       </label>
-      <label class="wide">Street Address<input name="street_address" placeholder="100 Main St" required></label>
-      <label>City<input name="city" placeholder="Charlotte" required></label>
-      <label>State<input name="state" maxlength="2" placeholder="NC" required></label>
-      <label>ZIP<input name="zip" placeholder="28202" required></label>
+      <label class="wide">Street Address<input name="street_address" required></label>
+      <label>City<input name="city" required></label>
+      <label>State<input name="state" maxlength="2" required></label>
+      <label>ZIP<input name="zip" required></label>
       <label>Segment
         <select name="segment">
+          <option value=""></option>
           <option>Retail</option>
           <option>Mass Affluent</option>
           <option>Student</option>
@@ -1009,21 +1011,22 @@ function renderCreateCustomerForm() {
           <option>Premier</option>
         </select>
       </label>
-      <label>Customer Since<input name="customer_since" type="date"></label>
-      <label>Household ID<input name="household_id" placeholder="Auto-generated if blank"></label>
-      <label>Household Name<input name="household_name" placeholder="Taylor Household"></label>
+      <label>Customer Since<input name="customer_since"></label>
+      <label>Household ID<input name="household_id"></label>
+      <label>Household Name<input name="household_name"></label>
       <label>Household Role
         <select name="household_role">
+          <option value=""></option>
           <option>Primary</option>
           <option>Household Member</option>
           <option>Authorized User</option>
         </select>
       </label>
       <label>Household Size<input name="household_size" type="number" min="1" max="12"></label>
-      <label>Credit Score<input name="credit_score" type="number" min="300" max="850" placeholder="720"></label>
+      <label>Credit Score<input name="credit_score" type="number" min="300" max="850"></label>
       <label>Risk Tier
         <select name="risk_tier">
-          <option value="">Auto</option>
+          <option value=""></option>
           <option>Low</option>
           <option>Moderate</option>
           <option>High</option>
