@@ -984,7 +984,7 @@ function renderCreateCustomerForm() {
   }
   host.innerHTML = `
     <form id="newCustomerForm" class="case-form account-form customer-form">
-      <label>Customer ID<input name="customer_id" value="${nextCustomerId()}" required></label>
+      <label>Customer ID<input name="customer_id" placeholder="Auto-generated if blank"></label>
       <label>First Name<input name="first_name" placeholder="Jordan" required></label>
       <label>Last Name<input name="last_name" placeholder="Taylor" required></label>
       <label>Email<input name="email" type="email" placeholder="customer@example.test" required></label>
@@ -1009,7 +1009,7 @@ function renderCreateCustomerForm() {
           <option>Premier</option>
         </select>
       </label>
-      <label>Customer Since<input name="customer_since" type="date" value="${new Date().toISOString().slice(0, 10)}"></label>
+      <label>Customer Since<input name="customer_since" type="date"></label>
       <label>Household ID<input name="household_id" placeholder="Auto-generated if blank"></label>
       <label>Household Name<input name="household_name" placeholder="Taylor Household"></label>
       <label>Household Role
@@ -1019,7 +1019,7 @@ function renderCreateCustomerForm() {
           <option>Authorized User</option>
         </select>
       </label>
-      <label>Household Size<input name="household_size" type="number" min="1" max="12" value="1"></label>
+      <label>Household Size<input name="household_size" type="number" min="1" max="12"></label>
       <label>Credit Score<input name="credit_score" type="number" min="300" max="850" placeholder="720"></label>
       <label>Risk Tier
         <select name="risk_tier">
@@ -1048,6 +1048,7 @@ function renderCreateCustomerForm() {
     state.isCreatingCustomer = false;
     renderCustomers();
   });
+  host.querySelector('[name="first_name"]')?.focus();
 }
 
 function renderCustomers() {
@@ -1103,10 +1104,13 @@ function renderAccountForm(customer) {
 
 function renderCustomerDetail() {
   const root = document.getElementById("customerDetail");
+  const panel = root.closest(".side-panel");
   if (state.isCreatingCustomer) {
     root.replaceChildren();
+    panel.hidden = true;
     return;
   }
+  panel.hidden = false;
   const customer = byId.customer.get(state.selectedCustomerId);
   if (!customer) {
     root.innerHTML = `<div class="empty">Select a customer.</div>`;
