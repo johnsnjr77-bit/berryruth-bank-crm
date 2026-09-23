@@ -829,13 +829,8 @@ function renderCaseDetail() {
             <div class="maestro-notes">
               ${c.ai_summary ? `<p><strong>AI summary</strong><br>${escapeHtml(c.ai_summary)}</p>` : ""}
               ${c.policy_recommendation ? `<p><strong>Policy recommendation</strong><br>${escapeHtml(c.policy_recommendation)}</p>` : ""}
-                if (state.isCreatingCustomer) {
-    root.replaceChildren();
-    return;
-  }
               ${c.customer_message ? `<p><strong>Customer message</strong><br>${escapeHtml(c.customer_message)}</p>` : ""}
             </div>` : ""}
-                state.selectedCustomerId = null;
         </div>
       </div>`;
   const recommendationSection = `
@@ -1107,8 +1102,12 @@ function renderAccountForm(customer) {
 }
 
 function renderCustomerDetail() {
-  const customer = byId.customer.get(state.selectedCustomerId);
   const root = document.getElementById("customerDetail");
+  if (state.isCreatingCustomer) {
+    root.replaceChildren();
+    return;
+  }
+  const customer = byId.customer.get(state.selectedCustomerId);
   if (!customer) {
     root.innerHTML = `<div class="empty">Select a customer.</div>`;
     return;
@@ -1637,6 +1636,7 @@ function bindEvents() {
   document.getElementById("newCustomerButton").addEventListener("click", () => {
     state.isCreatingCustomer = true;
     state.isCreatingAccount = false;
+    state.selectedCustomerId = null;
     setView("customers");
   });
   document.getElementById("resetFilters").addEventListener("click", () => {
