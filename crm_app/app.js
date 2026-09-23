@@ -984,7 +984,7 @@ function renderCreateCustomerForm() {
   }
   host.innerHTML = `
     <form id="newCustomerForm" class="case-form account-form customer-form">
-      <label>Customer ID<input name="customer_id" value="${nextCustomerId()}" required></label>
+      <label>Customer ID<input name="customer_id" placeholder="Auto-generated if blank"></label>
       <label>First Name<input name="first_name" placeholder="Jordan" required></label>
       <label>Last Name<input name="last_name" placeholder="Taylor" required></label>
       <label>Email<input name="email" type="email" placeholder="customer@example.test" required></label>
