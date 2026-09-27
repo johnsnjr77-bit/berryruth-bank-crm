@@ -24,6 +24,7 @@ const state = {
 };
 
 const ACCOUNT_TYPES = ["Checking", "Savings", "Money Market", "Credit Card", "Mortgage", "Auto Loan", "Personal Loan"];
+const BRANCH_CODES = Array.from({ length: 32 }, (_, index) => `BR-${String(index + 1).padStart(3, "0")}`);
 
 enrichSyntheticData();
 
@@ -70,6 +71,10 @@ function riskTier(score) {
   return "High";
 }
 
+function nearestBranch(input, seed) {
+  return String(input || BRANCH_CODES[seed % BRANCH_CODES.length]).trim();
+}
+
 function enrichSyntheticData() {
   data.customers.forEach((customer, index) => {
     const seed = stableNumber(customer.customer_id);
@@ -83,6 +88,7 @@ function enrichSyntheticData() {
     customer.phone ||= `555-${String(100 + (seed % 800)).padStart(3, "0")}-${String(1000 + (seed % 9000)).padStart(4, "0")}`;
     customer.credit_score ||= creditScore;
     customer.risk_tier ||= riskTier(Number(customer.credit_score));
+    customer.nearest_branch ||= data.accounts.find((account) => account.customer_id === customer.customer_id)?.branch_code || nearestBranch("", seed);
   });
 
   if (!data.accounts.some((account) => account.account_type === "Mortgage")) {
@@ -266,6 +272,7 @@ function normalizeCreatedCustomer(input) {
     city: String(input.city || "").trim(),
     state: String(input.state || "").trim().toUpperCase(),
     zip: String(input.zip || input.postal_code || "").trim(),
+    nearest_branch: nearestBranch(input.nearest_branch, seed),
     segment: String(input.segment || "Retail").trim(),
     preferred_contact: String(input.preferred_contact || "email").trim(),
     customer_since: input.customer_since || new Date().toISOString().slice(0, 10),
@@ -1001,6 +1008,11 @@ function renderCreateCustomerForm() {
       <label>City<input name="city" required></label>
       <label>State<input name="state" maxlength="2" required></label>
       <label>ZIP<input name="zip" required></label>
+      <label>Nearest Branch
+        <select name="nearest_branch" required>
+          ${BRANCH_CODES.map((branch) => `<option>${branch}</option>`).join("")}
+        </select>
+      </label>
       <label>Segment
         <select name="segment">
           <option value=""></option>
@@ -1064,6 +1076,7 @@ function renderCustomers() {
     { key: "segment", label: "Segment" },
     { key: "preferred_contact", label: "Contact" },
     { key: "state", label: "State" },
+    { key: "nearest_branch", label: "Nearest Branch" },
   ], (row) => {
     state.selectedCustomerId = row.customer_id;
     state.isCreatingCustomer = false;
@@ -1133,6 +1146,7 @@ function renderCustomerDetail() {
           ["Email", customer.email],
           ["Phone", customer.phone],
           ["Address", `${customer.street_address}, ${customer.city}, ${customer.state} ${customer.zip}`],
+          ["Nearest branch", customer.nearest_branch],
           ["Credit score", customer.credit_score],
           ["Risk tier", customer.risk_tier],
           ["Segment", customer.segment],

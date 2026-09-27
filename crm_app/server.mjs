@@ -105,6 +105,11 @@ async function writeAdjustmentStore(store) {
 }
 
 const ACCOUNT_TYPES = ["Checking", "Savings", "Money Market", "Credit Card", "Mortgage", "Auto Loan", "Personal Loan"];
+const BRANCH_CODES = Array.from({ length: 32 }, (_, index) => `BR-${String(index + 1).padStart(3, "0")}`);
+
+function nearestBranch(input, seed) {
+  return String(input || BRANCH_CODES[seed % BRANCH_CODES.length]).trim();
+}
 
 function maskedAccountNumber(input) {
   const digits = String(input || "").replace(/\D/g, "");
@@ -266,6 +271,7 @@ function normalizeCreatedCustomer(input) {
     city: String(input.city || "").trim(),
     state: String(input.state || "").trim().toUpperCase(),
     zip: String(input.zip || input.postal_code || "").trim(),
+    nearest_branch: nearestBranch(input.nearest_branch, seed),
     segment: String(input.segment || "Retail").trim(),
     preferred_contact: String(input.preferred_contact || "email").trim(),
     customer_since: input.customer_since || new Date().toISOString().slice(0, 10),

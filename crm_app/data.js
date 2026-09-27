@@ -15,7 +15,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2020-02-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-002"
     },
     {
       "customer_id": "CUST-00002",
@@ -31,7 +32,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2023-06-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-003"
     },
     {
       "customer_id": "CUST-00003",
@@ -47,7 +49,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2017-03-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-004"
     },
     {
       "customer_id": "CUST-00004",
@@ -63,7 +66,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2021-06-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-005"
     },
     {
       "customer_id": "CUST-00005",
@@ -79,7 +83,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2020-04-05",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-006"
     },
     {
       "customer_id": "CUST-00006",
@@ -95,7 +100,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2022-09-08",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-007"
     },
     {
       "customer_id": "CUST-00007",
@@ -111,7 +117,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2023-08-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-008"
     },
     {
       "customer_id": "CUST-00008",
@@ -127,7 +134,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2017-04-27",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-009"
     },
     {
       "customer_id": "CUST-00009",
@@ -143,7 +151,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2017-06-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-010"
     },
     {
       "customer_id": "CUST-00010",
@@ -159,7 +168,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2023-07-03",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-011"
     },
     {
       "customer_id": "CUST-00011",
@@ -175,7 +185,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2024-10-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-012"
     },
     {
       "customer_id": "CUST-00012",
@@ -191,7 +202,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2021-07-28",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-013"
     },
     {
       "customer_id": "CUST-00013",
@@ -207,7 +219,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2022-09-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-014"
     },
     {
       "customer_id": "CUST-00014",
@@ -223,7 +236,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2017-12-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-015"
     },
     {
       "customer_id": "CUST-00015",
@@ -239,7 +253,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2017-06-12",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-016"
     },
     {
       "customer_id": "CUST-00016",
@@ -255,7 +270,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2022-11-12",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-017"
     },
     {
       "customer_id": "CUST-00017",
@@ -271,7 +287,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2022-10-08",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-018"
     },
     {
       "customer_id": "CUST-00018",
@@ -287,7 +304,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2019-11-28",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-019"
     },
     {
       "customer_id": "CUST-00019",
@@ -303,7 +321,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2022-12-30",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-020"
     },
     {
       "customer_id": "CUST-00020",
@@ -319,7 +338,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2023-11-10",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-021"
     },
     {
       "customer_id": "CUST-00021",
@@ -335,7 +355,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2020-07-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-022"
     },
     {
       "customer_id": "CUST-00022",
@@ -351,7 +372,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2021-08-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-023"
     },
     {
       "customer_id": "CUST-00023",
@@ -367,7 +389,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2024-07-20",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-024"
     },
     {
       "customer_id": "CUST-00024",
@@ -383,7 +406,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2021-09-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-025"
     },
     {
       "customer_id": "CUST-00025",
@@ -399,7 +423,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2017-02-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-026"
     },
     {
       "customer_id": "CUST-00026",
@@ -415,7 +440,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2022-02-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-027"
     },
     {
       "customer_id": "CUST-00027",
@@ -431,7 +457,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2018-03-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-028"
     },
     {
       "customer_id": "CUST-00028",
@@ -447,7 +474,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2021-05-10",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-029"
     },
     {
       "customer_id": "CUST-00029",
@@ -463,7 +491,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2021-11-20",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-030"
     },
     {
       "customer_id": "CUST-00030",
@@ -479,7 +508,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2020-12-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-031"
     },
     {
       "customer_id": "CUST-00031",
@@ -495,7 +525,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2025-05-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-032"
     },
     {
       "customer_id": "CUST-00032",
@@ -511,7 +542,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2024-08-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-001"
     },
     {
       "customer_id": "CUST-00033",
@@ -527,7 +559,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2024-03-15",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-002"
     },
     {
       "customer_id": "CUST-00034",
@@ -543,7 +576,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2016-06-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-003"
     },
     {
       "customer_id": "CUST-00035",
@@ -559,7 +593,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2018-04-26",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-004"
     },
     {
       "customer_id": "CUST-00036",
@@ -575,7 +610,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2023-02-15",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-005"
     },
     {
       "customer_id": "CUST-00037",
@@ -591,7 +627,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2021-05-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-006"
     },
     {
       "customer_id": "CUST-00038",
@@ -607,7 +644,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2017-09-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-007"
     },
     {
       "customer_id": "CUST-00039",
@@ -623,7 +661,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2017-09-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-008"
     },
     {
       "customer_id": "CUST-00040",
@@ -639,7 +678,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2024-03-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-009"
     },
     {
       "customer_id": "CUST-00041",
@@ -655,7 +695,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2017-09-17",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-010"
     },
     {
       "customer_id": "CUST-00042",
@@ -671,7 +712,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2022-01-03",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-011"
     },
     {
       "customer_id": "CUST-00043",
@@ -687,7 +729,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2016-09-17",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-012"
     },
     {
       "customer_id": "CUST-00044",
@@ -703,7 +746,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2023-09-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-013"
     },
     {
       "customer_id": "CUST-00045",
@@ -719,7 +763,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2022-09-09",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-014"
     },
     {
       "customer_id": "CUST-00046",
@@ -735,7 +780,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2016-06-29",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-015"
     },
     {
       "customer_id": "CUST-00047",
@@ -751,7 +797,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2019-12-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-016"
     },
     {
       "customer_id": "CUST-00048",
@@ -767,7 +814,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2021-04-05",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-017"
     },
     {
       "customer_id": "CUST-00049",
@@ -783,7 +831,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2020-01-04",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-018"
     },
     {
       "customer_id": "CUST-00050",
@@ -799,7 +848,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2021-06-09",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-019"
     },
     {
       "customer_id": "CUST-00051",
@@ -815,7 +865,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2023-11-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-020"
     },
     {
       "customer_id": "CUST-00052",
@@ -831,7 +882,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2020-06-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-021"
     },
     {
       "customer_id": "CUST-00053",
@@ -847,7 +899,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2022-02-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-022"
     },
     {
       "customer_id": "CUST-00054",
@@ -863,7 +916,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2023-04-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-023"
     },
     {
       "customer_id": "CUST-00055",
@@ -879,7 +933,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2016-03-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-024"
     },
     {
       "customer_id": "CUST-00056",
@@ -895,7 +950,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2023-07-27",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-025"
     },
     {
       "customer_id": "CUST-00057",
@@ -911,7 +967,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2018-12-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-026"
     },
     {
       "customer_id": "CUST-00058",
@@ -927,7 +984,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2016-12-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-027"
     },
     {
       "customer_id": "CUST-00059",
@@ -943,7 +1001,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2022-05-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-028"
     },
     {
       "customer_id": "CUST-00060",
@@ -959,7 +1018,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2021-04-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-029"
     },
     {
       "customer_id": "CUST-00061",
@@ -975,7 +1035,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2021-06-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-030"
     },
     {
       "customer_id": "CUST-00062",
@@ -991,7 +1052,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2024-02-05",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-031"
     },
     {
       "customer_id": "CUST-00063",
@@ -1007,7 +1069,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2017-04-02",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-032"
     },
     {
       "customer_id": "CUST-00064",
@@ -1023,7 +1086,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2024-07-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-001"
     },
     {
       "customer_id": "CUST-00065",
@@ -1039,7 +1103,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2018-10-10",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-002"
     },
     {
       "customer_id": "CUST-00066",
@@ -1055,7 +1120,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2018-11-27",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-003"
     },
     {
       "customer_id": "CUST-00067",
@@ -1071,7 +1137,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2018-03-20",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-004"
     },
     {
       "customer_id": "CUST-00068",
@@ -1087,7 +1154,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2023-12-30",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-005"
     },
     {
       "customer_id": "CUST-00069",
@@ -1103,7 +1171,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2020-12-02",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-006"
     },
     {
       "customer_id": "CUST-00070",
@@ -1119,7 +1188,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2021-11-09",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-007"
     },
     {
       "customer_id": "CUST-00071",
@@ -1135,7 +1205,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2024-09-28",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-008"
     },
     {
       "customer_id": "CUST-00072",
@@ -1151,7 +1222,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2020-11-03",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-009"
     },
     {
       "customer_id": "CUST-00073",
@@ -1167,7 +1239,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2023-12-10",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-010"
     },
     {
       "customer_id": "CUST-00074",
@@ -1183,7 +1256,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2024-08-14",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-011"
     },
     {
       "customer_id": "CUST-00075",
@@ -1199,7 +1273,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2024-01-08",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-012"
     },
     {
       "customer_id": "CUST-00076",
@@ -1215,7 +1290,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2023-07-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-013"
     },
     {
       "customer_id": "CUST-00077",
@@ -1231,7 +1307,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2022-09-14",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-014"
     },
     {
       "customer_id": "CUST-00078",
@@ -1247,7 +1324,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2024-10-15",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-015"
     },
     {
       "customer_id": "CUST-00079",
@@ -1263,7 +1341,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2024-11-28",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-016"
     },
     {
       "customer_id": "CUST-00080",
@@ -1279,7 +1358,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2019-11-29",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-017"
     },
     {
       "customer_id": "CUST-00081",
@@ -1295,7 +1375,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2022-12-12",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-018"
     },
     {
       "customer_id": "CUST-00082",
@@ -1311,7 +1392,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2016-10-30",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-019"
     },
     {
       "customer_id": "CUST-00083",
@@ -1327,7 +1409,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2024-03-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-020"
     },
     {
       "customer_id": "CUST-00084",
@@ -1343,7 +1426,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2020-05-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-021"
     },
     {
       "customer_id": "CUST-00085",
@@ -1359,7 +1443,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2024-01-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-022"
     },
     {
       "customer_id": "CUST-00086",
@@ -1375,7 +1460,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2015-12-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-023"
     },
     {
       "customer_id": "CUST-00087",
@@ -1391,7 +1477,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2020-03-17",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-024"
     },
     {
       "customer_id": "CUST-00088",
@@ -1407,7 +1494,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2019-03-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-025"
     },
     {
       "customer_id": "CUST-00089",
@@ -1423,7 +1511,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2020-01-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-026"
     },
     {
       "customer_id": "CUST-00090",
@@ -1439,7 +1528,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2019-04-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-027"
     },
     {
       "customer_id": "CUST-00091",
@@ -1455,7 +1545,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2016-02-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-028"
     },
     {
       "customer_id": "CUST-00092",
@@ -1471,7 +1562,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2018-01-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-029"
     },
     {
       "customer_id": "CUST-00093",
@@ -1487,7 +1579,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2020-02-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-030"
     },
     {
       "customer_id": "CUST-00094",
@@ -1503,7 +1596,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2018-08-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-031"
     },
     {
       "customer_id": "CUST-00095",
@@ -1519,7 +1613,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2022-09-29",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-032"
     },
     {
       "customer_id": "CUST-00096",
@@ -1535,7 +1630,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2023-08-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-001"
     },
     {
       "customer_id": "CUST-00097",
@@ -1551,7 +1647,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2019-04-03",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-002"
     },
     {
       "customer_id": "CUST-00098",
@@ -1567,7 +1664,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2018-03-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-003"
     },
     {
       "customer_id": "CUST-00099",
@@ -1583,7 +1681,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2022-07-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-004"
     },
     {
       "customer_id": "CUST-00100",
@@ -1599,7 +1698,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2022-02-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-005"
     },
     {
       "customer_id": "CUST-00101",
@@ -1615,7 +1715,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2017-03-09",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-006"
     },
     {
       "customer_id": "CUST-00102",
@@ -1631,7 +1732,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2017-07-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-007"
     },
     {
       "customer_id": "CUST-00103",
@@ -1647,7 +1749,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2018-12-08",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-008"
     },
     {
       "customer_id": "CUST-00104",
@@ -1663,7 +1766,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2024-04-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-009"
     },
     {
       "customer_id": "CUST-00105",
@@ -1679,7 +1783,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2017-05-22",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-010"
     },
     {
       "customer_id": "CUST-00106",
@@ -1695,7 +1800,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2018-03-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-011"
     },
     {
       "customer_id": "CUST-00107",
@@ -1711,7 +1817,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2018-03-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-012"
     },
     {
       "customer_id": "CUST-00108",
@@ -1727,7 +1834,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2018-09-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-013"
     },
     {
       "customer_id": "CUST-00109",
@@ -1743,7 +1851,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2025-03-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-014"
     },
     {
       "customer_id": "CUST-00110",
@@ -1759,7 +1868,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2024-08-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-015"
     },
     {
       "customer_id": "CUST-00111",
@@ -1775,7 +1885,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2020-05-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-016"
     },
     {
       "customer_id": "CUST-00112",
@@ -1791,7 +1902,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2016-01-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-017"
     },
     {
       "customer_id": "CUST-00113",
@@ -1807,7 +1919,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2017-01-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-018"
     },
     {
       "customer_id": "CUST-00114",
@@ -1823,7 +1936,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2021-02-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-019"
     },
     {
       "customer_id": "CUST-00115",
@@ -1839,7 +1953,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2018-12-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-020"
     },
     {
       "customer_id": "CUST-00116",
@@ -1855,7 +1970,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2020-06-19",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-021"
     },
     {
       "customer_id": "CUST-00117",
@@ -1871,7 +1987,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2023-04-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-022"
     },
     {
       "customer_id": "CUST-00118",
@@ -1887,7 +2004,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2019-04-15",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-023"
     },
     {
       "customer_id": "CUST-00119",
@@ -1903,7 +2021,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2019-02-14",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-024"
     },
     {
       "customer_id": "CUST-00120",
@@ -1919,7 +2038,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2024-06-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-025"
     },
     {
       "customer_id": "CUST-00121",
@@ -1935,7 +2055,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2019-09-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-026"
     },
     {
       "customer_id": "CUST-00122",
@@ -1951,7 +2072,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2024-03-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-027"
     },
     {
       "customer_id": "CUST-00123",
@@ -1967,7 +2089,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2017-06-29",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-028"
     },
     {
       "customer_id": "CUST-00124",
@@ -1983,7 +2106,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2017-06-29",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-029"
     },
     {
       "customer_id": "CUST-00125",
@@ -1999,7 +2123,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2019-05-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-030"
     },
     {
       "customer_id": "CUST-00126",
@@ -2015,7 +2140,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2023-06-15",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-031"
     },
     {
       "customer_id": "CUST-00127",
@@ -2031,7 +2157,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2019-01-15",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-032"
     },
     {
       "customer_id": "CUST-00128",
@@ -2047,7 +2174,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2017-11-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-001"
     },
     {
       "customer_id": "CUST-00129",
@@ -2063,7 +2191,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2019-06-22",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-002"
     },
     {
       "customer_id": "CUST-00130",
@@ -2079,7 +2208,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2018-08-19",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-003"
     },
     {
       "customer_id": "CUST-00131",
@@ -2095,7 +2225,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2024-12-26",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-004"
     },
     {
       "customer_id": "CUST-00132",
@@ -2111,7 +2242,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2022-11-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-005"
     },
     {
       "customer_id": "CUST-00133",
@@ -2127,7 +2259,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2025-04-12",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-006"
     },
     {
       "customer_id": "CUST-00134",
@@ -2143,7 +2276,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2023-03-02",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-007"
     },
     {
       "customer_id": "CUST-00135",
@@ -2159,7 +2293,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2020-01-07",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-008"
     },
     {
       "customer_id": "CUST-00136",
@@ -2175,7 +2310,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2020-04-12",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-009"
     },
     {
       "customer_id": "CUST-00137",
@@ -2191,7 +2327,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2024-11-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-010"
     },
     {
       "customer_id": "CUST-00138",
@@ -2207,7 +2344,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2015-12-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-011"
     },
     {
       "customer_id": "CUST-00139",
@@ -2223,7 +2361,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2016-05-22",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-012"
     },
     {
       "customer_id": "CUST-00140",
@@ -2239,7 +2378,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2023-04-15",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-013"
     },
     {
       "customer_id": "CUST-00141",
@@ -2255,7 +2395,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2020-11-09",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-014"
     },
     {
       "customer_id": "CUST-00142",
@@ -2271,7 +2412,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2024-03-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-015"
     },
     {
       "customer_id": "CUST-00143",
@@ -2287,7 +2429,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2020-10-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-016"
     },
     {
       "customer_id": "CUST-00144",
@@ -2303,7 +2446,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2023-07-22",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-017"
     },
     {
       "customer_id": "CUST-00145",
@@ -2319,7 +2463,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2023-08-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-018"
     },
     {
       "customer_id": "CUST-00146",
@@ -2335,7 +2480,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2018-02-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-019"
     },
     {
       "customer_id": "CUST-00147",
@@ -2351,7 +2497,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2019-09-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-020"
     },
     {
       "customer_id": "CUST-00148",
@@ -2367,7 +2514,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2024-12-02",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-021"
     },
     {
       "customer_id": "CUST-00149",
@@ -2383,7 +2531,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2024-03-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-022"
     },
     {
       "customer_id": "CUST-00150",
@@ -2399,7 +2548,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2021-07-20",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-023"
     },
     {
       "customer_id": "CUST-00151",
@@ -2415,7 +2565,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2021-12-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-024"
     },
     {
       "customer_id": "CUST-00152",
@@ -2431,7 +2582,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2023-11-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-025"
     },
     {
       "customer_id": "CUST-00153",
@@ -2447,7 +2599,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2024-04-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-026"
     },
     {
       "customer_id": "CUST-00154",
@@ -2463,7 +2616,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2024-09-26",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-027"
     },
     {
       "customer_id": "CUST-00155",
@@ -2479,7 +2633,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2023-04-08",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-028"
     },
     {
       "customer_id": "CUST-00156",
@@ -2495,7 +2650,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2023-02-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-029"
     },
     {
       "customer_id": "CUST-00157",
@@ -2511,7 +2667,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2017-12-28",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-030"
     },
     {
       "customer_id": "CUST-00158",
@@ -2527,7 +2684,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2016-10-08",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-031"
     },
     {
       "customer_id": "CUST-00159",
@@ -2543,7 +2701,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2019-04-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-032"
     },
     {
       "customer_id": "CUST-00160",
@@ -2559,7 +2718,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2020-01-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-001"
     },
     {
       "customer_id": "CUST-00161",
@@ -2575,7 +2735,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2020-06-14",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-002"
     },
     {
       "customer_id": "CUST-00162",
@@ -2591,7 +2752,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2022-01-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-003"
     },
     {
       "customer_id": "CUST-00163",
@@ -2607,7 +2769,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2016-10-31",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-004"
     },
     {
       "customer_id": "CUST-00164",
@@ -2623,7 +2786,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2019-07-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-005"
     },
     {
       "customer_id": "CUST-00165",
@@ -2639,7 +2803,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2019-07-27",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-006"
     },
     {
       "customer_id": "CUST-00166",
@@ -2655,7 +2820,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2016-03-16",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-007"
     },
     {
       "customer_id": "CUST-00167",
@@ -2671,7 +2837,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2016-08-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-008"
     },
     {
       "customer_id": "CUST-00168",
@@ -2687,7 +2854,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2021-01-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-009"
     },
     {
       "customer_id": "CUST-00169",
@@ -2703,7 +2871,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2022-09-27",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-010"
     },
     {
       "customer_id": "CUST-00170",
@@ -2719,7 +2888,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2019-03-26",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-011"
     },
     {
       "customer_id": "CUST-00171",
@@ -2735,7 +2905,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2023-07-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-012"
     },
     {
       "customer_id": "CUST-00172",
@@ -2751,7 +2922,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2020-07-19",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-013"
     },
     {
       "customer_id": "CUST-00173",
@@ -2767,7 +2939,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2016-11-03",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-014"
     },
     {
       "customer_id": "CUST-00174",
@@ -2783,7 +2956,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2019-08-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-015"
     },
     {
       "customer_id": "CUST-00175",
@@ -2799,7 +2973,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2018-10-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-016"
     },
     {
       "customer_id": "CUST-00176",
@@ -2815,7 +2990,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2025-05-06",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-017"
     },
     {
       "customer_id": "CUST-00177",
@@ -2831,7 +3007,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2023-06-09",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-018"
     },
     {
       "customer_id": "CUST-00178",
@@ -2847,7 +3024,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2018-02-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-019"
     },
     {
       "customer_id": "CUST-00179",
@@ -2863,7 +3041,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2016-08-19",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-020"
     },
     {
       "customer_id": "CUST-00180",
@@ -2879,7 +3058,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2016-03-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-021"
     },
     {
       "customer_id": "CUST-00181",
@@ -2895,7 +3075,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2019-03-12",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-022"
     },
     {
       "customer_id": "CUST-00182",
@@ -2911,7 +3092,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2018-05-01",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-023"
     },
     {
       "customer_id": "CUST-00183",
@@ -2927,7 +3109,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2015-12-27",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-024"
     },
     {
       "customer_id": "CUST-00184",
@@ -2943,7 +3126,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2018-11-23",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-025"
     },
     {
       "customer_id": "CUST-00185",
@@ -2959,7 +3143,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2018-08-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-026"
     },
     {
       "customer_id": "CUST-00186",
@@ -2975,7 +3160,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2020-10-29",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-027"
     },
     {
       "customer_id": "CUST-00187",
@@ -2991,7 +3177,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2018-02-14",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-028"
     },
     {
       "customer_id": "CUST-00188",
@@ -3007,7 +3194,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2016-10-11",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-029"
     },
     {
       "customer_id": "CUST-00189",
@@ -3023,7 +3211,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "email",
       "customer_since": "2022-02-22",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-030"
     },
     {
       "customer_id": "CUST-00190",
@@ -3039,7 +3228,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "phone",
       "customer_since": "2022-04-13",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-031"
     },
     {
       "customer_id": "CUST-00191",
@@ -3055,7 +3245,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "secure message",
       "customer_since": "2024-08-22",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-032"
     },
     {
       "customer_id": "CUST-00192",
@@ -3071,7 +3262,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "chat",
       "customer_since": "2021-05-12",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-001"
     },
     {
       "customer_id": "CUST-00193",
@@ -3087,7 +3279,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "email",
       "customer_since": "2020-10-25",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-002"
     },
     {
       "customer_id": "CUST-00194",
@@ -3103,7 +3296,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "phone",
       "customer_since": "2018-03-24",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-003"
     },
     {
       "customer_id": "CUST-00195",
@@ -3119,7 +3313,8 @@ window.CRM_DATA = {
       "segment": "Small Business Owner",
       "preferred_contact": "secure message",
       "customer_since": "2025-04-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-004"
     },
     {
       "customer_id": "CUST-00196",
@@ -3135,7 +3330,8 @@ window.CRM_DATA = {
       "segment": "Senior",
       "preferred_contact": "chat",
       "customer_since": "2022-02-04",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-005"
     },
     {
       "customer_id": "CUST-00197",
@@ -3151,7 +3347,8 @@ window.CRM_DATA = {
       "segment": "New-to-Bank",
       "preferred_contact": "email",
       "customer_since": "2019-12-10",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-006"
     },
     {
       "customer_id": "CUST-00198",
@@ -3167,7 +3364,8 @@ window.CRM_DATA = {
       "segment": "Everyday",
       "preferred_contact": "phone",
       "customer_since": "2019-10-21",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-007"
     },
     {
       "customer_id": "CUST-00199",
@@ -3183,7 +3381,8 @@ window.CRM_DATA = {
       "segment": "Student",
       "preferred_contact": "secure message",
       "customer_since": "2023-07-29",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-008"
     },
     {
       "customer_id": "CUST-00200",
@@ -3199,7 +3398,8 @@ window.CRM_DATA = {
       "segment": "Mass Affluent",
       "preferred_contact": "chat",
       "customer_since": "2017-03-18",
-      "synthetic_notice": "Synthetic test customer; not a real person"
+      "synthetic_notice": "Synthetic test customer; not a real person",
+      "nearest_branch": "BR-009"
     }
   ],
   "accounts": [
