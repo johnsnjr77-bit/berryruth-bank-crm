@@ -168,7 +168,7 @@ function makeCustomers() {
       city,
       state,
       zip: `${pad(10000 + ((i * 83) % 89999), 5)}`,
-      nearest_branch: `BR-${pad(1 + (i % 32), 3)}`,
+      nearest_branch: "",
       segment: segments[i % segments.length],
       preferred_contact: channels[i % channels.length],
       customer_since: isoDate(365 + Math.floor(rand() * 3500)),

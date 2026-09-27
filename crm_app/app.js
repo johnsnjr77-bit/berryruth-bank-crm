@@ -24,7 +24,6 @@ const state = {
 };
 
 const ACCOUNT_TYPES = ["Checking", "Savings", "Money Market", "Credit Card", "Mortgage", "Auto Loan", "Personal Loan"];
-const BRANCH_CODES = Array.from({ length: 32 }, (_, index) => `BR-${String(index + 1).padStart(3, "0")}`);
 
 enrichSyntheticData();
 
@@ -71,10 +70,6 @@ function riskTier(score) {
   return "High";
 }
 
-function nearestBranch(input, seed) {
-  return String(input || BRANCH_CODES[seed % BRANCH_CODES.length]).trim();
-}
-
 function enrichSyntheticData() {
   data.customers.forEach((customer, index) => {
     const seed = stableNumber(customer.customer_id);
@@ -88,7 +83,6 @@ function enrichSyntheticData() {
     customer.phone ||= `555-${String(100 + (seed % 800)).padStart(3, "0")}-${String(1000 + (seed % 9000)).padStart(4, "0")}`;
     customer.credit_score ||= creditScore;
     customer.risk_tier ||= riskTier(Number(customer.credit_score));
-    customer.nearest_branch ||= data.accounts.find((account) => account.customer_id === customer.customer_id)?.branch_code || nearestBranch("", seed);
   });
 
   if (!data.accounts.some((account) => account.account_type === "Mortgage")) {
@@ -272,7 +266,7 @@ function normalizeCreatedCustomer(input) {
     city: String(input.city || "").trim(),
     state: String(input.state || "").trim().toUpperCase(),
     zip: String(input.zip || input.postal_code || "").trim(),
-    nearest_branch: nearestBranch(input.nearest_branch, seed),
+    nearest_branch: String(input.nearest_branch || "").trim(),
     segment: String(input.segment || "Retail").trim(),
     preferred_contact: String(input.preferred_contact || "email").trim(),
     customer_since: input.customer_since || new Date().toISOString().slice(0, 10),
@@ -1008,11 +1002,7 @@ function renderCreateCustomerForm() {
       <label>City<input name="city" required></label>
       <label>State<input name="state" maxlength="2" required></label>
       <label>ZIP<input name="zip" required></label>
-      <label>Nearest Branch
-        <select name="nearest_branch" required>
-          ${BRANCH_CODES.map((branch) => `<option>${branch}</option>`).join("")}
-        </select>
-      </label>
+      <label class="wide">Nearest Branch<textarea name="nearest_branch" rows="2" placeholder="Enter the nearest branch"></textarea></label>
       <label>Segment
         <select name="segment">
           <option value=""></option>
@@ -1152,6 +1142,13 @@ function renderCustomerDetail() {
           ["Segment", customer.segment],
           ["Since", customer.customer_since],
         ])}
+        <form id="nearestBranchForm" class="case-form account-form">
+          <input name="customer_id" type="hidden" value="${escapeHtml(customer.customer_id)}">
+          <label class="wide">Nearest Branch<textarea name="nearest_branch" rows="2" placeholder="Enter the nearest branch">${escapeHtml(customer.nearest_branch || "")}</textarea></label>
+          <div class="form-actions wide">
+            <button class="action-button compact" type="submit">Save Nearest Branch</button>
+          </div>
+        </form>
       </div>
     </div>
     <div class="section">
@@ -1180,6 +1177,12 @@ function renderCustomerDetail() {
   document.getElementById("newAccountButton")?.addEventListener("click", () => {
     state.isCreatingAccount = true;
     renderCustomerDetail();
+  });
+  document.getElementById("nearestBranchForm")?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const record = Object.fromEntries(new FormData(event.currentTarget).entries());
+    await createCustomer({ ...customer, nearest_branch: record.nearest_branch });
+    renderCustomers();
   });
   document.getElementById("cancelCreateAccount")?.addEventListener("click", () => {
     state.isCreatingAccount = false;
