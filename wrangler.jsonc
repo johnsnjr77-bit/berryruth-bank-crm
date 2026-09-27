@@ -3,6 +3,10 @@
   "name": "berryruth-bank-crm",
   "main": "cloudflare/worker.mjs",
   "compatibility_date": "2026-06-23",
+  "assets": {
+    "directory": "./crm_app",
+    "binding": "ASSETS"
+  },
   "kv_namespaces": [
     {
       "binding": "RECOMMENDATIONS",

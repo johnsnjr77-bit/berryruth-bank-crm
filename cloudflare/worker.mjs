@@ -1,13 +1,4 @@
-const RAW_BASE = "https://raw.githubusercontent.com/johnsnjr77-bit/berryruth-bank-crm/9184f84254f5d3727d1b8566b143a81d7a9ba5c2/crm_app";
 const CASE_PATTERN = /^CASE-\d{5}$/;
-
-const ASSETS = new Map([
-  ["/", { file: "index.html", contentType: "text/html; charset=utf-8" }],
-  ["/index.html", { file: "index.html", contentType: "text/html; charset=utf-8" }],
-  ["/styles.css", { file: "styles.css", contentType: "text/css; charset=utf-8" }],
-  ["/app.js", { file: "app.js", contentType: "text/javascript; charset=utf-8" }],
-  ["/data.js", { file: "data.js", contentType: "text/javascript; charset=utf-8" }],
-]);
 
 function json(body, status = 200) {
   return new Response(JSON.stringify(body, null, 2), {
@@ -26,25 +17,6 @@ function text(body, status = 200, contentType = "text/plain; charset=utf-8") {
   return new Response(body, {
     status,
     headers: { "Content-Type": contentType, "Cache-Control": "no-store" },
-  });
-}
-
-async function serveAsset(pathname) {
-  const asset = ASSETS.get(pathname);
-  if (!asset) return null;
-
-  const upstream = await fetch(`${RAW_BASE}/${asset.file}`, {
-    cf: { cacheTtl: 60, cacheEverything: true },
-  });
-
-  if (!upstream.ok) return text("Asset not found", 404);
-
-  return new Response(upstream.body, {
-    status: 200,
-    headers: {
-      "Content-Type": asset.contentType,
-      "Cache-Control": "public, max-age=60",
-    },
   });
 }
 
@@ -136,10 +108,7 @@ export default {
     try {
       if (url.pathname.startsWith("/api/")) return await handleApi(request, env, url);
 
-      const asset = await serveAsset(url.pathname);
-      if (asset) return asset;
-
-      return text("Not found", 404);
+      return env.ASSETS.fetch(request);
     } catch (error) {
       return json({ error: error.message || "Internal server error" }, error.status || 500);
     }
